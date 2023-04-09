@@ -34,6 +34,19 @@ def get_request():
     return session
 
 
+def get_request_json(url: str)-> dict:
+    """Return a json from a request.
+
+    Args:
+        url (str): The url to make the request.
+
+    Returns:
+        dict: A dict with the json data.
+    """
+    response = get_request().get(url)
+    return response.json()
+
+
 def unpack_json(json_dict: dict, parent_col:str = '', row: dict = {}) -> dict:
     """Unpack a json dict into a single row dict.
 
@@ -68,4 +81,28 @@ def unpack_json(json_dict: dict, parent_col:str = '', row: dict = {}) -> dict:
             # register the value in the row
             row[col_name] = json_dict[key]
     return row.copy()
+
+
+def make_df(json_dict: dict) -> pd.DataFrame:
+    """Return a DataFrame from a json dict.
+
+    Args:
+        json_dict (dict): A dict containing the json data.
+
+    Returns:
+        pd.DataFrame: A DataFrame with the data.
+    """
+    # Create a list to store the rows
+    rows = []
+    # Iterate over each item on the json dict
+    for item in json_dict:
+        # Unpack the json dict into a single row dict
+        row = unpack_json(item)
+        # Add the row to the list
+        rows.append(row)
+    # Create a DataFrame from the rows list
+    df = pd.DataFrame(rows)
+    return df
+
+
 
