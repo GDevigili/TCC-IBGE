@@ -64,6 +64,18 @@ def unpack_json(json_dict: dict, parent_col:str = '', row: dict = {}) -> dict:
         dict: A dict with the data.
     """
     
+    # if type(json_dict) is dict:
+    #     for key in json_dict:
+    #         if type(json_dict[key]) == dict:
+    #             unpack_json(json_dict[key], row = row, parent_col = key)
+    #         else:
+    #             if parent_col == '':
+    #                 col_name = str(parent_col) + str(key)
+    #             else:
+    #                 col_name = str(parent_col) + '-' + str(key)
+    #             row[col_name] = json_dict[key]
+
+
   # Iterate over each key/value pair on the data
     for key in json_dict:
     # If the value is another dict, i.e. it has more data
@@ -106,3 +118,29 @@ def make_df(json_dict: dict) -> pd.DataFrame:
 
 
 
+def flatten_json(y):
+    out = {}
+ 
+    def flatten(x, name=''):
+ 
+        # If the Nested key-value
+        # pair is of dict type
+        if type(x) is dict:
+ 
+            for a in x:
+                flatten(x[a], name + a + '_')
+ 
+        # If the Nested key-value
+        # pair is of list type
+        elif type(x) is list:
+ 
+            i = 0
+ 
+            for a in x:
+                flatten(a, name + str(i) + '_')
+                i += 1
+        else:
+            out[name[:-1]] = x
+ 
+    flatten(y)
+    return out
