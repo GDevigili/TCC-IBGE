@@ -82,7 +82,8 @@ def unpack_json(json_dict: dict, col_name: str = '') -> dict:
                 if col_name == '':
                     new_col_name = str(key)
                 else:
-                    new_col_name = col_name + '-' + str(key)
+                    parent_col = col_name.split('_')[-1]
+                    new_col_name = parent_col + '_' + str(key)
                     #new_col_name = str(key)
 
                 flatten(column[key], new_col_name)
