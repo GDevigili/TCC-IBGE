@@ -47,53 +47,6 @@ def get_request_json(url: str)-> dict:
     return response.json()
 
 
-def unpack_json(json_dict: dict, parent_col:str = '', row: dict = {}) -> dict:
-    """Unpack a json dict into a single row dict.
-
-    Args:
-        json_dict (dict): 
-            A dict containing the json data. This function assumes that the json comes from a request from the IBGE'S API.
-        row (dict, optional): 
-            A pointer that will be passed recursivelly to the function to store the data.
-            Don't set this argument. Defaults to {}.
-        parent_col (str, optional): 
-            The name of the parent column that will be added on the start of the column name.
-            The column name will be {parent_col}-{child_col}. Defaults to ''.
-
-    Returns:
-        dict: A dict with the data.
-    """
-    
-    # if type(json_dict) is dict:
-    #     for key in json_dict:
-    #         if type(json_dict[key]) == dict:
-    #             unpack_json(json_dict[key], row = row, parent_col = key)
-    #         else:
-    #             if parent_col == '':
-    #                 col_name = str(parent_col) + str(key)
-    #             else:
-    #                 col_name = str(parent_col) + '-' + str(key)
-    #             row[col_name] = json_dict[key]
-
-
-  # Iterate over each key/value pair on the data
-    for key in json_dict:
-    # If the value is another dict, i.e. it has more data
-        if type(json_dict[key]) == dict:
-            # recursivelly call unpack_json() to extract the data
-            # passing the a json_dict, the current row (pointer), and the name of the parent col
-            unpack_json(json_dict[key], row = row, parent_col = key)
-        else:
-            # If it's a value (e.g. str, int, etc.), register it on the row
-            # formatting the row's column name
-            if parent_col == '':
-                col_name = str(parent_col) + str(key)
-            else:
-                col_name = str(parent_col) + '-' + str(key)
-            # register the value in the row
-            row[col_name] = json_dict[key]
-    return row.copy()
-
 
 def make_df(json_dict: dict) -> pd.DataFrame:
     """Return a DataFrame from a json dict.
@@ -117,30 +70,24 @@ def make_df(json_dict: dict) -> pd.DataFrame:
     return df
 
 
+def unpack_json(json_dict: dict, col_name: str = '') -> dict:
+    output = {}
 
-def flatten_json(y):
-    out = {}
- 
-    def flatten(x, name=''):
- 
-        # If the Nested key-value
-        # pair is of dict type
-        if type(x) is dict:
- 
-            for a in x:
-                flatten(x[a], name + a + '_')
- 
-        # If the Nested key-value
-        # pair is of list type
-        elif type(x) is list:
- 
-            i = 0
- 
-            for a in x:
-                flatten(a, name + str(i) + '_')
-                i += 1
+    def flatten(column, col_name:str = ''):
+
+        if type(column) == dict:
+
+            for key in column:
+                
+                if col_name == '':
+                    new_col_name = str(key)
+                else:
+                    #new_col_name = col_name + '-' + str(key)
+                    new_col_name = str(key)
+
+                flatten(column[key], new_col_name)
         else:
-            out[name[:-1]] = x
- 
-    flatten(y)
-    return out
+            output[col_name] = column
+
+    flatten(json_dict, col_name)
+    return output
