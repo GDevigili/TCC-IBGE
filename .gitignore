@@ -130,3 +130,5 @@ dmypy.json
 #*.csv
 .vscode/settings.json
 ignore/*
+src/data/*
+src/data/2010_Documentacao.zip
