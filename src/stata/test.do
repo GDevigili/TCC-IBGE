@@ -84,503 +84,568 @@ quietly infix                ///
   byte		V1005		172-172		///
   using `"../data/microdados/amostra_domicilios_2010_SC.txt"', clear
 
-label var V0001		`"UNIDADE DA FEDERA«√O:"'
-label var V0001		`"UNIDADE DA FEDERA«√O:"'
-label var V0001		`"UNIDADE DA FEDERA«√O:"'
-label var V0001		`"UNIDADE DA FEDERA«√O:"'
-label var V0001		`"UNIDADE DA FEDERA«√O:"'
-label var V0001		`"UNIDADE DA FEDERA«√O:"'
-label var V0001		`"UNIDADE DA FEDERA«√O:"'
-label var V0001		`"UNIDADE DA FEDERA«√O:"'
-label var V0001		`"UNIDADE DA FEDERA«√O:"'
-label var V0001		`"UNIDADE DA FEDERA«√O:"'
-label var V0001		`"UNIDADE DA FEDERA«√O:"'
-label var V0001		`"UNIDADE DA FEDERA«√O:"'
-label var V0001		`"UNIDADE DA FEDERA«√O:"'
-label var V0001		`"UNIDADE DA FEDERA«√O:"'
-label var V0001		`"UNIDADE DA FEDERA«√O:"'
-label var V0001		`"UNIDADE DA FEDERA«√O:"'
-label var V0001		`"UNIDADE DA FEDERA«√O:"'
-label var V0001		`"UNIDADE DA FEDERA«√O:"'
-label var V0001		`"UNIDADE DA FEDERA«√O:"'
-label var V0001		`"UNIDADE DA FEDERA«√O:"'
-label var V0001		`"UNIDADE DA FEDERA«√O:"'
-label var V0001		`"UNIDADE DA FEDERA«√O:"'
-label var V0001		`"UNIDADE DA FEDERA«√O:"'
-label var V0001		`"UNIDADE DA FEDERA«√O:"'
-label var V0001		`"UNIDADE DA FEDERA«√O:"'
-label var V0001		`"UNIDADE DA FEDERA«√O:"'
-label var V0001		`"UNIDADE DA FEDERA«√O:"'
-label var nan		`"C”DIGO DO MUNICÕPIO"'
-label var nan		`"¡REA DE PONDERA«√O"'
-label var nan		`"CONTROLE"'
-label var nan		`"PESO AMOSTRAL"'
-label var V1001		`"REGI√O GEOGR¡FICA:"'
-label var V1001		`"REGI√O GEOGR¡FICA:"'
-label var V1001		`"REGI√O GEOGR¡FICA:"'
-label var V1001		`"REGI√O GEOGR¡FICA:"'
-label var V1001		`"REGI√O GEOGR¡FICA:"'
-label var V1002		`"C”DIGO DA MESORREGI√O:"'
-label var V1003		`"C”DIGO DA MICRORREGI√O:"'
-label var V1004		`"C”DIGO DA REGI√O METROPOLITANA:"'
-label var V1006		`"SITUA«√O DO DOMICÕLIO:"'
-label var V1006		`"SITUA«√O DO DOMICÕLIO:"'
-label var V4001		`"ESP…CIE DE UNIDADE VISITADA:"'
-label var V4001		`"ESP…CIE DE UNIDADE VISITADA:"'
-label var V4001		`"ESP…CIE DE UNIDADE VISITADA:"'
-label var V4001		`"ESP…CIE DE UNIDADE VISITADA:"'
-label var V4002		`"TIPO DE ESP…CIE:"'
-label var V4002		`"TIPO DE ESP…CIE:"'
-label var V4002		`"TIPO DE ESP…CIE:"'
-label var V4002		`"TIPO DE ESP…CIE:"'
-label var V4002		`"TIPO DE ESP…CIE:"'
-label var V4002		`"TIPO DE ESP…CIE:"'
-label var V4002		`"TIPO DE ESP…CIE:"'
-label var V4002		`"TIPO DE ESP…CIE:"'
-label var V4002		`"TIPO DE ESP…CIE:"'
-label var V4002		`"TIPO DE ESP…CIE:"'
-label var V4002		`"TIPO DE ESP…CIE:"'
-label var V4002		`"TIPO DE ESP…CIE:"'
-label var V4002		`"TIPO DE ESP…CIE:"'
-label var V0201		`"DOMICÕLIO, CONDI«√O DE OCUPA«√O:"'
-label var V0201		`"DOMICÕLIO, CONDI«√O DE OCUPA«√O:"'
-label var V0201		`"DOMICÕLIO, CONDI«√O DE OCUPA«√O:"'
-label var V0201		`"DOMICÕLIO, CONDI«√O DE OCUPA«√O:"'
-label var V0201		`"DOMICÕLIO, CONDI«√O DE OCUPA«√O:"'
-label var V0201		`"DOMICÕLIO, CONDI«√O DE OCUPA«√O:"'
-label var V0201		`"DOMICÕLIO, CONDI«√O DE OCUPA«√O:"'
-label var nan		`"VALOR DO ALUGUEL (EM REAIS)             "'
-label var nan		`"ALUGUEL EM N∫ DE SAL¡RIOS MÕNIMOS "'
-label var V0202		`"MATERIAL PREDOMINANTE, PAREDES EXTERNAS:"'
-label var V0202		`"MATERIAL PREDOMINANTE, PAREDES EXTERNAS:"'
-label var V0202		`"MATERIAL PREDOMINANTE, PAREDES EXTERNAS:"'
-label var V0202		`"MATERIAL PREDOMINANTE, PAREDES EXTERNAS:"'
-label var V0202		`"MATERIAL PREDOMINANTE, PAREDES EXTERNAS:"'
-label var V0202		`"MATERIAL PREDOMINANTE, PAREDES EXTERNAS:"'
-label var V0202		`"MATERIAL PREDOMINANTE, PAREDES EXTERNAS:"'
-label var V0202		`"MATERIAL PREDOMINANTE, PAREDES EXTERNAS:"'
-label var V0202		`"MATERIAL PREDOMINANTE, PAREDES EXTERNAS:"'
-label var V0202		`"MATERIAL PREDOMINANTE, PAREDES EXTERNAS:"'
-label var V0203		`"C‘MODOS, N⁄MERO:"'
-label var nan		`"DENSIDADE DE MORADOR/C‘MODO "'
-label var V0204		`"C‘MODOS COMO DORMIT”RIO, N⁄MERO:"'
-label var nan		`"DENSIDADE DE MORADOR / DORMIT”RIO  "'
-label var V0205		`"BANHEIROS DE USO EXCLUSIVO, N⁄MERO: "'
-label var V0205		`"BANHEIROS DE USO EXCLUSIVO, N⁄MERO: "'
-label var V0205		`"BANHEIROS DE USO EXCLUSIVO, N⁄MERO: "'
-label var V0205		`"BANHEIROS DE USO EXCLUSIVO, N⁄MERO: "'
-label var V0205		`"BANHEIROS DE USO EXCLUSIVO, N⁄MERO: "'
-label var V0205		`"BANHEIROS DE USO EXCLUSIVO, N⁄MERO: "'
-label var V0205		`"BANHEIROS DE USO EXCLUSIVO, N⁄MERO: "'
-label var V0205		`"BANHEIROS DE USO EXCLUSIVO, N⁄MERO: "'
-label var V0205		`"BANHEIROS DE USO EXCLUSIVO, N⁄MERO: "'
-label var V0205		`"BANHEIROS DE USO EXCLUSIVO, N⁄MERO: "'
-label var V0205		`"BANHEIROS DE USO EXCLUSIVO, N⁄MERO: "'
-label var V0206		`"SANIT¡RIO OU BURACO PARA DEJE«’ES, EXIST NCIA:"'
-label var V0206		`"SANIT¡RIO OU BURACO PARA DEJE«’ES, EXIST NCIA:"'
-label var V0206		`"SANIT¡RIO OU BURACO PARA DEJE«’ES, EXIST NCIA:"'
-label var V0207		`"ESGOTAMENTO SANIT¡RIO, TIPO:"'
-label var V0207		`"ESGOTAMENTO SANIT¡RIO, TIPO:"'
-label var V0207		`"ESGOTAMENTO SANIT¡RIO, TIPO:"'
-label var V0207		`"ESGOTAMENTO SANIT¡RIO, TIPO:"'
-label var V0207		`"ESGOTAMENTO SANIT¡RIO, TIPO:"'
-label var V0207		`"ESGOTAMENTO SANIT¡RIO, TIPO:"'
-label var V0207		`"ESGOTAMENTO SANIT¡RIO, TIPO:"'
-label var V0208		`"ABASTECIMENTO DE ¡GUA, FORMA:"'
-label var V0208		`"ABASTECIMENTO DE ¡GUA, FORMA:"'
-label var V0208		`"ABASTECIMENTO DE ¡GUA, FORMA:"'
-label var V0208		`"ABASTECIMENTO DE ¡GUA, FORMA:"'
-label var V0208		`"ABASTECIMENTO DE ¡GUA, FORMA:"'
-label var V0208		`"ABASTECIMENTO DE ¡GUA, FORMA:"'
-label var V0208		`"ABASTECIMENTO DE ¡GUA, FORMA:"'
-label var V0208		`"ABASTECIMENTO DE ¡GUA, FORMA:"'
-label var V0208		`"ABASTECIMENTO DE ¡GUA, FORMA:"'
-label var V0208		`"ABASTECIMENTO DE ¡GUA, FORMA:"'
-label var V0208		`"ABASTECIMENTO DE ¡GUA, FORMA:"'
-label var V0209		`"ABASTECIMENTO DE ¡GUA, CANALIZA«√O:"'
-label var V0209		`"ABASTECIMENTO DE ¡GUA, CANALIZA«√O:"'
-label var V0209		`"ABASTECIMENTO DE ¡GUA, CANALIZA«√O:"'
-label var V0209		`"ABASTECIMENTO DE ¡GUA, CANALIZA«√O:"'
-label var V0210		`"LIXO, DESTINO:"'
-label var V0210		`"LIXO, DESTINO:"'
-label var V0210		`"LIXO, DESTINO:"'
-label var V0210		`"LIXO, DESTINO:"'
-label var V0210		`"LIXO, DESTINO:"'
-label var V0210		`"LIXO, DESTINO:"'
-label var V0210		`"LIXO, DESTINO:"'
-label var V0210		`"LIXO, DESTINO:"'
-label var V0211		`"ENERGIA EL…TRICA, EXIST NCIA:"'
-label var V0211		`"ENERGIA EL…TRICA, EXIST NCIA:"'
-label var V0211		`"ENERGIA EL…TRICA, EXIST NCIA:"'
-label var V0211		`"ENERGIA EL…TRICA, EXIST NCIA:"'
-label var V0212		`"EXIST NCIA DE MEDIDOR OU REL”GIO, ENERGIA EL…TRICA, COMPANHIA DISTRIBUIDORA:"'
-label var V0212		`"EXIST NCIA DE MEDIDOR OU REL”GIO, ENERGIA EL…TRICA, COMPANHIA DISTRIBUIDORA:"'
-label var V0212		`"EXIST NCIA DE MEDIDOR OU REL”GIO, ENERGIA EL…TRICA, COMPANHIA DISTRIBUIDORA:"'
-label var V0212		`"EXIST NCIA DE MEDIDOR OU REL”GIO, ENERGIA EL…TRICA, COMPANHIA DISTRIBUIDORA:"'
-label var V0213		`"R¡DIO, EXIST NCIA:"'
-label var V0213		`"R¡DIO, EXIST NCIA:"'
-label var V0213		`"R¡DIO, EXIST NCIA:"'
-label var V0214		`"TELEVIS√O, EXIST NCIA:"'
-label var V0214		`"TELEVIS√O, EXIST NCIA:"'
-label var V0214		`"TELEVIS√O, EXIST NCIA:"'
-label var V0215		`"M¡QUINA DE LAVAR ROUPA, EXIST NCIA:"'
-label var V0215		`"M¡QUINA DE LAVAR ROUPA, EXIST NCIA:"'
-label var V0215		`"M¡QUINA DE LAVAR ROUPA, EXIST NCIA:"'
-label var V0216		`"GELADEIRA, EXIST NCIA:"'
-label var V0216		`"GELADEIRA, EXIST NCIA:"'
-label var V0216		`"GELADEIRA, EXIST NCIA:"'
-label var V0217		`"TELEFONE CELULAR, EXIST NCIA:"'
-label var V0217		`"TELEFONE CELULAR, EXIST NCIA:"'
-label var V0217		`"TELEFONE CELULAR, EXIST NCIA:"'
-label var V0218		`"TELEFONE FIXO, EXIST NCIA:"'
-label var V0218		`"TELEFONE FIXO, EXIST NCIA:"'
-label var V0218		`"TELEFONE FIXO, EXIST NCIA:"'
-label var V0219		`"MICROCOMPUTADOR, EXIST NCIA:"'
-label var V0219		`"MICROCOMPUTADOR, EXIST NCIA:"'
-label var V0219		`"MICROCOMPUTADOR, EXIST NCIA:"'
-label var V0220		`"MICROCOMPUTADOR COM ACESSO ¿ INTERNET, EXIST NCIA:"'
-label var V0220		`"MICROCOMPUTADOR COM ACESSO ¿ INTERNET, EXIST NCIA:"'
-label var V0220		`"MICROCOMPUTADOR COM ACESSO ¿ INTERNET, EXIST NCIA:"'
-label var V0221		`"MOTOCICLETA PARA USO PARTICULAR, EXIST NCIA:"'
-label var V0221		`"MOTOCICLETA PARA USO PARTICULAR, EXIST NCIA:"'
-label var V0221		`"MOTOCICLETA PARA USO PARTICULAR, EXIST NCIA:"'
-label var V0222		`"AUTOM”VEL PARA USO PARTICULAR, EXIST NCIA:"'
-label var V0222		`"AUTOM”VEL PARA USO PARTICULAR, EXIST NCIA:"'
-label var V0222		`"AUTOM”VEL PARA USO PARTICULAR, EXIST NCIA:"'
-label var V0301		`"ALGUMA PESSOA QUE MORAVA COM VOC (S) ESTAVA MORANDO EM OUTRO PAÕS EM 31 DE JULHO DE 2010:"'
-label var V0301		`"ALGUMA PESSOA QUE MORAVA COM VOC (S) ESTAVA MORANDO EM OUTRO PAÕS EM 31 DE JULHO DE 2010:"'
-label var V0301		`"ALGUMA PESSOA QUE MORAVA COM VOC (S) ESTAVA MORANDO EM OUTRO PAÕS EM 31 DE JULHO DE 2010:"'
-label var nan		`"QUANTAS PESSOAS MORAVAM NESTE DOMICÕLIO EM 31 DE JULHO DE 2010"'
-label var V0402		`"A RESPONSABILIDADE PELO DOMICÕLIO … DE:"'
-label var V0402		`"A RESPONSABILIDADE PELO DOMICÕLIO … DE:"'
-label var V0402		`"A RESPONSABILIDADE PELO DOMICÕLIO … DE:"'
-label var V0402		`"A RESPONSABILIDADE PELO DOMICÕLIO … DE:"'
-label var V0701		`"DE AGOSTO DE 2009 A JULHO DE 2010, FALECEU ALGUMA PESSOA QUE MORAVA COM VOC (S) (INCLUSIVE CRIAN«AS REC…M-NASCIDAS E IDOSOS):"'
-label var V0701		`"DE AGOSTO DE 2009 A JULHO DE 2010, FALECEU ALGUMA PESSOA QUE MORAVA COM VOC (S) (INCLUSIVE CRIAN«AS REC…M-NASCIDAS E IDOSOS):"'
-label var V0701		`"DE AGOSTO DE 2009 A JULHO DE 2010, FALECEU ALGUMA PESSOA QUE MORAVA COM VOC (S) (INCLUSIVE CRIAN«AS REC…M-NASCIDAS E IDOSOS):"'
-label var nan		`"RENDIMENTO MENSAL DOMICILIAR EM JULHO DE 2010 "'
-label var nan		`"RENDIMENTO DOMICILIAR, SAL¡RIOS MÕNIMOS, EM JULHO DE 2010 "'
-label var nan		`"RENDIMENTO DOMICILIAR PER CAPITA EM JULHO DE 2010 "'
-label var nan		`"RENDIMENTO DOMICILIAR PER CAPITA, EM N∫ DE SAL¡RIOS MÕNIMOS, EM JULHO DE 2010 "'
-label var V6600		`"EspÈcie da Unidade DomÈstica"'
-label var V6600		`"EspÈcie da Unidade DomÈstica"'
-label var V6600		`"EspÈcie da Unidade DomÈstica"'
-label var V6600		`"EspÈcie da Unidade DomÈstica"'
-label var V6600		`"EspÈcie da Unidade DomÈstica"'
-label var V6210		`"ADEQUA«√O DA MORADIA"'
-label var V6210		`"ADEQUA«√O DA MORADIA"'
-label var V6210		`"ADEQUA«√O DA MORADIA"'
-label var V6210		`"ADEQUA«√O DA MORADIA"'
-label var M0201		`"MARCA DE IMPUTA«√O NA V0201:  "'
-label var M0201		`"MARCA DE IMPUTA«√O NA V0201:  "'
-label var M2011		`"MARCA DE IMPUTA«√O NA V2011:"'
-label var M2011		`"MARCA DE IMPUTA«√O NA V2011:"'
-label var M0202		`"MARCA DE IMPUTA«√O NA V0202: "'
-label var M0202		`"MARCA DE IMPUTA«√O NA V0202: "'
-label var M0203		`"MARCA DE IMPUTA«√O NA V0203: "'
-label var M0203		`"MARCA DE IMPUTA«√O NA V0203: "'
-label var M0204		`"MARCA DE IMPUTA«√O NA V0204: "'
-label var M0204		`"MARCA DE IMPUTA«√O NA V0204: "'
-label var M0205		`"MARCA DE IMPUTA«√O NA V0205: "'
-label var M0205		`"MARCA DE IMPUTA«√O NA V0205: "'
-label var M0206		`"MARCA DE IMPUTA«√O NA V0206: "'
-label var M0206		`"MARCA DE IMPUTA«√O NA V0206: "'
-label var M0207		`"MARCA DE IMPUTA«√O NA V0207: "'
-label var M0207		`"MARCA DE IMPUTA«√O NA V0207: "'
-label var M0208		`"MARCA DE IMPUTA«√O NA V0208: "'
-label var M0208		`"MARCA DE IMPUTA«√O NA V0208: "'
-label var M0209		`"MARCA DE IMPUTA«√O NA V0209: "'
-label var M0209		`"MARCA DE IMPUTA«√O NA V0209: "'
-label var M0210		`"MARCA DE IMPUTA«√O NA V0210: "'
-label var M0210		`"MARCA DE IMPUTA«√O NA V0210: "'
-label var M0211		`"MARCA DE IMPUTA«√O NA V0211: "'
-label var M0211		`"MARCA DE IMPUTA«√O NA V0211: "'
-label var M0212		`"MARCA DE IMPUTA«√O NA V0212: "'
-label var M0212		`"MARCA DE IMPUTA«√O NA V0212: "'
-label var M0213		`"MARCA DE IMPUTA«√O NA V0213: "'
-label var M0213		`"MARCA DE IMPUTA«√O NA V0213: "'
-label var M0214		`"MARCA DE IMPUTA«√O NA V0214:  "'
-label var M0214		`"MARCA DE IMPUTA«√O NA V0214:  "'
-label var M0215		`"MARCA DE IMPUTA«√O NA V0215: "'
-label var M0215		`"MARCA DE IMPUTA«√O NA V0215: "'
-label var M0216		`"MARCA DE IMPUTA«√O NA V0216:  "'
-label var M0216		`"MARCA DE IMPUTA«√O NA V0216:  "'
-label var M0217		`"MARCA DE IMPUTA«√O NA V0217:  "'
-label var M0217		`"MARCA DE IMPUTA«√O NA V0217:  "'
-label var M0218		`"MARCA DE IMPUTA«√O NA V0218: "'
-label var M0218		`"MARCA DE IMPUTA«√O NA V0218: "'
-label var M0219		`"MARCA DE IMPUTA«√O NA V0219:  "'
-label var M0219		`"MARCA DE IMPUTA«√O NA V0219:  "'
-label var M0220		`"MARCA DE IMPUTA«√O NA V0220:  "'
-label var M0220		`"MARCA DE IMPUTA«√O NA V0220:  "'
-label var M0221		`"MARCA DE IMPUTA«√O NA V0221:  "'
-label var M0221		`"MARCA DE IMPUTA«√O NA V0221:  "'
-label var M0222		`"MARCA DE IMPUTA«√O NA V0222:  "'
-label var M0222		`"MARCA DE IMPUTA«√O NA V0222:  "'
-label var M0301		`"MARCA DE IMPUTA«√O NA V0301:  "'
-label var M0301		`"MARCA DE IMPUTA«√O NA V0301:  "'
-label var M0401		`"MARCA DE IMPUTA«√O NA V0401:  "'
-label var M0401		`"MARCA DE IMPUTA«√O NA V0401:  "'
-label var M0402		`"MARCA DE IMPUTA«√O NA V0402:  "'
-label var M0402		`"MARCA DE IMPUTA«√O NA V0402:  "'
-label var M0701		`"MARCA DE IMPUTA«√O NA V0701:  "'
-label var M0701		`"MARCA DE IMPUTA«√O NA V0701:  "'
-label var V1005		`"SituaÁ„o do setor "'
-label var V1005		`"SituaÁ„o do setor "'
-label var V1005		`"SituaÁ„o do setor "'
-label var V1005		`"SituaÁ„o do setor "'
-label var V1005		`"SituaÁ„o do setor "'
-label var V1005		`"SituaÁ„o do setor "'
-label var V1005		`"SituaÁ„o do setor "'
-label var V1005		`"SituaÁ„o do setor "'
-label var V1005		`"SituaÁ„o do setor "'
-label define V0001 11 `" RondÙnia"'
-label define V0001 12 `" Acre"'
-label define V0001 13 `" Amazonas"'
-label define V0001 14 `" Roraima"'
-label define V0001 15 `" Par·"'
-label define V0001 16 `" Amap·"'
-label define V0001 17 `" Tocantins"'
-label define V0001 21 `" Maranh„o"'
-label define V0001 22 `" PiauÌ"'
-label define V0001 23 `" Cear·"'
-label define V0001 24 `" Rio Grande do Norte"'
-label define V0001 25 `" ParaÌba"'
-label define V0001 26 `" Pernambuco"'
-label define V0001 27 `" Alagoas"'
-label define V0001 28 `" Sergipe"'
-label define V0001 29 `" Bahia"'
-label define V0001 31 `" Minas Gerais"'
-label define V0001 32 `" EspÌrito Santo"'
-label define V0001 33 `" Rio de Janeiro"'
-label define V0001 35 `" S„o Paulo"'
-label define V0001 41 `" Paran·"'
-label define V0001 42 `" Santa Catarina"'
-label define V0001 43 `" Rio Grande do Sul"'
-label define V0001 50 `" Mato Grosso do Sul"'
-label define V0001 51 `" Mato Grosso"'
-label define V0001 52 `" Goi·s"'
-label define V0001 53 `" Distrito Federal"'
-label define nan nan `"nan"'
-label define nan nan `"nan"'
-label define nan nan `"nan"'
-label define nan nan `"nan"'
-label define V1001 1 `" Regi„o norte (uf=11 a 17)"'
-label define V1001 2 `" Regi„o nordeste (uf=21 a 29)  "'
-label define V1001 3 `" Regi„o sudeste (uf=31 a 33 e 35)"'
-label define V1001 4 `" Regi„o sul (uf=41 a 43)"'
-label define V1001 5 `" Regi„o centro"'
-label define V1002 A relaÁ„o de cÛdigos encontra `"se no arquivo:"'
-label define V1003 A relaÁ„o de cÛdigos encontra `"se no arquivo:"'
-label define V1004 A relaÁ„o de cÛdigos encontra `"se no arquivo:"'
-label define V1006 1 `" Urbana"'
-label define V1006 2 `" Rural"'
-label define V4001 01 `" DomicÌlio particular permanente ocupado "'
-label define V4001 02 `" DomicÌlio particular permanente ocupado sem entrevista realizada "'
-label define V4001 05 `" DomicÌlio particular improvisado ocupado "'
-label define V4001 06 `" DomicÌlio coletivo com morador"'
-label define V4002 11 `" Casa"'
-label define V4002 12 `" Casa de vila ou em condomÌnio"'
-label define V4002 13 `" Apartamento"'
-label define V4002 14 `" HabitaÁ„o em: casa de cÙmodos, cortiÁo ou cabeÁa de porco"'
-label define V4002 15 `" Oca ou maloca "'
-label define V4002 51 `" Tenda ou barraca"'
-label define V4002 52 `" Dentro de estabelecimento"'
-label define V4002 53 `" Outro (vag„o, trailer, gruta, etc)"'
-label define V4002 61 `" Asilo, orfanato e similares  com morador"'
-label define V4002 62 `" Hotel, pens„o e similares com morador"'
-label define V4002 63 `" Alojamento de trabalhadores com morador"'
-label define V4002 64 `" Penitenci·ria, presÌdio ou casa de detenÁ„o com morador"'
-label define V4002 65 `" Outro com morador"'
-label define V0201 1 `" PrÛprio de algum morador "'
-label define V0201 2 `" PrÛprio de algum morador "'
-label define V0201 3 `" Alugado"'
-label define V0201 4 `" Cedido por empregador"'
-label define V0201 5 `" Cedido de outra forma"'
-label define V0201 6 `" Outra condiÁ„o"'
-label define V0201   `"Branco"'
-label define nan nan `"nan"'
-label define nan nan `"nan"'
-label define V0202 1 `" Alvenaria com revestimento"'
-label define V0202 2 `" Alvenaria sem revestimento"'
-label define V0202 3 `" Madeira apropriada para construÁ„o (aparelhada)"'
-label define V0202 4 `" Taipa revestida"'
-label define V0202 5 `" Taipa n„o revestida"'
-label define V0202 6 `" Madeira aproveitada"'
-label define V0202 7 `" Palha"'
-label define V0202 8 `" Outro material"'
-label define V0202 9 `" Sem parede"'
-label define V0202   `"Branco"'
-label define V0203  `" 1 a 30"'
-label define nan nan `"nan"'
-label define V0204  `" 1 a 15"'
-label define nan nan `"nan"'
-label define V0205 0 `" Zero banheiros"'
-label define V0205 1 `" Um banheiro"'
-label define V0205 2 `" Dois banheiros"'
-label define V0205 3 `" TrÍs banheiros"'
-label define V0205 4 `" Quatro banheiros"'
-label define V0205 5 `" Cinco banheiros"'
-label define V0205 6 `" Seis banheiros"'
-label define V0205 7 `" Sete banheiros"'
-label define V0205 8 `" Oito banheiros"'
-label define V0205 9 `" Nove ou mais banheiros"'
-label define V0205   `"Branco"'
-label define V0206 1 `" Sim"'
-label define V0206 2 `" N„o"'
-label define V0206   `"Branco"'
-label define V0207 1 `" Rede geral de esgoto ou pluvial"'
-label define V0207 2 `" Fossa sÈptica"'
-label define V0207 3 `" Fossa rudimentar"'
-label define V0207 4 `" Vala"'
-label define V0207 5 `" Rio, lago ou mar"'
-label define V0207 6 `" Outro "'
-label define V0207   `"Branco"'
-label define V0208 01 `" Rede geral de distribuiÁ„o"'
-label define V0208 02 `" PoÁo ou nascente na propriedade"'
-label define V0208 03 `" PoÁo ou nascente fora da propriedade"'
-label define V0208 04 `" Carro"'
-label define V0208 05 `" ¡gua da chuva armazenada em cisterna"'
-label define V0208 06 `" ¡gua da chuva armazenada de outra forma"'
-label define V0208 07 `" Rios, aÁudes, lagos e igarapÈs"'
-label define V0208 08 `" Outra "'
-label define V0208 09 `" PoÁo ou nascente na aldeia"'
-label define V0208 10 `" PoÁo ou nascente fora da aldeia"'
-label define V0208   `"Branco"'
-label define V0209 1 `" Sim, em pelo menos um cÙmodo"'
-label define V0209 2 `" Sim, sÛ na propriedade ou terreno"'
-label define V0209 3 `" N„o"'
-label define V0209   `"Branco"'
-label define V0210 1 `" Coletado diretamente por serviÁo de limpeza"'
-label define V0210 2 `" Colocado em caÁamba de serviÁo de limpeza"'
-label define V0210 3 `" Queimado (na propriedade)"'
-label define V0210 4 `" Enterrado (na propriedade)"'
-label define V0210 5 `" Jogado em terreno baldio ou logradouro"'
-label define V0210 6 `" Jogado em rio, lago ou mar"'
-label define V0210 7 `" Tem outro destino"'
-label define V0210   `"Branco"'
-label define V0211 1 `" Sim, de companhia distribuidora"'
-label define V0211 2 `" Sim, de outras fontes"'
-label define V0211 3 `" N„o existe energia elÈtrica"'
-label define V0211   `"Branco"'
-label define V0212 1 `" Sim, de uso exclusivo"'
-label define V0212 2 `" Sim, de uso comum "'
-label define V0212 3 `" N„o tem medidor ou relÛgio"'
-label define V0212   `"Branco"'
-label define V0213 1 `" Sim"'
-label define V0213 2 `" N„o"'
-label define V0213   `"Branco"'
-label define V0214 1 `" Sim"'
-label define V0214 2 `" N„o"'
-label define V0214   `"Branco"'
-label define V0215 1 `" Sim"'
-label define V0215 2 `" N„o"'
-label define V0215   `"Branco"'
-label define V0216 1 `" Sim"'
-label define V0216 2 `" N„o"'
-label define V0216   `"Branco"'
-label define V0217 1 `" Sim"'
-label define V0217 2 `" N„o"'
-label define V0217   `"Branco"'
-label define V0218 1 `" Sim"'
-label define V0218 2 `" N„o"'
-label define V0218   `"Branco"'
-label define V0219 1 `" Sim"'
-label define V0219 2 `" N„o"'
-label define V0219   `"Branco"'
-label define V0220 1 `" Sim"'
-label define V0220 2 `" N„o"'
-label define V0220   `"Branco"'
-label define V0221 1 `" Sim"'
-label define V0221 2 `" N„o"'
-label define V0221   `"Branco"'
-label define V0222 1 `" Sim"'
-label define V0222 2 `" N„o"'
-label define V0222   `"Branco"'
-label define V0301 1 `" Sim"'
-label define V0301 2 `" N„o"'
-label define V0301   `"Branco"'
-label define nan nan `"nan"'
-label define V0402 1 `" Apenas um morador"'
-label define V0402 2 `" Mais de um morador"'
-label define V0402 9 `" Ignorado"'
-label define V0402   `"Branco"'
-label define V0701 1 `" Sim"'
-label define V0701 2 `" N„o"'
-label define V0701   `"Branco"'
-label define nan nan `"nan"'
-label define nan nan `"nan"'
-label define nan nan `"nan"'
-label define nan nan `"nan"'
-label define V6600 1 `" Unipessoal"'
-label define V6600 2 `" Nuclear"'
-label define V6600 3 `" Estendida"'
-label define V6600 4 `" Composta"'
-label define V6600   `"Branco (DomicÌlio Coletivo)"'
-label define V6210 1 `"  Adequada"'
-label define V6210 2 `"  Semi"'
-label define V6210 3 `"  Inadequada"'
-label define V6210   `"Branco"'
-label define M0201 1 `" Sim"'
-label define M0201 2 `" N„o"'
-label define M2011 1 `" Sim"'
-label define M2011 2 `" N„o"'
-label define M0202 1 `" Sim"'
-label define M0202 2 `" N„o"'
-label define M0203 1 `" Sim"'
-label define M0203 2 `" N„o"'
-label define M0204 1 `" Sim"'
-label define M0204 2 `" N„o"'
-label define M0205 1 `" Sim"'
-label define M0205 2 `" N„o"'
-label define M0206 1 `" Sim"'
-label define M0206 2 `" N„o"'
-label define M0207 1 `" Sim"'
-label define M0207 2 `" N„o"'
-label define M0208 1 `" Sim"'
-label define M0208 2 `" N„o"'
-label define M0209 1 `" Sim"'
-label define M0209 2 `" N„o"'
-label define M0210 1 `" Sim"'
-label define M0210 2 `" N„o"'
-label define M0211 1 `" Sim"'
-label define M0211  2 `" N„o  "'
-label define M0212 1 `" Sim"'
-label define M0212 2 `" N„o"'
-label define M0213 1 `" Sim"'
-label define M0213 2 `" N„o"'
-label define M0214 1 `" Sim"'
-label define M0214 2 `" N„o"'
-label define M0215 1 `" Sim"'
-label define M0215 2 `" N„o"'
-label define M0216 1 `" Sim"'
-label define M0216 2 `" N„o"'
-label define M0217 1 `" Sim"'
-label define M0217 2 `" N„o"'
-label define M0218 1 `" Sim"'
-label define M0218 2 `" N„o"'
-label define M0219 1 `" Sim"'
-label define M0219 2 `" N„o"'
-label define M0220 1 `" Sim"'
-label define M0220  2 `" N„o  "'
-label define M0221 1 `" Sim"'
-label define M0221 2 `" N„o"'
-label define M0222 1 `" Sim"'
-label define M0222 2 `" N„o"'
-label define M0301 1 `" Sim"'
-label define M0301 2 `" N„o"'
-label define M0401 1 `" Sim"'
-label define M0401 2 `" N„o"'
-label define M0402 1 `" Sim"'
-label define M0402 2 `" N„o"'
-label define M0701 1 `" Sim"'
-label define M0701 2 `" N„o"'
-label define V1005 1  `" ¡rea urbanizada"'
-label define V1005 2  `" ¡rea n„o urbanizada"'
-label define V1005 3  `" ¡rea urbanizada isolada"'
-label define V1005 4  `" ¡rea rural de extens„o urbana"'
-label define V1005 5  `" Aglomerado rural (povoado)"'
-label define V1005 6  `" Aglomerado rural (n˙cleo)"'
-label define V1005 7  `" Aglomerado rural (outros)"'
-label define V1005 8  `" ¡rea rural exclusive aglomerado rural"'
+label var V0001		`"UNIDADE DA FEDERA√á√ÉO:
+11- Rond√¥nia
+12- Acre
+13- Amazonas
+14- Roraima
+15- Par√°
+16- Amap√°
+17- Tocantins
+21- Maranh√£o
+22- Piau√≠
+23- Cear√°
+24- Rio Grande do Norte
+25- Para√≠ba
+26- Pernambuco
+27- Alagoas
+28- Sergipe
+29- Bahia
+31- Minas Gerais
+32- Esp√≠rito Santo
+33- Rio de Janeiro
+35- S√£o Paulo
+41- Paran√°
+42- Santa Catarina
+43- Rio Grande do Sul
+50- Mato Grosso do Sul
+51- Mato Grosso
+52- Goi√°s
+53- Distrito Federal"'
+label var V0002		`"C√ìDIGO DO MUNIC√çPIO"'
+label var V0011		`"√ÅREA DE PONDERA√á√ÉO"'
+label var V0300		`"CONTROLE"'
+label var V0010		`"PESO AMOSTRAL"'
+label var V1001		`"REGI√ÉO GEOGR√ÅFICA:
+1- Regi√£o norte (uf=11 a 17)
+2- Regi√£o nordeste (uf=21 a 29)  
+3- Regi√£o sudeste (uf=31 a 33 e 35)
+4- Regi√£o sul (uf=41 a 43)
+5- Regi√£o centro-oeste (uf=50 a 53)"'
+label var V1002		`"C√ìDIGO DA MESORREGI√ÉO:
+A rela√ß√£o de c√≥digos encontra-se no arquivo:"'
+label var V1003		`"C√ìDIGO DA MICRORREGI√ÉO:
+A rela√ß√£o de c√≥digos encontra-se no arquivo:"'
+label var V1004		`"C√ìDIGO DA REGI√ÉO METROPOLITANA:
+A rela√ß√£o de c√≥digos encontra-se no arquivo:"'
+label var V1006		`"SITUA√á√ÉO DO DOMIC√çLIO:
+1- Urbana
+2- Rural"'
+label var V4001		`"ESP√âCIE DE UNIDADE VISITADA:
+01- Domic√≠lio particular permanente ocupado 
+02- Domic√≠lio particular permanente ocupado sem entrevista realizada 
+05- Domic√≠lio particular improvisado ocupado 
+06- Domic√≠lio coletivo com morador"'
+label var V4002		`"TIPO DE ESP√âCIE:
+11- Casa
+12- Casa de vila ou em condom√≠nio
+13- Apartamento
+14- Habita√ß√£o em: casa de c√¥modos, corti√ßo ou cabe√ßa de porco
+15- Oca ou maloca 
+51- Tenda ou barraca
+52- Dentro de estabelecimento
+53- Outro (vag√£o, trailer, gruta, etc)
+61- Asilo, orfanato e similares  com morador
+62- Hotel, pens√£o e similares com morador
+63- Alojamento de trabalhadores com morador
+64- Penitenci√°ria, pres√≠dio ou casa de deten√ß√£o com morador
+65- Outro com morador"'
+label var V0201		`"DOMIC√çLIO, CONDI√á√ÉO DE OCUPA√á√ÉO:
+1- Pr√≥prio de algum morador - j√° pago
+2- Pr√≥prio de algum morador - ainda pagando
+3- Alugado
+4- Cedido por empregador
+5- Cedido de outra forma
+6- Outra condi√ß√£o
+Branco"'
+label var V2011		`"VALOR DO ALUGUEL (EM REAIS)             "'
+label var V2012		`"ALUGUEL EM N¬∫ DE SAL√ÅRIOS M√çNIMOS "'
+label var V0202		`"MATERIAL PREDOMINANTE, PAREDES EXTERNAS:
+1- Alvenaria com revestimento
+2- Alvenaria sem revestimento
+3- Madeira apropriada para constru√ß√£o (aparelhada)
+4- Taipa revestida
+5- Taipa n√£o revestida
+6- Madeira aproveitada
+7- Palha
+8- Outro material
+9- Sem parede
+Branco"'
+label var V0203		`"C√îMODOS, N√öMERO:
+- Branco
+- 1 a 30"'
+label var V6203		`"DENSIDADE DE MORADOR/C√îMODO "'
+label var V0204		`"C√îMODOS COMO DORMIT√ìRIO, N√öMERO:
+- Branco
+- 1 a 15"'
+label var V6204		`"DENSIDADE DE MORADOR / DORMIT√ìRIO  "'
+label var V0205		`"BANHEIROS DE USO EXCLUSIVO, N√öMERO: 
+0- Zero banheiros
+1- Um banheiro
+2- Dois banheiros
+3- Tr√™s banheiros
+4- Quatro banheiros
+5- Cinco banheiros
+6- Seis banheiros
+7- Sete banheiros
+8- Oito banheiros
+9- Nove ou mais banheiros
+Branco"'
+label var V0206		`"SANIT√ÅRIO OU BURACO PARA DEJE√á√ïES, EXIST√äNCIA:
+1- Sim
+2- N√£o
+Branco"'
+label var V0207		`"ESGOTAMENTO SANIT√ÅRIO, TIPO:
+1- Rede geral de esgoto ou pluvial
+2- Fossa s√©ptica
+3- Fossa rudimentar
+4- Vala
+5- Rio, lago ou mar
+6- Outro 
+Branco"'
+label var V0208		`"ABASTECIMENTO DE √ÅGUA, FORMA:
+01- Rede geral de distribui√ß√£o
+02- Po√ßo ou nascente na propriedade
+03- Po√ßo ou nascente fora da propriedade
+04- Carro-pipa
+05- √Ågua da chuva armazenada em cisterna
+06- √Ågua da chuva armazenada de outra forma
+07- Rios, a√ßudes, lagos e igarap√©s
+08- Outra 
+09- Po√ßo ou nascente na aldeia
+10- Po√ßo ou nascente fora da aldeia
+Branco"'
+label var V0209		`"ABASTECIMENTO DE √ÅGUA, CANALIZA√á√ÉO:
+1- Sim, em pelo menos um c√¥modo
+2- Sim, s√≥ na propriedade ou terreno
+3- N√£o
+Branco"'
+label var V0210		`"LIXO, DESTINO:
+1- Coletado diretamente por servi√ßo de limpeza
+2- Colocado em ca√ßamba de servi√ßo de limpeza
+3- Queimado (na propriedade)
+4- Enterrado (na propriedade)
+5- Jogado em terreno baldio ou logradouro
+6- Jogado em rio, lago ou mar
+7- Tem outro destino
+Branco"'
+label var V0211		`"ENERGIA EL√âTRICA, EXIST√äNCIA:
+1- Sim, de companhia distribuidora
+2- Sim, de outras fontes
+3- N√£o existe energia el√©trica
+Branco"'
+label var V0212		`"EXIST√äNCIA DE MEDIDOR OU REL√ìGIO, ENERGIA EL√âTRICA, COMPANHIA DISTRIBUIDORA:
+1- Sim, de uso exclusivo
+2- Sim, de uso comum 
+3- N√£o tem medidor ou rel√≥gio
+Branco"'
+label var V0213		`"R√ÅDIO, EXIST√äNCIA:
+1- Sim
+2- N√£o
+Branco"'
+label var V0214		`"TELEVIS√ÉO, EXIST√äNCIA:
+1- Sim
+2- N√£o
+Branco"'
+label var V0215		`"M√ÅQUINA DE LAVAR ROUPA, EXIST√äNCIA:
+1- Sim
+2- N√£o
+Branco"'
+label var V0216		`"GELADEIRA, EXIST√äNCIA:
+1- Sim
+2- N√£o
+Branco"'
+label var V0217		`"TELEFONE CELULAR, EXIST√äNCIA:
+1- Sim
+2- N√£o
+Branco"'
+label var V0218		`"TELEFONE FIXO, EXIST√äNCIA:
+1- Sim
+2- N√£o
+Branco"'
+label var V0219		`"MICROCOMPUTADOR, EXIST√äNCIA:
+1- Sim
+2- N√£o
+Branco"'
+label var V0220		`"MICROCOMPUTADOR COM ACESSO √Ä INTERNET, EXIST√äNCIA:
+1- Sim
+2- N√£o
+Branco"'
+label var V0221		`"MOTOCICLETA PARA USO PARTICULAR, EXIST√äNCIA:
+1- Sim
+2- N√£o
+Branco"'
+label var V0222		`"AUTOM√ìVEL PARA USO PARTICULAR, EXIST√äNCIA:
+1- Sim
+2- N√£o
+Branco"'
+label var V0301		`"ALGUMA PESSOA QUE MORAVA COM VOC√ä(S) ESTAVA MORANDO EM OUTRO PA√çS EM 31 DE JULHO DE 2010:
+1- Sim
+2- N√£o
+Branco"'
+label var V0401		`"QUANTAS PESSOAS MORAVAM NESTE DOMIC√çLIO EM 31 DE JULHO DE 2010"'
+label var V0402		`"A RESPONSABILIDADE PELO DOMIC√çLIO √â DE:
+1- Apenas um morador
+2- Mais de um morador
+9- Ignorado
+Branco"'
+label var V0701		`"DE AGOSTO DE 2009 A JULHO DE 2010, FALECEU ALGUMA PESSOA QUE MORAVA COM VOC√ä(S) (INCLUSIVE CRIAN√áAS REC√âM-NASCIDAS E IDOSOS):
+1- Sim
+2- N√£o
+Branco"'
+label var V6529		`"RENDIMENTO MENSAL DOMICILIAR EM JULHO DE 2010 "'
+label var V6530		`"RENDIMENTO DOMICILIAR, SAL√ÅRIOS M√çNIMOS, EM JULHO DE 2010 "'
+label var V6531		`"RENDIMENTO DOMICILIAR PER CAPITA EM JULHO DE 2010 "'
+label var V6532		`"RENDIMENTO DOMICILIAR PER CAPITA, EM N¬∫ DE SAL√ÅRIOS M√çNIMOS, EM JULHO DE 2010 "'
+label var V6600		`"Esp√©cie da Unidade Dom√©stica
+1- Unipessoal
+2- Nuclear
+3- Estendida
+4- Composta
+Branco (Domic√≠lio Coletivo)"'
+label var V6210		`"ADEQUA√á√ÉO DA MORADIA
+1-  Adequada
+2-  Semi-adequada
+3-  Inadequada
+Branco"'
+label var M0201		`"MARCA DE IMPUTA√á√ÉO NA V0201:  
+1- Sim
+2- N√£o"'
+label var M2011		`"MARCA DE IMPUTA√á√ÉO NA V2011:
+1- Sim
+2- N√£o"'
+label var M0202		`"MARCA DE IMPUTA√á√ÉO NA V0202: 
+1- Sim
+2- N√£o"'
+label var M0203		`"MARCA DE IMPUTA√á√ÉO NA V0203: 
+1- Sim
+2- N√£o"'
+label var M0204		`"MARCA DE IMPUTA√á√ÉO NA V0204: 
+1- Sim
+2- N√£o"'
+label var M0205		`"MARCA DE IMPUTA√á√ÉO NA V0205: 
+1- Sim
+2- N√£o"'
+label var M0206		`"MARCA DE IMPUTA√á√ÉO NA V0206: 
+1- Sim
+2- N√£o"'
+label var M0207		`"MARCA DE IMPUTA√á√ÉO NA V0207: 
+1- Sim
+2- N√£o"'
+label var M0208		`"MARCA DE IMPUTA√á√ÉO NA V0208: 
+1- Sim
+2- N√£o"'
+label var M0209		`"MARCA DE IMPUTA√á√ÉO NA V0209: 
+1- Sim
+2- N√£o"'
+label var M0210		`"MARCA DE IMPUTA√á√ÉO NA V0210: 
+1- Sim
+2- N√£o"'
+label var M0211		`"MARCA DE IMPUTA√á√ÉO NA V0211: 
+1- Sim
+ 2- N√£o  "'
+label var M0212		`"MARCA DE IMPUTA√á√ÉO NA V0212: 
+1- Sim
+2- N√£o"'
+label var M0213		`"MARCA DE IMPUTA√á√ÉO NA V0213: 
+1- Sim
+2- N√£o"'
+label var M0214		`"MARCA DE IMPUTA√á√ÉO NA V0214:  
+1- Sim
+2- N√£o"'
+label var M0215		`"MARCA DE IMPUTA√á√ÉO NA V0215: 
+1- Sim
+2- N√£o"'
+label var M0216		`"MARCA DE IMPUTA√á√ÉO NA V0216:  
+1- Sim
+2- N√£o"'
+label var M0217		`"MARCA DE IMPUTA√á√ÉO NA V0217:  
+1- Sim
+2- N√£o"'
+label var M0218		`"MARCA DE IMPUTA√á√ÉO NA V0218: 
+1- Sim
+2- N√£o"'
+label var M0219		`"MARCA DE IMPUTA√á√ÉO NA V0219:  
+1- Sim
+2- N√£o"'
+label var M0220		`"MARCA DE IMPUTA√á√ÉO NA V0220:  
+1- Sim
+ 2- N√£o  "'
+label var M0221		`"MARCA DE IMPUTA√á√ÉO NA V0221:  
+1- Sim
+2- N√£o"'
+label var M0222		`"MARCA DE IMPUTA√á√ÉO NA V0222:  
+1- Sim
+2- N√£o"'
+label var M0301		`"MARCA DE IMPUTA√á√ÉO NA V0301:  
+1- Sim
+2- N√£o"'
+label var M0401		`"MARCA DE IMPUTA√á√ÉO NA V0401:  
+1- Sim
+2- N√£o"'
+label var M0402		`"MARCA DE IMPUTA√á√ÉO NA V0402:  
+1- Sim
+2- N√£o"'
+label var M0701		`"MARCA DE IMPUTA√á√ÉO NA V0701:  
+1- Sim
+2- N√£o"'
+label var V1005		`"Situa√ß√£o do setor 
+1 - √Årea urbanizada
+2 - √Årea n√£o urbanizada
+3 - √Årea urbanizada isolada
+4 - √Årea rural de extens√£o urbana
+5 - Aglomerado rural (povoado)
+6 - Aglomerado rural (n√∫cleo)
+7 - Aglomerado rural (outros)
+8 - √Årea rural exclusive aglomerado rural
+Branco"', add
+label define V0001 11 `" Rond√¥nia"', add
+label define V0001 12 `" Acre"', add
+label define V0001 13 `" Amazonas"', add
+label define V0001 14 `" Roraima"', add
+label define V0001 15 `" Par√°"', add
+label define V0001 16 `" Amap√°"', add
+label define V0001 17 `" Tocantins"', add
+label define V0001 21 `" Maranh√£o"', add
+label define V0001 22 `" Piau√≠"', add
+label define V0001 23 `" Cear√°"', add
+label define V0001 24 `" Rio Grande do Norte"', add
+label define V0001 25 `" Para√≠ba"', add
+label define V0001 26 `" Pernambuco"', add
+label define V0001 27 `" Alagoas"', add
+label define V0001 28 `" Sergipe"', add
+label define V0001 29 `" Bahia"', add
+label define V0001 31 `" Minas Gerais"', add
+label define V0001 32 `" Esp√≠rito Santo"', add
+label define V0001 33 `" Rio de Janeiro"', add
+label define V0001 35 `" S√£o Paulo"', add
+label define V0001 41 `" Paran√°"', add
+label define V0001 42 `" Santa Catarina"', add
+label define V0001 43 `" Rio Grande do Sul"', add
+label define V0001 50 `" Mato Grosso do Sul"', add
+label define V0001 51 `" Mato Grosso"', add
+label define V0001 52 `" Goi√°s"', add
+label define V0001 53 `" Distrito Federal"', add
+label define V0002 nan `"nan"', add
+label define V0011 nan `"nan"', add
+label define V0300 nan `"nan"', add
+label define V0010 nan `"nan"', add
+label define V1001 1 `" Regi√£o norte (uf=11 a 17)"', add
+label define V1001 2 `" Regi√£o nordeste (uf=21 a 29)  "', add
+label define V1001 3 `" Regi√£o sudeste (uf=31 a 33 e 35)"', add
+label define V1001 4 `" Regi√£o sul (uf=41 a 43)"', add
+label define V1001 5 `" Regi√£o centro"', add
+label define V1002 A rela√ß√£o de c√≥digos encontra `"se no arquivo:"', add
+label define V1003 A rela√ß√£o de c√≥digos encontra `"se no arquivo:"', add
+label define V1004 A rela√ß√£o de c√≥digos encontra `"se no arquivo:"', add
+label define V1006 1 `" Urbana"', add
+label define V1006 2 `" Rural"', add
+label define V4001 01 `" Domic√≠lio particular permanente ocupado "', add
+label define V4001 02 `" Domic√≠lio particular permanente ocupado sem entrevista realizada "', add
+label define V4001 05 `" Domic√≠lio particular improvisado ocupado "', add
+label define V4001 06 `" Domic√≠lio coletivo com morador"', add
+label define V4002 11 `" Casa"', add
+label define V4002 12 `" Casa de vila ou em condom√≠nio"', add
+label define V4002 13 `" Apartamento"', add
+label define V4002 14 `" Habita√ß√£o em: casa de c√¥modos, corti√ßo ou cabe√ßa de porco"', add
+label define V4002 15 `" Oca ou maloca "', add
+label define V4002 51 `" Tenda ou barraca"', add
+label define V4002 52 `" Dentro de estabelecimento"', add
+label define V4002 53 `" Outro (vag√£o, trailer, gruta, etc)"', add
+label define V4002 61 `" Asilo, orfanato e similares  com morador"', add
+label define V4002 62 `" Hotel, pens√£o e similares com morador"', add
+label define V4002 63 `" Alojamento de trabalhadores com morador"', add
+label define V4002 64 `" Penitenci√°ria, pres√≠dio ou casa de deten√ß√£o com morador"', add
+label define V4002 65 `" Outro com morador"', add
+label define V0201 1 `" Pr√≥prio de algum morador "', add
+label define V0201 2 `" Pr√≥prio de algum morador "', add
+label define V0201 3 `" Alugado"', add
+label define V0201 4 `" Cedido por empregador"', add
+label define V0201 5 `" Cedido de outra forma"', add
+label define V0201 6 `" Outra condi√ß√£o"', add
+label define V0201   `"Branco"', add
+label define V2011 nan `"nan"', add
+label define V2012 nan `"nan"', add
+label define V0202 1 `" Alvenaria com revestimento"', add
+label define V0202 2 `" Alvenaria sem revestimento"', add
+label define V0202 3 `" Madeira apropriada para constru√ß√£o (aparelhada)"', add
+label define V0202 4 `" Taipa revestida"', add
+label define V0202 5 `" Taipa n√£o revestida"', add
+label define V0202 6 `" Madeira aproveitada"', add
+label define V0202 7 `" Palha"', add
+label define V0202 8 `" Outro material"', add
+label define V0202 9 `" Sem parede"', add
+label define V0202   `"Branco"', add
+label define V0203  `" 1 a 30"', add
+label define V6203 nan `"nan"', add
+label define V0204  `" 1 a 15"', add
+label define V6204 nan `"nan"', add
+label define V0205 0 `" Zero banheiros"', add
+label define V0205 1 `" Um banheiro"', add
+label define V0205 2 `" Dois banheiros"', add
+label define V0205 3 `" Tr√™s banheiros"', add
+label define V0205 4 `" Quatro banheiros"', add
+label define V0205 5 `" Cinco banheiros"', add
+label define V0205 6 `" Seis banheiros"', add
+label define V0205 7 `" Sete banheiros"', add
+label define V0205 8 `" Oito banheiros"', add
+label define V0205 9 `" Nove ou mais banheiros"', add
+label define V0205   `"Branco"', add
+label define V0206 1 `" Sim"', add
+label define V0206 2 `" N√£o"', add
+label define V0206   `"Branco"', add
+label define V0207 1 `" Rede geral de esgoto ou pluvial"', add
+label define V0207 2 `" Fossa s√©ptica"', add
+label define V0207 3 `" Fossa rudimentar"', add
+label define V0207 4 `" Vala"', add
+label define V0207 5 `" Rio, lago ou mar"', add
+label define V0207 6 `" Outro "', add
+label define V0207   `"Branco"', add
+label define V0208 01 `" Rede geral de distribui√ß√£o"', add
+label define V0208 02 `" Po√ßo ou nascente na propriedade"', add
+label define V0208 03 `" Po√ßo ou nascente fora da propriedade"', add
+label define V0208 04 `" Carro"', add
+label define V0208 05 `" √Ågua da chuva armazenada em cisterna"', add
+label define V0208 06 `" √Ågua da chuva armazenada de outra forma"', add
+label define V0208 07 `" Rios, a√ßudes, lagos e igarap√©s"', add
+label define V0208 08 `" Outra "', add
+label define V0208 09 `" Po√ßo ou nascente na aldeia"', add
+label define V0208 10 `" Po√ßo ou nascente fora da aldeia"', add
+label define V0208   `"Branco"', add
+label define V0209 1 `" Sim, em pelo menos um c√¥modo"', add
+label define V0209 2 `" Sim, s√≥ na propriedade ou terreno"', add
+label define V0209 3 `" N√£o"', add
+label define V0209   `"Branco"', add
+label define V0210 1 `" Coletado diretamente por servi√ßo de limpeza"', add
+label define V0210 2 `" Colocado em ca√ßamba de servi√ßo de limpeza"', add
+label define V0210 3 `" Queimado (na propriedade)"', add
+label define V0210 4 `" Enterrado (na propriedade)"', add
+label define V0210 5 `" Jogado em terreno baldio ou logradouro"', add
+label define V0210 6 `" Jogado em rio, lago ou mar"', add
+label define V0210 7 `" Tem outro destino"', add
+label define V0210   `"Branco"', add
+label define V0211 1 `" Sim, de companhia distribuidora"', add
+label define V0211 2 `" Sim, de outras fontes"', add
+label define V0211 3 `" N√£o existe energia el√©trica"', add
+label define V0211   `"Branco"', add
+label define V0212 1 `" Sim, de uso exclusivo"', add
+label define V0212 2 `" Sim, de uso comum "', add
+label define V0212 3 `" N√£o tem medidor ou rel√≥gio"', add
+label define V0212   `"Branco"', add
+label define V0213 1 `" Sim"', add
+label define V0213 2 `" N√£o"', add
+label define V0213   `"Branco"', add
+label define V0214 1 `" Sim"', add
+label define V0214 2 `" N√£o"', add
+label define V0214   `"Branco"', add
+label define V0215 1 `" Sim"', add
+label define V0215 2 `" N√£o"', add
+label define V0215   `"Branco"', add
+label define V0216 1 `" Sim"', add
+label define V0216 2 `" N√£o"', add
+label define V0216   `"Branco"', add
+label define V0217 1 `" Sim"', add
+label define V0217 2 `" N√£o"', add
+label define V0217   `"Branco"', add
+label define V0218 1 `" Sim"', add
+label define V0218 2 `" N√£o"', add
+label define V0218   `"Branco"', add
+label define V0219 1 `" Sim"', add
+label define V0219 2 `" N√£o"', add
+label define V0219   `"Branco"', add
+label define V0220 1 `" Sim"', add
+label define V0220 2 `" N√£o"', add
+label define V0220   `"Branco"', add
+label define V0221 1 `" Sim"', add
+label define V0221 2 `" N√£o"', add
+label define V0221   `"Branco"', add
+label define V0222 1 `" Sim"', add
+label define V0222 2 `" N√£o"', add
+label define V0222   `"Branco"', add
+label define V0301 1 `" Sim"', add
+label define V0301 2 `" N√£o"', add
+label define V0301   `"Branco"', add
+label define V0401 nan `"nan"', add
+label define V0402 1 `" Apenas um morador"', add
+label define V0402 2 `" Mais de um morador"', add
+label define V0402 9 `" Ignorado"', add
+label define V0402   `"Branco"', add
+label define V0701 1 `" Sim"', add
+label define V0701 2 `" N√£o"', add
+label define V0701   `"Branco"', add
+label define V6529 nan `"nan"', add
+label define V6530 nan `"nan"', add
+label define V6531 nan `"nan"', add
+label define V6532 nan `"nan"', add
+label define V6600 1 `" Unipessoal"', add
+label define V6600 2 `" Nuclear"', add
+label define V6600 3 `" Estendida"', add
+label define V6600 4 `" Composta"', add
+label define V6600   `"Branco (Domic√≠lio Coletivo)"', add
+label define V6210 1 `"  Adequada"', add
+label define V6210 2 `"  Semi"', add
+label define V6210 3 `"  Inadequada"', add
+label define V6210   `"Branco"', add
+label define M0201 1 `" Sim"', add
+label define M0201 2 `" N√£o"', add
+label define M2011 1 `" Sim"', add
+label define M2011 2 `" N√£o"', add
+label define M0202 1 `" Sim"', add
+label define M0202 2 `" N√£o"', add
+label define M0203 1 `" Sim"', add
+label define M0203 2 `" N√£o"', add
+label define M0204 1 `" Sim"', add
+label define M0204 2 `" N√£o"', add
+label define M0205 1 `" Sim"', add
+label define M0205 2 `" N√£o"', add
+label define M0206 1 `" Sim"', add
+label define M0206 2 `" N√£o"', add
+label define M0207 1 `" Sim"', add
+label define M0207 2 `" N√£o"', add
+label define M0208 1 `" Sim"', add
+label define M0208 2 `" N√£o"', add
+label define M0209 1 `" Sim"', add
+label define M0209 2 `" N√£o"', add
+label define M0210 1 `" Sim"', add
+label define M0210 2 `" N√£o"', add
+label define M0211 1 `" Sim"', add
+label define M0211  2 `" N√£o  "', add
+label define M0212 1 `" Sim"', add
+label define M0212 2 `" N√£o"', add
+label define M0213 1 `" Sim"', add
+label define M0213 2 `" N√£o"', add
+label define M0214 1 `" Sim"', add
+label define M0214 2 `" N√£o"', add
+label define M0215 1 `" Sim"', add
+label define M0215 2 `" N√£o"', add
+label define M0216 1 `" Sim"', add
+label define M0216 2 `" N√£o"', add
+label define M0217 1 `" Sim"', add
+label define M0217 2 `" N√£o"', add
+label define M0218 1 `" Sim"', add
+label define M0218 2 `" N√£o"', add
+label define M0219 1 `" Sim"', add
+label define M0219 2 `" N√£o"', add
+label define M0220 1 `" Sim"', add
+label define M0220  2 `" N√£o  "', add
+label define M0221 1 `" Sim"', add
+label define M0221 2 `" N√£o"', add
+label define M0222 1 `" Sim"', add
+label define M0222 2 `" N√£o"', add
+label define M0301 1 `" Sim"', add
+label define M0301 2 `" N√£o"', add
+label define M0401 1 `" Sim"', add
+label define M0401 2 `" N√£o"', add
+label define M0402 1 `" Sim"', add
+label define M0402 2 `" N√£o"', add
+label define M0701 1 `" Sim"', add
+label define M0701 2 `" N√£o"', add
+label define V1005 1  `" √Årea urbanizada"', add
+label define V1005 2  `" √Årea n√£o urbanizada"', add
+label define V1005 3  `" √Årea urbanizada isolada"', add
+label define V1005 4  `" √Årea rural de extens√£o urbana"', add
+label define V1005 5  `" Aglomerado rural (povoado)"', add
+label define V1005 6  `" Aglomerado rural (n√∫cleo)"', add
+label define V1005 7  `" Aglomerado rural (outros)"', add
+label define V1005 8  `" √Årea rural exclusive aglomerado rural"', add
 label define V1005   `"Branco"'
