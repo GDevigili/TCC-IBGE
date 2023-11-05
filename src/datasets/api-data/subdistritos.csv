@@ -1,0 +1,644 @@
+id,nome,distrito_id,distrito_nome,municipio_id,municipio_nome,microrregiao_id,microrregiao_nome,mesorregiao_id,mesorregiao_nome,UF_id,UF_sigla,UF_nome,regiao_id,regiao_sigla,regiao_nome,regiao-imediata_id,regiao-imediata_nome,regiao-intermediaria_id,regiao-intermediaria_nome
+43004060506,Zona Central,430040605,Alegrete,4300406,Alegrete,43029,Campanha Ocidental,4306,Sudoeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430015,Uruguaiana,4304,Uruguaiana
+43004060507,Zona da Coxilha ou Cidade Alta,430040605,Alegrete,4300406,Alegrete,43029,Campanha Ocidental,4306,Sudoeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430015,Uruguaiana,4304,Uruguaiana
+43004060508,Zona Norte,430040605,Alegrete,4300406,Alegrete,43029,Campanha Ocidental,4306,Sudoeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430015,Uruguaiana,4304,Uruguaiana
+43004060509,Zona Sul,430040605,Alegrete,4300406,Alegrete,43029,Campanha Ocidental,4306,Sudoeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430015,Uruguaiana,4304,Uruguaiana
+43004060510,Zona Leste,430040605,Alegrete,4300406,Alegrete,43029,Campanha Ocidental,4306,Sudoeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430015,Uruguaiana,4304,Uruguaiana
+43004060511,Zona Oeste,430040605,Alegrete,4300406,Alegrete,43029,Campanha Ocidental,4306,Sudoeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430015,Uruguaiana,4304,Uruguaiana
+43004060512,Alegrete,430040605,Alegrete,4300406,Alegrete,43029,Campanha Ocidental,4306,Sudoeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430015,Uruguaiana,4304,Uruguaiana
+43004060513,Catimbaú,430040605,Alegrete,4300406,Alegrete,43029,Campanha Ocidental,4306,Sudoeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430015,Uruguaiana,4304,Uruguaiana
+43004060514,Durasnal,430040605,Alegrete,4300406,Alegrete,43029,Campanha Ocidental,4306,Sudoeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430015,Uruguaiana,4304,Uruguaiana
+43004060515,Guassu-Boi,430040605,Alegrete,4300406,Alegrete,43029,Campanha Ocidental,4306,Sudoeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430015,Uruguaiana,4304,Uruguaiana
+43004060516,Inhanduí,430040605,Alegrete,4300406,Alegrete,43029,Campanha Ocidental,4306,Sudoeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430015,Uruguaiana,4304,Uruguaiana
+43004060517,Itaporó,430040605,Alegrete,4300406,Alegrete,43029,Campanha Ocidental,4306,Sudoeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430015,Uruguaiana,4304,Uruguaiana
+43004060518,Rincão de São Miguel,430040605,Alegrete,4300406,Alegrete,43029,Campanha Ocidental,4306,Sudoeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430015,Uruguaiana,4304,Uruguaiana
+43004060519,Vasco Alves,430040605,Alegrete,4300406,Alegrete,43029,Campanha Ocidental,4306,Sudoeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430015,Uruguaiana,4304,Uruguaiana
+43006040501,MZ1- Centro,430060405,Alvorada,4300604,Alvorada,43026,Porto Alegre,4305,Metropolitana de Porto Alegre,43,RS,Rio Grande do Sul,4,S,Sul,430001,Porto Alegre,4301,Porto Alegre
+43006040502,MZ2- Americana / Sumaré,430060405,Alvorada,4300604,Alvorada,43026,Porto Alegre,4305,Metropolitana de Porto Alegre,43,RS,Rio Grande do Sul,4,S,Sul,430001,Porto Alegre,4301,Porto Alegre
+43006040503,MZ3- Bela Vista,430060405,Alvorada,4300604,Alvorada,43026,Porto Alegre,4305,Metropolitana de Porto Alegre,43,RS,Rio Grande do Sul,4,S,Sul,430001,Porto Alegre,4301,Porto Alegre
+43006040504,MZ4- Intersul,430060405,Alvorada,4300604,Alvorada,43026,Porto Alegre,4305,Metropolitana de Porto Alegre,43,RS,Rio Grande do Sul,4,S,Sul,430001,Porto Alegre,4301,Porto Alegre
+43006040505,MZ5- Algarve,430060405,Alvorada,4300604,Alvorada,43026,Porto Alegre,4305,Metropolitana de Porto Alegre,43,RS,Rio Grande do Sul,4,S,Sul,430001,Porto Alegre,4301,Porto Alegre
+43006040506,MZ6- Aparecida,430060405,Alvorada,4300604,Alvorada,43026,Porto Alegre,4305,Metropolitana de Porto Alegre,43,RS,Rio Grande do Sul,4,S,Sul,430001,Porto Alegre,4301,Porto Alegre
+43006040507,MZ7- Cocão,430060405,Alvorada,4300604,Alvorada,43026,Porto Alegre,4305,Metropolitana de Porto Alegre,43,RS,Rio Grande do Sul,4,S,Sul,430001,Porto Alegre,4301,Porto Alegre
+43006040508,MZ8- Piratini,430060405,Alvorada,4300604,Alvorada,43026,Porto Alegre,4305,Metropolitana de Porto Alegre,43,RS,Rio Grande do Sul,4,S,Sul,430001,Porto Alegre,4301,Porto Alegre
+43006040509,MZ9- Formosa / Maria Regina,430060405,Alvorada,4300604,Alvorada,43026,Porto Alegre,4305,Metropolitana de Porto Alegre,43,RS,Rio Grande do Sul,4,S,Sul,430001,Porto Alegre,4301,Porto Alegre
+43006040510,MZ10- Umbu,430060405,Alvorada,4300604,Alvorada,43026,Porto Alegre,4305,Metropolitana de Porto Alegre,43,RS,Rio Grande do Sul,4,S,Sul,430001,Porto Alegre,4301,Porto Alegre
+43006041010,MZ10- Umbu,430060410,Estância Grande,4300604,Alvorada,43026,Porto Alegre,4305,Metropolitana de Porto Alegre,43,RS,Rio Grande do Sul,4,S,Sul,430001,Porto Alegre,4301,Porto Alegre
+43006041011,MZ 11 - Industrial,430060410,Estância Grande,4300604,Alvorada,43026,Porto Alegre,4305,Metropolitana de Porto Alegre,43,RS,Rio Grande do Sul,4,S,Sul,430001,Porto Alegre,4301,Porto Alegre
+31057070506,Primeiro Subdistrito,310570705,Barra Longa,3105707,Barra Longa,31060,Ponte Nova,3112,Zona da Mata,31,MG,Minas Gerais,3,SE,Sudeste,310030,Ponte Nova,3106,Juíz de Fora
+31057070507,Segundo Subdistrito,310570705,Barra Longa,3105707,Barra Longa,31060,Ponte Nova,3112,Zona da Mata,31,MG,Minas Gerais,3,SE,Sudeste,310030,Ponte Nova,3106,Juíz de Fora
+33004070501,Região Administrativa 01 - Centro,330040705,Barra Mansa,3300407,Barra Mansa,33011,Vale do Paraíba Fluminense,3305,Sul Fluminense,33,RJ,Rio de Janeiro,3,SE,Sudeste,330004,Volta Redonda - Barra Mansa,3302,Volta Redonda - Barra Mansa
+33004070502,Região Administrativa 02 - Vista Alegre,330040705,Barra Mansa,3300407,Barra Mansa,33011,Vale do Paraíba Fluminense,3305,Sul Fluminense,33,RJ,Rio de Janeiro,3,SE,Sudeste,330004,Volta Redonda - Barra Mansa,3302,Volta Redonda - Barra Mansa
+33004070503,Região Administrativa 03 - Vila Nova,330040705,Barra Mansa,3300407,Barra Mansa,33011,Vale do Paraíba Fluminense,3305,Sul Fluminense,33,RJ,Rio de Janeiro,3,SE,Sudeste,330004,Volta Redonda - Barra Mansa,3302,Volta Redonda - Barra Mansa
+33004070504,Região Administrativa 04 - Ano Bom,330040705,Barra Mansa,3300407,Barra Mansa,33011,Vale do Paraíba Fluminense,3305,Sul Fluminense,33,RJ,Rio de Janeiro,3,SE,Sudeste,330004,Volta Redonda - Barra Mansa,3302,Volta Redonda - Barra Mansa
+33004070505,Região Administrativa 05 - Vila Elmira,330040705,Barra Mansa,3300407,Barra Mansa,33011,Vale do Paraíba Fluminense,3305,Sul Fluminense,33,RJ,Rio de Janeiro,3,SE,Sudeste,330004,Volta Redonda - Barra Mansa,3302,Volta Redonda - Barra Mansa
+33004070506,Região Administrativa 06 - Nove de Abril,330040705,Barra Mansa,3300407,Barra Mansa,33011,Vale do Paraíba Fluminense,3305,Sul Fluminense,33,RJ,Rio de Janeiro,3,SE,Sudeste,330004,Volta Redonda - Barra Mansa,3302,Volta Redonda - Barra Mansa
+33004070507,Região Administrativa 07 - Boa Vista,330040705,Barra Mansa,3300407,Barra Mansa,33011,Vale do Paraíba Fluminense,3305,Sul Fluminense,33,RJ,Rio de Janeiro,3,SE,Sudeste,330004,Volta Redonda - Barra Mansa,3302,Volta Redonda - Barra Mansa
+33004070508,Região Administrativa 08 - Boa Sorte,330040705,Barra Mansa,3300407,Barra Mansa,33011,Vale do Paraíba Fluminense,3305,Sul Fluminense,33,RJ,Rio de Janeiro,3,SE,Sudeste,330004,Volta Redonda - Barra Mansa,3302,Volta Redonda - Barra Mansa
+33004070509,Região Administrativa 09 - Rozelândia,330040705,Barra Mansa,3300407,Barra Mansa,33011,Vale do Paraíba Fluminense,3305,Sul Fluminense,33,RJ,Rio de Janeiro,3,SE,Sudeste,330004,Volta Redonda - Barra Mansa,3302,Volta Redonda - Barra Mansa
+33004070510,Região Administrativa 10 - Santa Clara,330040705,Barra Mansa,3300407,Barra Mansa,33011,Vale do Paraíba Fluminense,3305,Sul Fluminense,33,RJ,Rio de Janeiro,3,SE,Sudeste,330004,Volta Redonda - Barra Mansa,3302,Volta Redonda - Barra Mansa
+33004070511,Região Administrativa 11 - Vila Independência,330040705,Barra Mansa,3300407,Barra Mansa,33011,Vale do Paraíba Fluminense,3305,Sul Fluminense,33,RJ,Rio de Janeiro,3,SE,Sudeste,330004,Volta Redonda - Barra Mansa,3302,Volta Redonda - Barra Mansa
+33004070512,Região Administrativa 12 - Siderlândia,330040705,Barra Mansa,3300407,Barra Mansa,33011,Vale do Paraíba Fluminense,3305,Sul Fluminense,33,RJ,Rio de Janeiro,3,SE,Sudeste,330004,Volta Redonda - Barra Mansa,3302,Volta Redonda - Barra Mansa
+33004070513,Região Administrativa 13 - Colônia Santo Antônio,330040705,Barra Mansa,3300407,Barra Mansa,33011,Vale do Paraíba Fluminense,3305,Sul Fluminense,33,RJ,Rio de Janeiro,3,SE,Sudeste,330004,Volta Redonda - Barra Mansa,3302,Volta Redonda - Barra Mansa
+33004070514,Região Administrativa 14 - Saudade,330040705,Barra Mansa,3300407,Barra Mansa,33011,Vale do Paraíba Fluminense,3305,Sul Fluminense,33,RJ,Rio de Janeiro,3,SE,Sudeste,330004,Volta Redonda - Barra Mansa,3302,Volta Redonda - Barra Mansa
+33004070950,Região Administrativa 50 - Antônio Rocha,330040709,Antônio Rocha,3300407,Barra Mansa,33011,Vale do Paraíba Fluminense,3305,Sul Fluminense,33,RJ,Rio de Janeiro,3,SE,Sudeste,330004,Volta Redonda - Barra Mansa,3302,Volta Redonda - Barra Mansa
+33004071520,Região Administrativa 20 - Floriano,330040715,Floriano,3300407,Barra Mansa,33011,Vale do Paraíba Fluminense,3305,Sul Fluminense,33,RJ,Rio de Janeiro,3,SE,Sudeste,330004,Volta Redonda - Barra Mansa,3302,Volta Redonda - Barra Mansa
+33004072040,Região Administrativa 40 - Nossa Senhora do Amparo,330040720,Nossa Senhora do Amparo,3300407,Barra Mansa,33011,Vale do Paraíba Fluminense,3305,Sul Fluminense,33,RJ,Rio de Janeiro,3,SE,Sudeste,330004,Volta Redonda - Barra Mansa,3302,Volta Redonda - Barra Mansa
+33004073030,Região Administrativa 30 - Rialto,330040730,Rialto,3300407,Barra Mansa,33011,Vale do Paraíba Fluminense,3305,Sul Fluminense,33,RJ,Rio de Janeiro,3,SE,Sudeste,330004,Volta Redonda - Barra Mansa,3302,Volta Redonda - Barra Mansa
+33004074060,Região Administrativa 60 - Santa Rita de Cássia,330040740,Santa Rita de Cássia,3300407,Barra Mansa,33011,Vale do Paraíba Fluminense,3305,Sul Fluminense,33,RJ,Rio de Janeiro,3,SE,Sudeste,330004,Volta Redonda - Barra Mansa,3302,Volta Redonda - Barra Mansa
+33004560501,Areia Branca,330045605,Belford Roxo,3300456,Belford Roxo,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33004560502,Nova Aurora,330045605,Belford Roxo,3300456,Belford Roxo,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33004560503,Jardim Redentor,330045605,Belford Roxo,3300456,Belford Roxo,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33004560504,Parque São José,330045605,Belford Roxo,3300456,Belford Roxo,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33004560505,Lote XV,330045605,Belford Roxo,3300456,Belford Roxo,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+31062000562,Centro-Sul,310620005,Belo Horizonte,3106200,Belo Horizonte,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31062000563,Leste,310620005,Belo Horizonte,3106200,Belo Horizonte,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31062000564,Nordeste,310620005,Belo Horizonte,3106200,Belo Horizonte,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31062000565,Noroeste,310620005,Belo Horizonte,3106200,Belo Horizonte,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31062000566,Norte,310620005,Belo Horizonte,3106200,Belo Horizonte,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31062000567,Oeste,310620005,Belo Horizonte,3106200,Belo Horizonte,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31062000568,Pampulha,310620005,Belo Horizonte,3106200,Belo Horizonte,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31062000569,Venda Nova,310620005,Belo Horizonte,3106200,Belo Horizonte,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31062002561,Barreiro,310620025,Barreiro,3106200,Belo Horizonte,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31062002567,Oeste,310620025,Barreiro,3106200,Belo Horizonte,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31062006064,Nordeste,310620060,Venda Nova,3106200,Belo Horizonte,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31062006066,Norte,310620060,Venda Nova,3106200,Belo Horizonte,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31062006068,Pampulha,310620060,Venda Nova,3106200,Belo Horizonte,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31062006069,Venda Nova,310620060,Venda Nova,3106200,Belo Horizonte,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31067050501,Sede,310670505,Betim,3106705,Betim,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31067050502,Norte,310670505,Betim,3106705,Betim,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31067050503,Alterosas,310670505,Betim,3106705,Betim,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31067050504,PTB,310670505,Betim,3106705,Betim,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31067050505,Imbiruçu,310670505,Betim,3106705,Betim,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31067050506,Teresópolis,310670505,Betim,3106705,Betim,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31067050507,Citrolândia,310670505,Betim,3106705,Betim,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31067050508,Vianópolis,310670505,Betim,3106705,Betim,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31067050509,Icaivera,310670505,Betim,3106705,Betim,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31067050510,Petrovale,310670505,Betim,3106705,Betim,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+53001080506,Plano Piloto,530010805,Brasília,5300108,Brasília,53001,Brasília,5301,Distrito Federal,53,DF,Distrito Federal,5,CO,Centro-Oeste,530001,Distrito Federal,5301,Distrito Federal
+53001080507,Gama,530010805,Brasília,5300108,Brasília,53001,Brasília,5301,Distrito Federal,53,DF,Distrito Federal,5,CO,Centro-Oeste,530001,Distrito Federal,5301,Distrito Federal
+53001080508,Taguatinga,530010805,Brasília,5300108,Brasília,53001,Brasília,5301,Distrito Federal,53,DF,Distrito Federal,5,CO,Centro-Oeste,530001,Distrito Federal,5301,Distrito Federal
+53001080509,Brazlândia,530010805,Brasília,5300108,Brasília,53001,Brasília,5301,Distrito Federal,53,DF,Distrito Federal,5,CO,Centro-Oeste,530001,Distrito Federal,5301,Distrito Federal
+53001080510,Sobradinho,530010805,Brasília,5300108,Brasília,53001,Brasília,5301,Distrito Federal,53,DF,Distrito Federal,5,CO,Centro-Oeste,530001,Distrito Federal,5301,Distrito Federal
+53001080511,Planaltina,530010805,Brasília,5300108,Brasília,53001,Brasília,5301,Distrito Federal,53,DF,Distrito Federal,5,CO,Centro-Oeste,530001,Distrito Federal,5301,Distrito Federal
+53001080512,Paranoá,530010805,Brasília,5300108,Brasília,53001,Brasília,5301,Distrito Federal,53,DF,Distrito Federal,5,CO,Centro-Oeste,530001,Distrito Federal,5301,Distrito Federal
+53001080513,Riacho Fundo,530010805,Brasília,5300108,Brasília,53001,Brasília,5301,Distrito Federal,53,DF,Distrito Federal,5,CO,Centro-Oeste,530001,Distrito Federal,5301,Distrito Federal
+53001080514,Núcleo Bandeirante,530010805,Brasília,5300108,Brasília,53001,Brasília,5301,Distrito Federal,53,DF,Distrito Federal,5,CO,Centro-Oeste,530001,Distrito Federal,5301,Distrito Federal
+53001080515,Ceilândia,530010805,Brasília,5300108,Brasília,53001,Brasília,5301,Distrito Federal,53,DF,Distrito Federal,5,CO,Centro-Oeste,530001,Distrito Federal,5301,Distrito Federal
+53001080516,Guará,530010805,Brasília,5300108,Brasília,53001,Brasília,5301,Distrito Federal,53,DF,Distrito Federal,5,CO,Centro-Oeste,530001,Distrito Federal,5301,Distrito Federal
+53001080517,Cruzeiro,530010805,Brasília,5300108,Brasília,53001,Brasília,5301,Distrito Federal,53,DF,Distrito Federal,5,CO,Centro-Oeste,530001,Distrito Federal,5301,Distrito Federal
+53001080518,Samambaia,530010805,Brasília,5300108,Brasília,53001,Brasília,5301,Distrito Federal,53,DF,Distrito Federal,5,CO,Centro-Oeste,530001,Distrito Federal,5301,Distrito Federal
+53001080519,Candangolândia,530010805,Brasília,5300108,Brasília,53001,Brasília,5301,Distrito Federal,53,DF,Distrito Federal,5,CO,Centro-Oeste,530001,Distrito Federal,5301,Distrito Federal
+53001080520,Recanto das Emas,530010805,Brasília,5300108,Brasília,53001,Brasília,5301,Distrito Federal,53,DF,Distrito Federal,5,CO,Centro-Oeste,530001,Distrito Federal,5301,Distrito Federal
+53001080521,Lago Norte,530010805,Brasília,5300108,Brasília,53001,Brasília,5301,Distrito Federal,53,DF,Distrito Federal,5,CO,Centro-Oeste,530001,Distrito Federal,5301,Distrito Federal
+53001080523,Lago Sul,530010805,Brasília,5300108,Brasília,53001,Brasília,5301,Distrito Federal,53,DF,Distrito Federal,5,CO,Centro-Oeste,530001,Distrito Federal,5301,Distrito Federal
+53001080525,Santa Maria,530010805,Brasília,5300108,Brasília,53001,Brasília,5301,Distrito Federal,53,DF,Distrito Federal,5,CO,Centro-Oeste,530001,Distrito Federal,5301,Distrito Federal
+53001080530,São Sebastião,530010805,Brasília,5300108,Brasília,53001,Brasília,5301,Distrito Federal,53,DF,Distrito Federal,5,CO,Centro-Oeste,530001,Distrito Federal,5301,Distrito Federal
+53001080531,Sol Nascente/Pôr do Sol,530010805,Brasília,5300108,Brasília,53001,Brasília,5301,Distrito Federal,53,DF,Distrito Federal,5,CO,Centro-Oeste,530001,Distrito Federal,5301,Distrito Federal
+53001080532,Arniqueira,530010805,Brasília,5300108,Brasília,53001,Brasília,5301,Distrito Federal,53,DF,Distrito Federal,5,CO,Centro-Oeste,530001,Distrito Federal,5301,Distrito Federal
+53001080533,SIA,530010805,Brasília,5300108,Brasília,53001,Brasília,5301,Distrito Federal,53,DF,Distrito Federal,5,CO,Centro-Oeste,530001,Distrito Federal,5301,Distrito Federal
+53001080534,SCIA,530010805,Brasília,5300108,Brasília,53001,Brasília,5301,Distrito Federal,53,DF,Distrito Federal,5,CO,Centro-Oeste,530001,Distrito Federal,5301,Distrito Federal
+53001080535,Sudoeste/Octogonal,530010805,Brasília,5300108,Brasília,53001,Brasília,5301,Distrito Federal,53,DF,Distrito Federal,5,CO,Centro-Oeste,530001,Distrito Federal,5301,Distrito Federal
+53001080536,Águas Claras,530010805,Brasília,5300108,Brasília,53001,Brasília,5301,Distrito Federal,53,DF,Distrito Federal,5,CO,Centro-Oeste,530001,Distrito Federal,5301,Distrito Federal
+53001080537,Vicente Pires,530010805,Brasília,5300108,Brasília,53001,Brasília,5301,Distrito Federal,53,DF,Distrito Federal,5,CO,Centro-Oeste,530001,Distrito Federal,5301,Distrito Federal
+53001080538,Itapoã,530010805,Brasília,5300108,Brasília,53001,Brasília,5301,Distrito Federal,53,DF,Distrito Federal,5,CO,Centro-Oeste,530001,Distrito Federal,5301,Distrito Federal
+53001080539,Fercal,530010805,Brasília,5300108,Brasília,53001,Brasília,5301,Distrito Federal,53,DF,Distrito Federal,5,CO,Centro-Oeste,530001,Distrito Federal,5301,Distrito Federal
+53001080540,Jardim Botânico,530010805,Brasília,5300108,Brasília,53001,Brasília,5301,Distrito Federal,53,DF,Distrito Federal,5,CO,Centro-Oeste,530001,Distrito Federal,5301,Distrito Federal
+53001080541,Riacho Fundo II,530010805,Brasília,5300108,Brasília,53001,Brasília,5301,Distrito Federal,53,DF,Distrito Federal,5,CO,Centro-Oeste,530001,Distrito Federal,5301,Distrito Federal
+53001080542,Park Way,530010805,Brasília,5300108,Brasília,53001,Brasília,5301,Distrito Federal,53,DF,Distrito Federal,5,CO,Centro-Oeste,530001,Distrito Federal,5301,Distrito Federal
+53001080543,Varjão,530010805,Brasília,5300108,Brasília,53001,Brasília,5301,Distrito Federal,53,DF,Distrito Federal,5,CO,Centro-Oeste,530001,Distrito Federal,5301,Distrito Federal
+53001080544,Sobradinho II,530010805,Brasília,5300108,Brasília,53001,Brasília,5301,Distrito Federal,53,DF,Distrito Federal,5,CO,Centro-Oeste,530001,Distrito Federal,5301,Distrito Federal
+26034540506,RPA I,260345405,Camaragibe,2603454,Camaragibe,26017,Recife,2605,Metropolitana de Recife,26,PE,Pernambuco,2,NE,Nordeste,260001,Recife,2601,Recife
+26034540507,RPA II,260345405,Camaragibe,2603454,Camaragibe,26017,Recife,2605,Metropolitana de Recife,26,PE,Pernambuco,2,NE,Nordeste,260001,Recife,2601,Recife
+26034540508,RPA III,260345405,Camaragibe,2603454,Camaragibe,26017,Recife,2605,Metropolitana de Recife,26,PE,Pernambuco,2,NE,Nordeste,260001,Recife,2601,Recife
+26034540509,RPA IV,260345405,Camaragibe,2603454,Camaragibe,26017,Recife,2605,Metropolitana de Recife,26,PE,Pernambuco,2,NE,Nordeste,260001,Recife,2601,Recife
+26034540510,RPA V,260345405,Camaragibe,2603454,Camaragibe,26017,Recife,2605,Metropolitana de Recife,26,PE,Pernambuco,2,NE,Nordeste,260001,Recife,2601,Recife
+50027040506,Região Urbana do Centro,500270405,Campo Grande,5002704,Campo Grande,50004,Campo Grande,5002,Centro Norte de Mato Grosso do Sul,50,MS,Mato Grosso do Sul,5,CO,Centro-Oeste,500001,Campo Grande,5001,Campo Grande
+50027040507,Região Urbana do Prosa,500270405,Campo Grande,5002704,Campo Grande,50004,Campo Grande,5002,Centro Norte de Mato Grosso do Sul,50,MS,Mato Grosso do Sul,5,CO,Centro-Oeste,500001,Campo Grande,5001,Campo Grande
+50027040508,Região Urbana do Segredo,500270405,Campo Grande,5002704,Campo Grande,50004,Campo Grande,5002,Centro Norte de Mato Grosso do Sul,50,MS,Mato Grosso do Sul,5,CO,Centro-Oeste,500001,Campo Grande,5001,Campo Grande
+50027040509,Região Urbana do Imbirussú,500270405,Campo Grande,5002704,Campo Grande,50004,Campo Grande,5002,Centro Norte de Mato Grosso do Sul,50,MS,Mato Grosso do Sul,5,CO,Centro-Oeste,500001,Campo Grande,5001,Campo Grande
+50027040511,Região Urbana do Anhanduizinho,500270405,Campo Grande,5002704,Campo Grande,50004,Campo Grande,5002,Centro Norte de Mato Grosso do Sul,50,MS,Mato Grosso do Sul,5,CO,Centro-Oeste,500001,Campo Grande,5001,Campo Grande
+50027040512,Região Urbana do Bandeira,500270405,Campo Grande,5002704,Campo Grande,50004,Campo Grande,5002,Centro Norte de Mato Grosso do Sul,50,MS,Mato Grosso do Sul,5,CO,Centro-Oeste,500001,Campo Grande,5001,Campo Grande
+50027040513,Região Urbana do Lagoa,500270405,Campo Grande,5002704,Campo Grande,50004,Campo Grande,5002,Centro Norte de Mato Grosso do Sul,50,MS,Mato Grosso do Sul,5,CO,Centro-Oeste,500001,Campo Grande,5001,Campo Grande
+41043030501,Zona 1,410430305,Campo Mourão,4104303,Campo Mourão,41005,Campo Mourão,4102,Centro Ocidental Paranaense,41,PR,Paraná,4,S,Sul,410015,Campo Mourão,4104,Maringá
+41043030502,Zona 2,410430305,Campo Mourão,4104303,Campo Mourão,41005,Campo Mourão,4102,Centro Ocidental Paranaense,41,PR,Paraná,4,S,Sul,410015,Campo Mourão,4104,Maringá
+41043030503,Zona 3,410430305,Campo Mourão,4104303,Campo Mourão,41005,Campo Mourão,4102,Centro Ocidental Paranaense,41,PR,Paraná,4,S,Sul,410015,Campo Mourão,4104,Maringá
+41043030504,Zona 4,410430305,Campo Mourão,4104303,Campo Mourão,41005,Campo Mourão,4102,Centro Ocidental Paranaense,41,PR,Paraná,4,S,Sul,410015,Campo Mourão,4104,Maringá
+41043030505,Zona 5,410430305,Campo Mourão,4104303,Campo Mourão,41005,Campo Mourão,4102,Centro Ocidental Paranaense,41,PR,Paraná,4,S,Sul,410015,Campo Mourão,4104,Maringá
+33010090506,Primeiro Subdistrito,330100905,Campos dos Goytacazes,3301009,Campos dos Goytacazes,33003,Campos dos Goytacazes,3302,Norte Fluminense,33,RJ,Rio de Janeiro,3,SE,Sudeste,330010,Campos dos Goytacazes,3304,Campos dos Goytacazes
+33010090507,Segundo Subdistrito,330100905,Campos dos Goytacazes,3301009,Campos dos Goytacazes,33003,Campos dos Goytacazes,3302,Norte Fluminense,33,RJ,Rio de Janeiro,3,SE,Sudeste,330010,Campos dos Goytacazes,3304,Campos dos Goytacazes
+33010090508,Terceiro Subdistrito,330100905,Campos dos Goytacazes,3301009,Campos dos Goytacazes,33003,Campos dos Goytacazes,3302,Norte Fluminense,33,RJ,Rio de Janeiro,3,SE,Sudeste,330010,Campos dos Goytacazes,3304,Campos dos Goytacazes
+33010090509,Quarto Subdistrito,330100905,Campos dos Goytacazes,3301009,Campos dos Goytacazes,33003,Campos dos Goytacazes,3302,Norte Fluminense,33,RJ,Rio de Janeiro,3,SE,Sudeste,330010,Campos dos Goytacazes,3304,Campos dos Goytacazes
+33009360501,Primeira Região Administrativa (Centro),330093605,Carapebus,3300936,Carapebus,33004,Macaé,3302,Norte Fluminense,33,RJ,Rio de Janeiro,3,SE,Sudeste,330014,Macaé - Rio das Ostras,3305,Macaé - Rio das Ostras - Cabo Frio
+33009360502,Segunda Região Administrativa (Ubás),330093605,Carapebus,3300936,Carapebus,33004,Macaé,3302,Norte Fluminense,33,RJ,Rio de Janeiro,3,SE,Sudeste,330014,Macaé - Rio das Ostras,3305,Macaé - Rio das Ostras - Cabo Frio
+33009360503,Terceira Região Administrativa (Rodagem),330093605,Carapebus,3300936,Carapebus,33004,Macaé,3302,Norte Fluminense,33,RJ,Rio de Janeiro,3,SE,Sudeste,330014,Macaé - Rio das Ostras,3305,Macaé - Rio das Ostras - Cabo Frio
+33009360504,Quarta Região Administrativa (Praia de Carapebus),330093605,Carapebus,3300936,Carapebus,33004,Macaé,3302,Norte Fluminense,33,RJ,Rio de Janeiro,3,SE,Sudeste,330014,Macaé - Rio das Ostras,3305,Macaé - Rio das Ostras - Cabo Frio
+43051080510,RA 01 - Centro,430510805,Caxias do Sul,4305108,Caxias do Sul,43016,Caxias do Sul,4302,Nordeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430036,Caxias do Sul,4307,Caxias do Sul
+43051080511,RA 02 - Santa Lúcia,430510805,Caxias do Sul,4305108,Caxias do Sul,43016,Caxias do Sul,4302,Nordeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430036,Caxias do Sul,4307,Caxias do Sul
+43051080512,RA 03 - Fátima,430510805,Caxias do Sul,4305108,Caxias do Sul,43016,Caxias do Sul,4302,Nordeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430036,Caxias do Sul,4307,Caxias do Sul
+43051080513,RA 04 - Cruzeiro,430510805,Caxias do Sul,4305108,Caxias do Sul,43016,Caxias do Sul,4302,Nordeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430036,Caxias do Sul,4307,Caxias do Sul
+43051080514,RA 05 - Esplanada,430510805,Caxias do Sul,4305108,Caxias do Sul,43016,Caxias do Sul,4302,Nordeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430036,Caxias do Sul,4307,Caxias do Sul
+43051080515,RA 06 - Rizzo,430510805,Caxias do Sul,4305108,Caxias do Sul,43016,Caxias do Sul,4302,Nordeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430036,Caxias do Sul,4307,Caxias do Sul
+43051080516,RA 07 - Forqueta,430510805,Caxias do Sul,4305108,Caxias do Sul,43016,Caxias do Sul,4302,Nordeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430036,Caxias do Sul,4307,Caxias do Sul
+43051080517,RA 08 - Ana Rech,430510805,Caxias do Sul,4305108,Caxias do Sul,43016,Caxias do Sul,4302,Nordeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430036,Caxias do Sul,4307,Caxias do Sul
+43051080518,RA 09 - Galópolis,430510805,Caxias do Sul,4305108,Caxias do Sul,43016,Caxias do Sul,4302,Nordeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430036,Caxias do Sul,4307,Caxias do Sul
+43051080519,RA 10 - Serrano,430510805,Caxias do Sul,4305108,Caxias do Sul,43016,Caxias do Sul,4302,Nordeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430036,Caxias do Sul,4307,Caxias do Sul
+43051080520,RA 11 - Planalto,430510805,Caxias do Sul,4305108,Caxias do Sul,43016,Caxias do Sul,4302,Nordeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430036,Caxias do Sul,4307,Caxias do Sul
+43051080521,RA 12 - Presidente Vargas,430510805,Caxias do Sul,4305108,Caxias do Sul,43016,Caxias do Sul,4302,Nordeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430036,Caxias do Sul,4307,Caxias do Sul
+43051080522,RA 13 - São Giácomo,430510805,Caxias do Sul,4305108,Caxias do Sul,43016,Caxias do Sul,4302,Nordeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430036,Caxias do Sul,4307,Caxias do Sul
+43051080523,RA 14 - Nossa Senhora da Saúde,430510805,Caxias do Sul,4305108,Caxias do Sul,43016,Caxias do Sul,4302,Nordeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430036,Caxias do Sul,4307,Caxias do Sul
+43051080524,RA 15 - Santa Fé,430510805,Caxias do Sul,4305108,Caxias do Sul,43016,Caxias do Sul,4302,Nordeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430036,Caxias do Sul,4307,Caxias do Sul
+43054390501,Área de Planejamento 01,430543905,Chuí,4305439,Chuí,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+31186010507,Riacho,311860105,Contagem,3118601,Contagem,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31186010509,Eldorado,311860105,Contagem,3118601,Contagem,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31186010510,Cinco,311860105,Contagem,3118601,Contagem,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31186010512,Perobas,311860105,Contagem,3118601,Contagem,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31186010513,Colorado,311860105,Contagem,3118601,Contagem,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31186010514,Laguna,311860105,Contagem,3118601,Contagem,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31186010515,São Joaquim,311860105,Contagem,3118601,Contagem,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31186010516,Confisco,311860105,Contagem,3118601,Contagem,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31186010517,Ceasa,311860105,Contagem,3118601,Contagem,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31186010518,Boa Vista,311860105,Contagem,3118601,Contagem,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31186010519,Tapera,311860105,Contagem,3118601,Contagem,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31186010520,Estrela D'alva,311860105,Contagem,3118601,Contagem,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31186010521,Nacional,311860105,Contagem,3118601,Contagem,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31186010522,Bom Jesus,311860105,Contagem,3118601,Contagem,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31186010523,Sede,311860105,Contagem,3118601,Contagem,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31186010524,VM5,311860105,Contagem,3118601,Contagem,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31186010525,Bernardo Monteiro,311860105,Contagem,3118601,Contagem,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31186010526,Petrolândia,311860105,Contagem,3118601,Contagem,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31186010527,Nova Contagem,311860105,Contagem,3118601,Contagem,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31186010528,Vargem das Flores,311860105,Contagem,3118601,Contagem,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31186011001,Cidade Industrial,311860110,Parque Industrial,3118601,Contagem,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31186011002,Jardim Industrial,311860110,Parque Industrial,3118601,Contagem,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31186011003,Industrial,311860110,Parque Industrial,3118601,Contagem,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31186011004,Inconfidentes,311860110,Parque Industrial,3118601,Contagem,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31186011005,Amazonas,311860110,Parque Industrial,3118601,Contagem,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31186011006,Bandeirantes,311860110,Parque Industrial,3118601,Contagem,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31186011007,Riacho,311860110,Parque Industrial,3118601,Contagem,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31186011008,Jardim Riacho,311860110,Parque Industrial,3118601,Contagem,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31186011009,Eldorado,311860110,Parque Industrial,3118601,Contagem,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31186011011,Água Branca,311860110,Parque Industrial,3118601,Contagem,31030,Belo Horizonte,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310001,Belo Horizonte,3101,Belo Horizonte
+31189080501,Região Administrativa 1,311890805,Cordisburgo,3118908,Cordisburgo,31027,Sete Lagoas,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310002,Sete Lagoas,3101,Belo Horizonte
+31189080502,Região Administrativa 2,311890805,Cordisburgo,3118908,Cordisburgo,31027,Sete Lagoas,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310002,Sete Lagoas,3101,Belo Horizonte
+31189080503,Região Administrativa 3,311890805,Cordisburgo,3118908,Cordisburgo,31027,Sete Lagoas,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310002,Sete Lagoas,3101,Belo Horizonte
+31189080504,Região Administrativa 4,311890805,Cordisburgo,3118908,Cordisburgo,31027,Sete Lagoas,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310002,Sete Lagoas,3101,Belo Horizonte
+31189080505,Região Administrativa 5,311890805,Cordisburgo,3118908,Cordisburgo,31027,Sete Lagoas,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310002,Sete Lagoas,3101,Belo Horizonte
+31189080506,Região Administrativa 6,311890805,Cordisburgo,3118908,Cordisburgo,31027,Sete Lagoas,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310002,Sete Lagoas,3101,Belo Horizonte
+31189080507,Região Administrativa 7,311890805,Cordisburgo,3118908,Cordisburgo,31027,Sete Lagoas,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310002,Sete Lagoas,3101,Belo Horizonte
+31189080508,Região Administrativa 8,311890805,Cordisburgo,3118908,Cordisburgo,31027,Sete Lagoas,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310002,Sete Lagoas,3101,Belo Horizonte
+51034030540,Administração Regional Norte,510340305,Cuiabá,5103403,Cuiabá,51017,Cuiabá,5104,Centro-Sul Mato-grossense,51,MT,Mato Grosso,5,CO,Centro-Oeste,510001,Cuiabá,5101,Cuiabá
+51034030541,Administração Regional Centro-Oeste,510340305,Cuiabá,5103403,Cuiabá,51017,Cuiabá,5104,Centro-Sul Mato-grossense,51,MT,Mato Grosso,5,CO,Centro-Oeste,510001,Cuiabá,5101,Cuiabá
+51034030542,Administração Regional Centro-Leste,510340305,Cuiabá,5103403,Cuiabá,51017,Cuiabá,5104,Centro-Sul Mato-grossense,51,MT,Mato Grosso,5,CO,Centro-Oeste,510001,Cuiabá,5101,Cuiabá
+51034031040,Administração Regional Norte,510340310,Coxipó da Ponte,5103403,Cuiabá,51017,Cuiabá,5104,Centro-Sul Mato-grossense,51,MT,Mato Grosso,5,CO,Centro-Oeste,510001,Cuiabá,5101,Cuiabá
+51034031042,Administração Regional Centro-Leste,510340310,Coxipó da Ponte,5103403,Cuiabá,51017,Cuiabá,5104,Centro-Sul Mato-grossense,51,MT,Mato Grosso,5,CO,Centro-Oeste,510001,Cuiabá,5101,Cuiabá
+51034031043,Administração Regional Sul-Leste,510340310,Coxipó da Ponte,5103403,Cuiabá,51017,Cuiabá,5104,Centro-Sul Mato-grossense,51,MT,Mato Grosso,5,CO,Centro-Oeste,510001,Cuiabá,5101,Cuiabá
+41069020501,Administração Regional da Matriz,410690205,Curitiba,4106902,Curitiba,41037,Curitiba,4110,Metropolitana de Curitiba,41,PR,Paraná,4,S,Sul,410001,Curitiba,4101,Curitiba
+41069020502,Administração Regional do Boqueirão,410690205,Curitiba,4106902,Curitiba,41037,Curitiba,4110,Metropolitana de Curitiba,41,PR,Paraná,4,S,Sul,410001,Curitiba,4101,Curitiba
+41069020503,Administração Regional do Cajuru,410690205,Curitiba,4106902,Curitiba,41037,Curitiba,4110,Metropolitana de Curitiba,41,PR,Paraná,4,S,Sul,410001,Curitiba,4101,Curitiba
+41069020504,Administração Regional da Boa Vista,410690205,Curitiba,4106902,Curitiba,41037,Curitiba,4110,Metropolitana de Curitiba,41,PR,Paraná,4,S,Sul,410001,Curitiba,4101,Curitiba
+41069020505,Administração Regional de Santa Felicidade,410690205,Curitiba,4106902,Curitiba,41037,Curitiba,4110,Metropolitana de Curitiba,41,PR,Paraná,4,S,Sul,410001,Curitiba,4101,Curitiba
+41069020506,Administração Regional do Portão,410690205,Curitiba,4106902,Curitiba,41037,Curitiba,4110,Metropolitana de Curitiba,41,PR,Paraná,4,S,Sul,410001,Curitiba,4101,Curitiba
+41069020507,Administração Regional Pinheirinho,410690205,Curitiba,4106902,Curitiba,41037,Curitiba,4110,Metropolitana de Curitiba,41,PR,Paraná,4,S,Sul,410001,Curitiba,4101,Curitiba
+41069020508,Administração Regional do Bairro Novo,410690205,Curitiba,4106902,Curitiba,41037,Curitiba,4110,Metropolitana de Curitiba,41,PR,Paraná,4,S,Sul,410001,Curitiba,4101,Curitiba
+41069020509,Administração Regional da Cidade Industrial de Curitiba,410690205,Curitiba,4106902,Curitiba,41037,Curitiba,4110,Metropolitana de Curitiba,41,PR,Paraná,4,S,Sul,410001,Curitiba,4101,Curitiba
+41069020510,Administração Regional do Tatuquara,410690205,Curitiba,4106902,Curitiba,41037,Curitiba,4110,Metropolitana de Curitiba,41,PR,Paraná,4,S,Sul,410001,Curitiba,4101,Curitiba
+43066010506,Sede,430660105,Dom Pedrito,4306601,Dom Pedrito,43031,Campanha Meridional,4306,Sudoeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430010,Bagé,4302,Pelotas
+43066010507,Caveiras,430660105,Dom Pedrito,4306601,Dom Pedrito,43031,Campanha Meridional,4306,Sudoeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430010,Bagé,4302,Pelotas
+43066010508,Vacaiquá,430660105,Dom Pedrito,4306601,Dom Pedrito,43031,Campanha Meridional,4306,Sudoeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430010,Bagé,4302,Pelotas
+43066010509,Ponche Verde,430660105,Dom Pedrito,4306601,Dom Pedrito,43031,Campanha Meridional,4306,Sudoeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430010,Bagé,4302,Pelotas
+43066010510,Fontouras,430660105,Dom Pedrito,4306601,Dom Pedrito,43031,Campanha Meridional,4306,Sudoeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430010,Bagé,4302,Pelotas
+43077080510,Leste,430770805,Esteio,4307708,Esteio,43026,Porto Alegre,4305,Metropolitana de Porto Alegre,43,RS,Rio Grande do Sul,4,S,Sul,430001,Porto Alegre,4301,Porto Alegre
+43077080515,Norte,430770805,Esteio,4307708,Esteio,43026,Porto Alegre,4305,Metropolitana de Porto Alegre,43,RS,Rio Grande do Sul,4,S,Sul,430001,Porto Alegre,4301,Porto Alegre
+43077080520,Oeste,430770805,Esteio,4307708,Esteio,43026,Porto Alegre,4305,Metropolitana de Porto Alegre,43,RS,Rio Grande do Sul,4,S,Sul,430001,Porto Alegre,4301,Porto Alegre
+43077080525,Sul,430770805,Esteio,4307708,Esteio,43026,Porto Alegre,4305,Metropolitana de Porto Alegre,43,RS,Rio Grande do Sul,4,S,Sul,430001,Porto Alegre,4301,Porto Alegre
+29108000506,Mangabeira,291080005,Feira de Santana,2910800,Feira de Santana,29012,Feira de Santana,2903,Centro Norte Baiano,29,BA,Bahia,2,NE,Nordeste,290029,Feira de Santana,2910,Feira de Santana
+29108000507,Pampalona,291080005,Feira de Santana,2910800,Feira de Santana,29012,Feira de Santana,2903,Centro Norte Baiano,29,BA,Bahia,2,NE,Nordeste,290029,Feira de Santana,2910,Feira de Santana
+29108000508,Santana,291080005,Feira de Santana,2910800,Feira de Santana,29012,Feira de Santana,2903,Centro Norte Baiano,29,BA,Bahia,2,NE,Nordeste,290029,Feira de Santana,2910,Feira de Santana
+29108000509,Santo Antônio,291080005,Feira de Santana,2910800,Feira de Santana,29012,Feira de Santana,2903,Centro Norte Baiano,29,BA,Bahia,2,NE,Nordeste,290029,Feira de Santana,2910,Feira de Santana
+29108000511,Subae,291080005,Feira de Santana,2910800,Feira de Santana,29012,Feira de Santana,2903,Centro Norte Baiano,29,BA,Bahia,2,NE,Nordeste,290029,Feira de Santana,2910,Feira de Santana
+23044000513,Região administrativa I,230440005,Fortaleza,2304400,Fortaleza,23016,Fortaleza,2303,Metropolitana de Fortaleza,23,CE,Ceará,2,NE,Nordeste,230001,Fortaleza,2301,Fortaleza
+23044000514,Região administrativa II,230440005,Fortaleza,2304400,Fortaleza,23016,Fortaleza,2303,Metropolitana de Fortaleza,23,CE,Ceará,2,NE,Nordeste,230001,Fortaleza,2301,Fortaleza
+23044000515,Região administrativa III,230440005,Fortaleza,2304400,Fortaleza,23016,Fortaleza,2303,Metropolitana de Fortaleza,23,CE,Ceará,2,NE,Nordeste,230001,Fortaleza,2301,Fortaleza
+23044000516,Região administrativa IV,230440005,Fortaleza,2304400,Fortaleza,23016,Fortaleza,2303,Metropolitana de Fortaleza,23,CE,Ceará,2,NE,Nordeste,230001,Fortaleza,2301,Fortaleza
+23044000517,Região administrativa V,230440005,Fortaleza,2304400,Fortaleza,23016,Fortaleza,2303,Metropolitana de Fortaleza,23,CE,Ceará,2,NE,Nordeste,230001,Fortaleza,2301,Fortaleza
+23044000518,Região administrativa VI,230440005,Fortaleza,2304400,Fortaleza,23016,Fortaleza,2303,Metropolitana de Fortaleza,23,CE,Ceará,2,NE,Nordeste,230001,Fortaleza,2301,Fortaleza
+23044000519,Região administrativa VII,230440005,Fortaleza,2304400,Fortaleza,23016,Fortaleza,2303,Metropolitana de Fortaleza,23,CE,Ceará,2,NE,Nordeste,230001,Fortaleza,2301,Fortaleza
+23044000520,Região administrativa VIII,230440005,Fortaleza,2304400,Fortaleza,23016,Fortaleza,2303,Metropolitana de Fortaleza,23,CE,Ceará,2,NE,Nordeste,230001,Fortaleza,2301,Fortaleza
+23044000521,Região administrativa IX,230440005,Fortaleza,2304400,Fortaleza,23016,Fortaleza,2303,Metropolitana de Fortaleza,23,CE,Ceará,2,NE,Nordeste,230001,Fortaleza,2301,Fortaleza
+23044000522,Região administrativa X,230440005,Fortaleza,2304400,Fortaleza,23016,Fortaleza,2303,Metropolitana de Fortaleza,23,CE,Ceará,2,NE,Nordeste,230001,Fortaleza,2301,Fortaleza
+23044000523,Região administrativa XI,230440005,Fortaleza,2304400,Fortaleza,23016,Fortaleza,2303,Metropolitana de Fortaleza,23,CE,Ceará,2,NE,Nordeste,230001,Fortaleza,2301,Fortaleza
+23044000524,Região administrativa XII,230440005,Fortaleza,2304400,Fortaleza,23016,Fortaleza,2303,Metropolitana de Fortaleza,23,CE,Ceará,2,NE,Nordeste,230001,Fortaleza,2301,Fortaleza
+52087070501,U.T.P. Central,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070502,U.T.P. Sul,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070503,U.T.P. Marista,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070504,U.T.P. Oeste,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070505,U.T.P. Aeroporto,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070506,U.T.P. Norte Ferroviário,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070507,U.T.P. Vila Nova,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070508,U.T.P. Leste Universitário,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070509,U.T.P. Jardim Goiás,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070510,U.T.P. Alto da Glória e Redenção,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070511,U.T.P. Santo Antonio,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070512,U.T.P. Pedro Ludovico/Bela Vista/Jardins das Esmeraldas,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070513,U.T.P. Bueno,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070514,U.T.P. Nova Suiça,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070515,U.T.P. Parque Amazônia,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070516,U.T.P. Jardim América,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070517,U.T.P. Sudoeste,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070518,U.T.P. Cidade Jardim,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070519,U.T.P. Coimbra,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070520,U.T.P. Campinas,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070521,U.T.P. Aeroviários,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070522,U.T.P. Marechal Rondon,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070523,U.T.P. Criméia Leste,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070524,U.T.P. Negrão de Lima,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070525,U.T.P. Bairro Feliz,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070526,U.T.P. Jardim Novo Mundo,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070527,U.T.P. Riviera/Água Branca,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070528,U.T.P. Autódromo ou Parque Lozandes,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070529,U.T.P. Parque das Laranjeiras e Jardim da Luz,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070530,U.T.P. Jardim Atlântico,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070531,U.T.P. Jardim Europa,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070532,U.T.P. Novo Horizonte/Faiçalville,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070533,U.T.P. Celina Park/Recreio dos Funcionários,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070534,U.T.P. Caravelas,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070535,U.T.P. Baliza-Itaipu,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070536,U.T.P. Parque Santa Rita,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070537,U.T.P. Parque Oeste Industrial,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070538,U.T.P. João Braz,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070539,U.T.P. Vila Rizzo,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070540,U.T.P. Parque Bom Jesus,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070541,U.T.P. Vera Cruz,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070542,U.T.P. Jardim Petrópolis,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070543,U.T.P. Vila Regina/Parque Industrial Paulista/Santos Dumont,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070544,U.T.P. Cândida de Morais/Maria Dilce,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070545,U.T.P. Capuava,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070546,U.T.P. Urias Magalhães,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070547,U.T.P. Goiânia II,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070548,U.T.P. Santa Genoveva,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070549,U.T.P. Aeroporto Internacional Santa Genoveva,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070550,U.T.P. Jaó,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070551,U.T.P. Santo Hilário,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070552,U.T.P. Vila Pedroso,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070553,U.T.P. Chácaras São Joaquim,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070554,U.T.P. Mutirão e Curitiba,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070555,U.T.P. São Domingos,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070556,U.T.P. Finsocial,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070557,U.T.P. Jardim Balneário Meia Ponte/Mansões Goianas,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070558,U.T.P. Campus Universitário/Conjunto Itatiaia,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070559,U.T.P. Vila Jardim São Judas Tadeu/Jardim Pompéia,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070560,U.T.P. Jardim Guanabara,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070561,U.T.P. CEASA/Aldeia do Vale,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070562,U.T.P. Jardim Primavera,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+52087070563,U.T.P. Zona Rural,520870705,Goiânia,5208707,Goiânia,52010,Goiânia,5203,Centro Goiano,52,GO,Goiás,5,CO,Centro-Oeste,520001,Goiânia,5201,Goiânia
+33018760506,Sub-região da Orla,330187605,Iguaba Grande,3301876,Iguaba Grande,33010,Lagos,3304,Baixadas,33,RJ,Rio de Janeiro,3,SE,Sudeste,330013,Cabo Frio,3305,Macaé - Rio das Ostras - Cabo Frio
+33018760507,Sub-região do Arrastão das Pedras,330187605,Iguaba Grande,3301876,Iguaba Grande,33010,Lagos,3304,Baixadas,33,RJ,Rio de Janeiro,3,SE,Sudeste,330013,Cabo Frio,3305,Macaé - Rio das Ostras - Cabo Frio
+33018760508,Sub-região de Sapeatiba,330187605,Iguaba Grande,3301876,Iguaba Grande,33010,Lagos,3304,Baixadas,33,RJ,Rio de Janeiro,3,SE,Sudeste,330013,Cabo Frio,3305,Macaé - Rio das Ostras - Cabo Frio
+33018760509,Sub-região Área da Lagoa,330187605,Iguaba Grande,3301876,Iguaba Grande,33010,Lagos,3304,Baixadas,33,RJ,Rio de Janeiro,3,SE,Sudeste,330013,Cabo Frio,3305,Macaé - Rio das Ostras - Cabo Frio
+31324040506,1 Subdistrito,313240405,Itajubá,3132404,Itajubá,31056,Itajubá,3110,Sul/Sudoeste de Minas,31,MG,Minas Gerais,3,SE,Sudeste,310052,Itajubá,3109,Pouso Alegre
+31324040507,Piedade,313240405,Itajubá,3132404,Itajubá,31056,Itajubá,3110,Sul/Sudoeste de Minas,31,MG,Minas Gerais,3,SE,Sudeste,310052,Itajubá,3109,Pouso Alegre
+33022700501,Japeri,330227005,Japeri,3302270,Japeri,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33022700502,Engenheiro Pedreira,330227005,Japeri,3302270,Japeri,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33022700503,Marajoara,330227005,Japeri,3302270,Japeri,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33022700504,Rio D'Ouro,330227005,Japeri,3302270,Japeri,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33022700505,Pedra Lisa,330227005,Japeri,3302270,Japeri,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+31367020506,Unidade Territorial I,313670205,Juiz de Fora,3136702,Juiz de Fora,31065,Juiz de Fora,3112,Zona da Mata,31,MG,Minas Gerais,3,SE,Sudeste,310027,Juiz de Fora,3106,Juíz de Fora
+31367020507,Unidade Territorial II,313670205,Juiz de Fora,3136702,Juiz de Fora,31065,Juiz de Fora,3112,Zona da Mata,31,MG,Minas Gerais,3,SE,Sudeste,310027,Juiz de Fora,3106,Juíz de Fora
+31367020508,Unidade Territorial III,313670205,Juiz de Fora,3136702,Juiz de Fora,31065,Juiz de Fora,3112,Zona da Mata,31,MG,Minas Gerais,3,SE,Sudeste,310027,Juiz de Fora,3106,Juíz de Fora
+31367020509,Unidade Territorial IV,313670205,Juiz de Fora,3136702,Juiz de Fora,31065,Juiz de Fora,3112,Zona da Mata,31,MG,Minas Gerais,3,SE,Sudeste,310027,Juiz de Fora,3106,Juíz de Fora
+31367020511,Unidade Territorial V,313670205,Juiz de Fora,3136702,Juiz de Fora,31065,Juiz de Fora,3112,Zona da Mata,31,MG,Minas Gerais,3,SE,Sudeste,310027,Juiz de Fora,3106,Juíz de Fora
+31367020512,Unidade Territorial VI,313670205,Juiz de Fora,3136702,Juiz de Fora,31065,Juiz de Fora,3112,Zona da Mata,31,MG,Minas Gerais,3,SE,Sudeste,310027,Juiz de Fora,3106,Juíz de Fora
+31367020513,Unidade Territorial VII,313670205,Juiz de Fora,3136702,Juiz de Fora,31065,Juiz de Fora,3112,Zona da Mata,31,MG,Minas Gerais,3,SE,Sudeste,310027,Juiz de Fora,3106,Juíz de Fora
+31367020514,Unidade Territorial VIII,313670205,Juiz de Fora,3136702,Juiz de Fora,31065,Juiz de Fora,3112,Zona da Mata,31,MG,Minas Gerais,3,SE,Sudeste,310027,Juiz de Fora,3106,Juíz de Fora
+31367020516,Unidade Territorial IX,313670205,Juiz de Fora,3136702,Juiz de Fora,31065,Juiz de Fora,3112,Zona da Mata,31,MG,Minas Gerais,3,SE,Sudeste,310027,Juiz de Fora,3106,Juíz de Fora
+31367020517,Unidade Territorial X,313670205,Juiz de Fora,3136702,Juiz de Fora,31065,Juiz de Fora,3112,Zona da Mata,31,MG,Minas Gerais,3,SE,Sudeste,310027,Juiz de Fora,3106,Juíz de Fora
+31367020518,Unidade Territorial XI,313670205,Juiz de Fora,3136702,Juiz de Fora,31065,Juiz de Fora,3112,Zona da Mata,31,MG,Minas Gerais,3,SE,Sudeste,310027,Juiz de Fora,3106,Juíz de Fora
+31367020519,Unidade Territorial XII,313670205,Juiz de Fora,3136702,Juiz de Fora,31065,Juiz de Fora,3112,Zona da Mata,31,MG,Minas Gerais,3,SE,Sudeste,310027,Juiz de Fora,3106,Juíz de Fora
+31367020521,Unidade Territorial XIII,313670205,Juiz de Fora,3136702,Juiz de Fora,31065,Juiz de Fora,3112,Zona da Mata,31,MG,Minas Gerais,3,SE,Sudeste,310027,Juiz de Fora,3106,Juíz de Fora
+31367020522,Unidade Territorial XIV,313670205,Juiz de Fora,3136702,Juiz de Fora,31065,Juiz de Fora,3112,Zona da Mata,31,MG,Minas Gerais,3,SE,Sudeste,310027,Juiz de Fora,3106,Juíz de Fora
+31367020523,Unidade Territorial XV,313670205,Juiz de Fora,3136702,Juiz de Fora,31065,Juiz de Fora,3112,Zona da Mata,31,MG,Minas Gerais,3,SE,Sudeste,310027,Juiz de Fora,3106,Juíz de Fora
+31367020524,Unidade Territorial XVI,313670205,Juiz de Fora,3136702,Juiz de Fora,31065,Juiz de Fora,3112,Zona da Mata,31,MG,Minas Gerais,3,SE,Sudeste,310027,Juiz de Fora,3106,Juíz de Fora
+41137000501,Centro,411370005,Londrina,4113700,Londrina,41011,Londrina,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410021,Londrina,4105,Londrina
+41137000502,Região Norte,411370005,Londrina,4113700,Londrina,41011,Londrina,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410021,Londrina,4105,Londrina
+41137000503,Região Oeste,411370005,Londrina,4113700,Londrina,41011,Londrina,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410021,Londrina,4105,Londrina
+41137000504,Região Leste,411370005,Londrina,4113700,Londrina,41011,Londrina,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410021,Londrina,4105,Londrina
+41137000505,Região Sul,411370005,Londrina,4113700,Londrina,41011,Londrina,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410021,Londrina,4105,Londrina
+33024030501,Barra de Macaé,330240305,Macaé,3302403,Macaé,33004,Macaé,3302,Norte Fluminense,33,RJ,Rio de Janeiro,3,SE,Sudeste,330014,Macaé - Rio das Ostras,3305,Macaé - Rio das Ostras - Cabo Frio
+33024030502,Aeroporto,330240305,Macaé,3302403,Macaé,33004,Macaé,3302,Norte Fluminense,33,RJ,Rio de Janeiro,3,SE,Sudeste,330014,Macaé - Rio das Ostras,3305,Macaé - Rio das Ostras - Cabo Frio
+33024030503,Cabiúnas,330240305,Macaé,3302403,Macaé,33004,Macaé,3302,Norte Fluminense,33,RJ,Rio de Janeiro,3,SE,Sudeste,330014,Macaé - Rio das Ostras,3305,Macaé - Rio das Ostras - Cabo Frio
+33024030504,Imboassica,330240305,Macaé,3302403,Macaé,33004,Macaé,3302,Norte Fluminense,33,RJ,Rio de Janeiro,3,SE,Sudeste,330014,Macaé - Rio das Ostras,3305,Macaé - Rio das Ostras - Cabo Frio
+33024030505,Centro,330240305,Macaé,3302403,Macaé,33004,Macaé,3302,Norte Fluminense,33,RJ,Rio de Janeiro,3,SE,Sudeste,330014,Macaé - Rio das Ostras,3305,Macaé - Rio das Ostras - Cabo Frio
+33024030506,Nova Cidade,330240305,Macaé,3302403,Macaé,33004,Macaé,3302,Norte Fluminense,33,RJ,Rio de Janeiro,3,SE,Sudeste,330014,Macaé - Rio das Ostras,3305,Macaé - Rio das Ostras - Cabo Frio
+27043020506,Primeira Região,270430205,Maceió,2704302,Maceió,27011,Maceió,2703,Leste Alagoano,27,AL,Alagoas,2,NE,Nordeste,270001,Maceió,2701,Maceió
+27043020507,Segunda Região,270430205,Maceió,2704302,Maceió,27011,Maceió,2703,Leste Alagoano,27,AL,Alagoas,2,NE,Nordeste,270001,Maceió,2701,Maceió
+27043020508,Terceira Região,270430205,Maceió,2704302,Maceió,27011,Maceió,2703,Leste Alagoano,27,AL,Alagoas,2,NE,Nordeste,270001,Maceió,2701,Maceió
+27043020509,Quarta Região,270430205,Maceió,2704302,Maceió,27011,Maceió,2703,Leste Alagoano,27,AL,Alagoas,2,NE,Nordeste,270001,Maceió,2701,Maceió
+27043020510,Quinta Região,270430205,Maceió,2704302,Maceió,27011,Maceió,2703,Leste Alagoano,27,AL,Alagoas,2,NE,Nordeste,270001,Maceió,2701,Maceió
+27043020511,Sexta Região,270430205,Maceió,2704302,Maceió,27011,Maceió,2703,Leste Alagoano,27,AL,Alagoas,2,NE,Nordeste,270001,Maceió,2701,Maceió
+27043020512,Sétima Região,270430205,Maceió,2704302,Maceió,27011,Maceió,2703,Leste Alagoano,27,AL,Alagoas,2,NE,Nordeste,270001,Maceió,2701,Maceió
+27043020513,Oitava Região,270430205,Maceió,2704302,Maceió,27011,Maceió,2703,Leste Alagoano,27,AL,Alagoas,2,NE,Nordeste,270001,Maceió,2701,Maceió
+13026030506,Primeira R.A.,130260305,Manaus,1302603,Manaus,13007,Manaus,1303,Centro Amazonense,13,AM,Amazonas,1,N,Norte,130001,Manaus,1301,Manaus
+13026030507,Segunda R.A.,130260305,Manaus,1302603,Manaus,13007,Manaus,1303,Centro Amazonense,13,AM,Amazonas,1,N,Norte,130001,Manaus,1301,Manaus
+13026030508,Terceira R.A.,130260305,Manaus,1302603,Manaus,13007,Manaus,1303,Centro Amazonense,13,AM,Amazonas,1,N,Norte,130001,Manaus,1301,Manaus
+13026030509,Quarta R.A.,130260305,Manaus,1302603,Manaus,13007,Manaus,1303,Centro Amazonense,13,AM,Amazonas,1,N,Norte,130001,Manaus,1301,Manaus
+13026030510,Quinta R.A.,130260305,Manaus,1302603,Manaus,13007,Manaus,1303,Centro Amazonense,13,AM,Amazonas,1,N,Norte,130001,Manaus,1301,Manaus
+13026030511,Sexta R.A.,130260305,Manaus,1302603,Manaus,13007,Manaus,1303,Centro Amazonense,13,AM,Amazonas,1,N,Norte,130001,Manaus,1301,Manaus
+13026030512,Sétima R.A.,130260305,Manaus,1302603,Manaus,13007,Manaus,1303,Centro Amazonense,13,AM,Amazonas,1,N,Norte,130001,Manaus,1301,Manaus
+13026030513,Oitava R.A.,130260305,Manaus,1302603,Manaus,13007,Manaus,1303,Centro Amazonense,13,AM,Amazonas,1,N,Norte,130001,Manaus,1301,Manaus
+13026030514,Nona R.A.,130260305,Manaus,1302603,Manaus,13007,Manaus,1303,Centro Amazonense,13,AM,Amazonas,1,N,Norte,130001,Manaus,1301,Manaus
+41152000501,Zona 1,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000502,Zona 2,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000503,Zona 3,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000504,Zona 4,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000505,Zona 5,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000506,Zona 6,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000507,Zona 7,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000508,Zona 8,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000509,Zona 9,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000510,Zona 10,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000511,Zona 11,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000512,Zona 12,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000513,Zona 13,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000514,Zona 14,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000515,Zona 15,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000517,Zona 17,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000518,Zona 18,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000519,Zona 19,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000520,Zona 20,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000521,Zona 21,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000522,Zona 22,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000523,Zona 23,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000524,Zona 24,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000525,Zona 25,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000526,Zona 26,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000527,Zona 27,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000528,Zona 28,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000529,Zona 29,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000530,Zona 30,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000531,Zona 31,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000535,Zona 35,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000536,Zona 36,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000537,Zona 37,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000538,Zona 38,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000539,Zona 39,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000540,Zona 40,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000541,Zona 41,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000542,Zona 42,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000543,Zona 43,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000544,Zona 44,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000545,Zona 45,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000546,Zona 46,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000547,Zona 47,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000548,Zona 48,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152000550,Zona Central,411520005,Maringá,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152001034,Zona 34,411520010,Floriano,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+41152001533,Zona 33,411520015,Iguatemi,4115200,Maringá,41009,Maringá,4103,Norte Central Paranaense,41,PR,Paraná,4,S,Sul,410014,Maringá,4104,Maringá
+24081020506,R.A. Norte,240810205,Natal,2408102,Natal,24018,Natal,2404,Leste Potiguar,24,RN,Rio Grande do Norte,2,NE,Nordeste,240001,Natal,2401,Natal
+24081020507,R.A. Sul,240810205,Natal,2408102,Natal,24018,Natal,2404,Leste Potiguar,24,RN,Rio Grande do Norte,2,NE,Nordeste,240001,Natal,2401,Natal
+24081020508,R.A. Leste,240810205,Natal,2408102,Natal,24018,Natal,2404,Leste Potiguar,24,RN,Rio Grande do Norte,2,NE,Nordeste,240001,Natal,2401,Natal
+24081020509,R.A. Oeste,240810205,Natal,2408102,Natal,24018,Natal,2404,Leste Potiguar,24,RN,Rio Grande do Norte,2,NE,Nordeste,240001,Natal,2401,Natal
+33035000510,Unidade Regional de Governo Centro - URG I,330350005,Nova Iguaçu,3303500,Nova Iguaçu,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33035000511,Unidade Regional de Governo da Posse - URG II,330350005,Nova Iguaçu,3303500,Nova Iguaçu,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33035000512,Unidade Regional de Governo de Comendador Soares - URG III,330350005,Nova Iguaçu,3303500,Nova Iguaçu,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33035000516,Unidade Regional de Governo de Cabuçu - URG VII,330350005,Nova Iguaçu,3303500,Nova Iguaçu,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33035000517,Unidade Regional de Governo de Km 32 - URG VIII,330350005,Nova Iguaçu,3303500,Nova Iguaçu,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33035000518,Unidade Regional de Governo de Austim - URG IX,330350005,Nova Iguaçu,3303500,Nova Iguaçu,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33035000519,Unidade Regional de Governo de Vila de Cava - URG X,330350005,Nova Iguaçu,3303500,Nova Iguaçu,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33035000520,Unidade Regional de Governo de Miguel Couto - URG XI,330350005,Nova Iguaçu,3303500,Nova Iguaçu,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33035000521,"U.R.G. de Tinguá,Adrianópolis,Rio D'Ouro e Jaceruba-URG XII",330350005,Nova Iguaçu,3303500,Nova Iguaçu,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+43141000501,"Região do Bairro Centro ""Centro e Vila Vergueiro""",431410005,Passo Fundo,4314100,Passo Fundo,43010,Passo Fundo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430025,Passo Fundo,4306,Passo Fundo
+43141000502,Região do Bairro Boqueirão,431410005,Passo Fundo,4314100,Passo Fundo,43010,Passo Fundo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430025,Passo Fundo,4306,Passo Fundo
+43141000503,Região do Bairro Vera Cruz,431410005,Passo Fundo,4314100,Passo Fundo,43010,Passo Fundo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430025,Passo Fundo,4306,Passo Fundo
+43141000504,Região do Bairro Petrópolis,431410005,Passo Fundo,4314100,Passo Fundo,43010,Passo Fundo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430025,Passo Fundo,4306,Passo Fundo
+43141000505,Região do Bairro São Luiz Gonzaga,431410005,Passo Fundo,4314100,Passo Fundo,43010,Passo Fundo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430025,Passo Fundo,4306,Passo Fundo
+43141000506,"Região do Bairro ""Vila Cruzeiro""",431410005,Passo Fundo,4314100,Passo Fundo,43010,Passo Fundo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430025,Passo Fundo,4306,Passo Fundo
+43141000507,Região do Bairro Lucas de Araújo,431410005,Passo Fundo,4314100,Passo Fundo,43010,Passo Fundo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430025,Passo Fundo,4306,Passo Fundo
+43141000508,Região do Bairro Santa Marta,431410005,Passo Fundo,4314100,Passo Fundo,43010,Passo Fundo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430025,Passo Fundo,4306,Passo Fundo
+43141000509,Região do Bairro Integração,431410005,Passo Fundo,4314100,Passo Fundo,43010,Passo Fundo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430025,Passo Fundo,4306,Passo Fundo
+43141000510,"Região do Bairro ""Vila Vitor Issler""",431410005,Passo Fundo,4314100,Passo Fundo,43010,Passo Fundo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430025,Passo Fundo,4306,Passo Fundo
+43141000511,Região do Bairro São José,431410005,Passo Fundo,4314100,Passo Fundo,43010,Passo Fundo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430025,Passo Fundo,4306,Passo Fundo
+43141000512,Região do Bairro São Cristóvão,431410005,Passo Fundo,4314100,Passo Fundo,43010,Passo Fundo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430025,Passo Fundo,4306,Passo Fundo
+43141000513,Região do Bairro Roselândia,431410005,Passo Fundo,4314100,Passo Fundo,43010,Passo Fundo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430025,Passo Fundo,4306,Passo Fundo
+43141000514,"Região do Bairro ""Vila Mattos""",431410005,Passo Fundo,4314100,Passo Fundo,43010,Passo Fundo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430025,Passo Fundo,4306,Passo Fundo
+43141000515,"Região do Bairro Annes ""Vila Fátima e Vila Annes""",431410005,Passo Fundo,4314100,Passo Fundo,43010,Passo Fundo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430025,Passo Fundo,4306,Passo Fundo
+43141000516,Região do Bairro José Alexandre Zachia,431410005,Passo Fundo,4314100,Passo Fundo,43010,Passo Fundo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430025,Passo Fundo,4306,Passo Fundo
+43141000517,"Região do Bairro Valinhos ""Loteamento Industrial e São Lucas",431410005,Passo Fundo,4314100,Passo Fundo,43010,Passo Fundo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430025,Passo Fundo,4306,Passo Fundo
+43141000518,"Região do Bairro ""Vila Luíza""",431410005,Passo Fundo,4314100,Passo Fundo,43010,Passo Fundo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430025,Passo Fundo,4306,Passo Fundo
+43141000519,"Região do Bairro ""Vila Rodrigues""",431410005,Passo Fundo,4314100,Passo Fundo,43010,Passo Fundo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430025,Passo Fundo,4306,Passo Fundo
+43141000520,"Região do Bairro ""Vila Santa Maria""",431410005,Passo Fundo,4314100,Passo Fundo,43010,Passo Fundo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430025,Passo Fundo,4306,Passo Fundo
+43141000521,Região do Bairro Planaltina,431410005,Passo Fundo,4314100,Passo Fundo,43010,Passo Fundo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430025,Passo Fundo,4306,Passo Fundo
+43141000522,Região do Bairro Nenê Graeff,431410005,Passo Fundo,4314100,Passo Fundo,43010,Passo Fundo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430025,Passo Fundo,4306,Passo Fundo
+43144070513,Três Vendas,431440705,Pelotas,4314407,Pelotas,43033,Pelotas,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43144070514,Barragem,431440705,Pelotas,4314407,Pelotas,43033,Pelotas,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43144070515,Fragata,431440705,Pelotas,4314407,Pelotas,43033,Pelotas,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43144070516,Centro,431440705,Pelotas,4314407,Pelotas,43033,Pelotas,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43144070518,Areal,431440705,Pelotas,4314407,Pelotas,43033,Pelotas,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43144070519,Laranjal/Z3,431440705,Pelotas,4314407,Pelotas,43033,Pelotas,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43144070520,São Gonçalo,431440705,Pelotas,4314407,Pelotas,43033,Pelotas,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+26111010506,RA Centro,261110105,Petrolina,2611101,Petrolina,26005,Petrolina,2602,São Francisco Pernambucano,26,PE,Pernambuco,2,NE,Nordeste,260015,Petrolina,2604,Petrolina
+26111010507,RA Oeste,261110105,Petrolina,2611101,Petrolina,26005,Petrolina,2602,São Francisco Pernambucano,26,PE,Pernambuco,2,NE,Nordeste,260015,Petrolina,2604,Petrolina
+26111010508,RA Norte,261110105,Petrolina,2611101,Petrolina,26005,Petrolina,2602,São Francisco Pernambucano,26,PE,Pernambuco,2,NE,Nordeste,260015,Petrolina,2604,Petrolina
+26111010509,RA Leste,261110105,Petrolina,2611101,Petrolina,26005,Petrolina,2602,São Francisco Pernambucano,26,PE,Pernambuco,2,NE,Nordeste,260015,Petrolina,2604,Petrolina
+50066060501,Setor Vilela,500660605,Ponta Porã,5006606,Ponta Porã,50010,Dourados,5004,Sudoeste de Mato Grosso do Sul,50,MS,Mato Grosso do Sul,5,CO,Centro-Oeste,500008,Ponta Porã,5002,Dourados
+50066060502,Setor Ypê,500660605,Ponta Porã,5006606,Ponta Porã,50010,Dourados,5004,Sudoeste de Mato Grosso do Sul,50,MS,Mato Grosso do Sul,5,CO,Centro-Oeste,500008,Ponta Porã,5002,Dourados
+50066060503,Setor Centro,500660605,Ponta Porã,5006606,Ponta Porã,50010,Dourados,5004,Sudoeste de Mato Grosso do Sul,50,MS,Mato Grosso do Sul,5,CO,Centro-Oeste,500008,Ponta Porã,5002,Dourados
+50066060504,Setor Aeroporto,500660605,Ponta Porã,5006606,Ponta Porã,50010,Dourados,5004,Sudoeste de Mato Grosso do Sul,50,MS,Mato Grosso do Sul,5,CO,Centro-Oeste,500008,Ponta Porã,5002,Dourados
+50066060505,Setor Marambaia,500660605,Ponta Porã,5006606,Ponta Porã,50010,Dourados,5004,Sudoeste de Mato Grosso do Sul,50,MS,Mato Grosso do Sul,5,CO,Centro-Oeste,500008,Ponta Porã,5002,Dourados
+31521050506,1 Subdistrito,315210505,Ponte Nova,3152105,Ponte Nova,31060,Ponte Nova,3112,Zona da Mata,31,MG,Minas Gerais,3,SE,Sudeste,310030,Ponte Nova,3106,Juíz de Fora
+31521050507,2 Sub-Distrito,315210505,Ponte Nova,3152105,Ponte Nova,31060,Ponte Nova,3112,Zona da Mata,31,MG,Minas Gerais,3,SE,Sudeste,310030,Ponte Nova,3106,Juíz de Fora
+11002050506,Zona 01,110020505,Porto Velho,1100205,Porto Velho,11001,Porto Velho,1101,Madeira-Guaporé,11,RO,Rondônia,1,N,Norte,110001,Porto Velho,1101,Porto Velho
+11002050507,Zona 02,110020505,Porto Velho,1100205,Porto Velho,11001,Porto Velho,1101,Madeira-Guaporé,11,RO,Rondônia,1,N,Norte,110001,Porto Velho,1101,Porto Velho
+11002050508,Zona 03,110020505,Porto Velho,1100205,Porto Velho,11001,Porto Velho,1101,Madeira-Guaporé,11,RO,Rondônia,1,N,Norte,110001,Porto Velho,1101,Porto Velho
+11002050509,Zona 04,110020505,Porto Velho,1100205,Porto Velho,11001,Porto Velho,1101,Madeira-Guaporé,11,RO,Rondônia,1,N,Norte,110001,Porto Velho,1101,Porto Velho
+11002050510,Zona 05,110020505,Porto Velho,1100205,Porto Velho,11001,Porto Velho,1101,Madeira-Guaporé,11,RO,Rondônia,1,N,Norte,110001,Porto Velho,1101,Porto Velho
+33041440501,Centro,330414405,Queimados,3304144,Queimados,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33041440502,Nordeste,330414405,Queimados,3304144,Queimados,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33041440503,Leste,330414405,Queimados,3304144,Queimados,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33041440504,Sul,330414405,Queimados,3304144,Queimados,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33041440505,Oeste,330414405,Queimados,3304144,Queimados,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33041440506,Norte,330414405,Queimados,3304144,Queimados,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33041440507,Industrial,330414405,Queimados,3304144,Queimados,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+26116060518,RPA 01,261160605,Recife,2611606,Recife,26017,Recife,2605,Metropolitana de Recife,26,PE,Pernambuco,2,NE,Nordeste,260001,Recife,2601,Recife
+26116060519,RPA 02,261160605,Recife,2611606,Recife,26017,Recife,2605,Metropolitana de Recife,26,PE,Pernambuco,2,NE,Nordeste,260001,Recife,2601,Recife
+26116060520,RPA 03,261160605,Recife,2611606,Recife,26017,Recife,2605,Metropolitana de Recife,26,PE,Pernambuco,2,NE,Nordeste,260001,Recife,2601,Recife
+26116060521,RPA 04,261160605,Recife,2611606,Recife,26017,Recife,2605,Metropolitana de Recife,26,PE,Pernambuco,2,NE,Nordeste,260001,Recife,2601,Recife
+26116060522,RPA 05,261160605,Recife,2611606,Recife,26017,Recife,2605,Metropolitana de Recife,26,PE,Pernambuco,2,NE,Nordeste,260001,Recife,2601,Recife
+26116060523,RPA 06,261160605,Recife,2611606,Recife,26017,Recife,2605,Metropolitana de Recife,26,PE,Pernambuco,2,NE,Nordeste,260001,Recife,2601,Recife
+33045570506,Portuária,330455705,Rio de Janeiro,3304557,Rio de Janeiro,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33045570507,Centro,330455705,Rio de Janeiro,3304557,Rio de Janeiro,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33045570508,Rio Comprido,330455705,Rio de Janeiro,3304557,Rio de Janeiro,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33045570509,Botafogo,330455705,Rio de Janeiro,3304557,Rio de Janeiro,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33045570510,Copacabana,330455705,Rio de Janeiro,3304557,Rio de Janeiro,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33045570511,Lagoa,330455705,Rio de Janeiro,3304557,Rio de Janeiro,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33045570512,São Cristovão,330455705,Rio de Janeiro,3304557,Rio de Janeiro,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33045570513,Tijuca,330455705,Rio de Janeiro,3304557,Rio de Janeiro,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33045570514,Vila Isabel,330455705,Rio de Janeiro,3304557,Rio de Janeiro,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33045570515,Ramos,330455705,Rio de Janeiro,3304557,Rio de Janeiro,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33045570516,Penha,330455705,Rio de Janeiro,3304557,Rio de Janeiro,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33045570517,Méier,330455705,Rio de Janeiro,3304557,Rio de Janeiro,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33045570519,Irajá,330455705,Rio de Janeiro,3304557,Rio de Janeiro,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33045570520,Madureira,330455705,Rio de Janeiro,3304557,Rio de Janeiro,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33045570521,Jacarepaguá,330455705,Rio de Janeiro,3304557,Rio de Janeiro,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33045570522,Bangu,330455705,Rio de Janeiro,3304557,Rio de Janeiro,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33045570523,Campo Grande,330455705,Rio de Janeiro,3304557,Rio de Janeiro,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33045570524,Santa Cruz,330455705,Rio de Janeiro,3304557,Rio de Janeiro,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33045570525,Ilha do Governador,330455705,Rio de Janeiro,3304557,Rio de Janeiro,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33045570526,Ilha de Paquetá,330455705,Rio de Janeiro,3304557,Rio de Janeiro,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33045570527,Anchieta,330455705,Rio de Janeiro,3304557,Rio de Janeiro,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33045570528,Santa Teresa,330455705,Rio de Janeiro,3304557,Rio de Janeiro,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33045570529,Barra da Tijuca,330455705,Rio de Janeiro,3304557,Rio de Janeiro,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33045570530,Pavuna,330455705,Rio de Janeiro,3304557,Rio de Janeiro,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33045570531,Guaratiba,330455705,Rio de Janeiro,3304557,Rio de Janeiro,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33045570532,Inhaúma,330455705,Rio de Janeiro,3304557,Rio de Janeiro,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33045570533,Rocinha,330455705,Rio de Janeiro,3304557,Rio de Janeiro,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33045570534,Jacarezinho,330455705,Rio de Janeiro,3304557,Rio de Janeiro,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33045570535,Complexo do Alemão,330455705,Rio de Janeiro,3304557,Rio de Janeiro,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33045570536,Maré,330455705,Rio de Janeiro,3304557,Rio de Janeiro,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33045570537,Realengo,330455705,Rio de Janeiro,3304557,Rio de Janeiro,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33045570538,Cidade de Deus,330455705,Rio de Janeiro,3304557,Rio de Janeiro,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+33045570539,Vigário Geral,330455705,Rio de Janeiro,3304557,Rio de Janeiro,33018,Rio de Janeiro,3306,Metropolitana do Rio de Janeiro,33,RJ,Rio de Janeiro,3,SE,Sudeste,330001,Rio de Janeiro,3301,Rio de Janeiro
+43156020501,Unidade Censitária 01,431560205,Rio Grande,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156020502,Unidade Censitária 02,431560205,Rio Grande,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156020503,Unidade Censitária 03,431560205,Rio Grande,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156020504,Unidade Censitária 04,431560205,Rio Grande,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156020505,Unidade Censitária 05,431560205,Rio Grande,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156020506,Unidade Censitária 06,431560205,Rio Grande,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156020507,Unidade Censitária 07,431560205,Rio Grande,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156020508,Unidade Censitária 08,431560205,Rio Grande,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156020509,Unidade Censitária 09,431560205,Rio Grande,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156020510,UNidade Censitária 10,431560205,Rio Grande,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156020511,Unidade Censitária 11,431560205,Rio Grande,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156020512,Unidade Censitária 12,431560205,Rio Grande,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156020513,Unidade Censitária 13,431560205,Rio Grande,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156020514,Unidade Censitária 14,431560205,Rio Grande,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156020515,Unidade Censitária 15,431560205,Rio Grande,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156020516,Unidade Censitária 16,431560205,Rio Grande,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156020517,Unidade Censitária 17,431560205,Rio Grande,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156020518,Unidade Censitária 18,431560205,Rio Grande,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156020519,Unidade Censitária 19,431560205,Rio Grande,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156020520,Unidade Censitária 20,431560205,Rio Grande,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156020521,Unidade Censitária 21,431560205,Rio Grande,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156020522,Unidade Censitária 22,431560205,Rio Grande,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156020523,Unidade Censitária 23,431560205,Rio Grande,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156020524,Unidade Censitária 24,431560205,Rio Grande,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156020525,Unidade Censitária 25,431560205,Rio Grande,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156020526,Unidade Censitária 26,431560205,Rio Grande,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156020527,Unidade Censitária 27,431560205,Rio Grande,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156020528,Unidade Censitária 28,431560205,Rio Grande,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156020529,Unidade Censitária 29,431560205,Rio Grande,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156020530,Unidade Censitária 30,431560205,Rio Grande,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156020531,Unidade Censitária 31,431560205,Rio Grande,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156020532,Unidade Censitária 32,431560205,Rio Grande,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156020533,Unidade Censitária 33,431560205,Rio Grande,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156020534,Unidade Censitária 34,431560205,Rio Grande,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156020535,Unidade Censitária 35,431560205,Rio Grande,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156020536,Unidade Censitária 36,431560205,Rio Grande,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156020537,Unidade Censitária 37,431560205,Rio Grande,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156020538,Unidade Censitária 38,431560205,Rio Grande,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156021501,Unidade Censitária 41,431560215,Povo Novo,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156022001,Unidade Censitária 42,431560220,Quinta,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156022501,Unidade Censitária 40,431560225,Taim,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43156023001,Unidade Censitária 39,431560230,Ilha dos Marinheiros,4315602,Rio Grande,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+29274080506,Amaralina,292740805,Salvador,2927408,Salvador,29021,Salvador,2905,Metropolitana de Salvador,29,BA,Bahia,2,NE,Nordeste,290001,Salvador,2901,Salvador
+29274080507,Brotas,292740805,Salvador,2927408,Salvador,29021,Salvador,2905,Metropolitana de Salvador,29,BA,Bahia,2,NE,Nordeste,290001,Salvador,2901,Salvador
+29274080508,Conceição da Praia,292740805,Salvador,2927408,Salvador,29021,Salvador,2905,Metropolitana de Salvador,29,BA,Bahia,2,NE,Nordeste,290001,Salvador,2901,Salvador
+29274080509,Itapoã,292740805,Salvador,2927408,Salvador,29021,Salvador,2905,Metropolitana de Salvador,29,BA,Bahia,2,NE,Nordeste,290001,Salvador,2901,Salvador
+29274080510,Maré,292740805,Salvador,2927408,Salvador,29021,Salvador,2905,Metropolitana de Salvador,29,BA,Bahia,2,NE,Nordeste,290001,Salvador,2901,Salvador
+29274080511,Mares,292740805,Salvador,2927408,Salvador,29021,Salvador,2905,Metropolitana de Salvador,29,BA,Bahia,2,NE,Nordeste,290001,Salvador,2901,Salvador
+29274080512,Nazaré,292740805,Salvador,2927408,Salvador,29021,Salvador,2905,Metropolitana de Salvador,29,BA,Bahia,2,NE,Nordeste,290001,Salvador,2901,Salvador
+29274080513,Paripe,292740805,Salvador,2927408,Salvador,29021,Salvador,2905,Metropolitana de Salvador,29,BA,Bahia,2,NE,Nordeste,290001,Salvador,2901,Salvador
+29274080514,Passo,292740805,Salvador,2927408,Salvador,29021,Salvador,2905,Metropolitana de Salvador,29,BA,Bahia,2,NE,Nordeste,290001,Salvador,2901,Salvador
+29274080515,Penha,292740805,Salvador,2927408,Salvador,29021,Salvador,2905,Metropolitana de Salvador,29,BA,Bahia,2,NE,Nordeste,290001,Salvador,2901,Salvador
+29274080516,Periperi,292740805,Salvador,2927408,Salvador,29021,Salvador,2905,Metropolitana de Salvador,29,BA,Bahia,2,NE,Nordeste,290001,Salvador,2901,Salvador
+29274080517,Pilar,292740805,Salvador,2927408,Salvador,29021,Salvador,2905,Metropolitana de Salvador,29,BA,Bahia,2,NE,Nordeste,290001,Salvador,2901,Salvador
+29274080518,Pirajá,292740805,Salvador,2927408,Salvador,29021,Salvador,2905,Metropolitana de Salvador,29,BA,Bahia,2,NE,Nordeste,290001,Salvador,2901,Salvador
+29274080519,Plataforma,292740805,Salvador,2927408,Salvador,29021,Salvador,2905,Metropolitana de Salvador,29,BA,Bahia,2,NE,Nordeste,290001,Salvador,2901,Salvador
+29274080520,Santana,292740805,Salvador,2927408,Salvador,29021,Salvador,2905,Metropolitana de Salvador,29,BA,Bahia,2,NE,Nordeste,290001,Salvador,2901,Salvador
+29274080521,Santo Antônio,292740805,Salvador,2927408,Salvador,29021,Salvador,2905,Metropolitana de Salvador,29,BA,Bahia,2,NE,Nordeste,290001,Salvador,2901,Salvador
+29274080522,São Caetano,292740805,Salvador,2927408,Salvador,29021,Salvador,2905,Metropolitana de Salvador,29,BA,Bahia,2,NE,Nordeste,290001,Salvador,2901,Salvador
+29274080523,São Cristovão,292740805,Salvador,2927408,Salvador,29021,Salvador,2905,Metropolitana de Salvador,29,BA,Bahia,2,NE,Nordeste,290001,Salvador,2901,Salvador
+29274080524,São Pedro,292740805,Salvador,2927408,Salvador,29021,Salvador,2905,Metropolitana de Salvador,29,BA,Bahia,2,NE,Nordeste,290001,Salvador,2901,Salvador
+29274080525,Sé,292740805,Salvador,2927408,Salvador,29021,Salvador,2905,Metropolitana de Salvador,29,BA,Bahia,2,NE,Nordeste,290001,Salvador,2901,Salvador
+29274080526,Valéria,292740805,Salvador,2927408,Salvador,29021,Salvador,2905,Metropolitana de Salvador,29,BA,Bahia,2,NE,Nordeste,290001,Salvador,2901,Salvador
+29274080527,Vitória,292740805,Salvador,2927408,Salvador,29021,Salvador,2905,Metropolitana de Salvador,29,BA,Bahia,2,NE,Nordeste,290001,Salvador,2901,Salvador
+43169070506,Centro Urbano,431690705,Santa Maria,4316907,Santa Maria,43018,Santa Maria,4303,Centro Ocidental Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430011,Santa Maria,4303,Santa Maria
+43169070507,Norte,431690705,Santa Maria,4316907,Santa Maria,43018,Santa Maria,4303,Centro Ocidental Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430011,Santa Maria,4303,Santa Maria
+43169070508,Nordeste,431690705,Santa Maria,4316907,Santa Maria,43018,Santa Maria,4303,Centro Ocidental Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430011,Santa Maria,4303,Santa Maria
+43169070509,Leste,431690705,Santa Maria,4316907,Santa Maria,43018,Santa Maria,4303,Centro Ocidental Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430011,Santa Maria,4303,Santa Maria
+43169070510,Centro-Leste,431690705,Santa Maria,4316907,Santa Maria,43018,Santa Maria,4303,Centro Ocidental Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430011,Santa Maria,4303,Santa Maria
+43169070511,Sul,431690705,Santa Maria,4316907,Santa Maria,43018,Santa Maria,4303,Centro Ocidental Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430011,Santa Maria,4303,Santa Maria
+43169070512,Centro-Oeste,431690705,Santa Maria,4316907,Santa Maria,43018,Santa Maria,4303,Centro Ocidental Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430011,Santa Maria,4303,Santa Maria
+43169070513,Oeste,431690705,Santa Maria,4316907,Santa Maria,43018,Santa Maria,4303,Centro Ocidental Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430011,Santa Maria,4303,Santa Maria
+43175090501,Uplans 1,431750905,Santo Ângelo,4317509,Santo Ângelo,43007,Santo Ângelo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430020,Santo Ângelo,4305,Ijuí
+43175090502,Uplans 2,431750905,Santo Ângelo,4317509,Santo Ângelo,43007,Santo Ângelo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430020,Santo Ângelo,4305,Ijuí
+43175090503,Uplans 3,431750905,Santo Ângelo,4317509,Santo Ângelo,43007,Santo Ângelo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430020,Santo Ângelo,4305,Ijuí
+43175090504,Uplans 4,431750905,Santo Ângelo,4317509,Santo Ângelo,43007,Santo Ângelo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430020,Santo Ângelo,4305,Ijuí
+43175090505,Uplans 5,431750905,Santo Ângelo,4317509,Santo Ângelo,43007,Santo Ângelo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430020,Santo Ângelo,4305,Ijuí
+43175090506,Uplans 6,431750905,Santo Ângelo,4317509,Santo Ângelo,43007,Santo Ângelo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430020,Santo Ângelo,4305,Ijuí
+43175090507,Uplans 7,431750905,Santo Ângelo,4317509,Santo Ângelo,43007,Santo Ângelo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430020,Santo Ângelo,4305,Ijuí
+43175090508,Uplans 8,431750905,Santo Ângelo,4317509,Santo Ângelo,43007,Santo Ângelo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430020,Santo Ângelo,4305,Ijuí
+43175090509,Uplans 9,431750905,Santo Ângelo,4317509,Santo Ângelo,43007,Santo Ângelo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430020,Santo Ângelo,4305,Ijuí
+43175090510,Uplans 10,431750905,Santo Ângelo,4317509,Santo Ângelo,43007,Santo Ângelo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430020,Santo Ângelo,4305,Ijuí
+43175090511,Uplans 11,431750905,Santo Ângelo,4317509,Santo Ângelo,43007,Santo Ângelo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430020,Santo Ângelo,4305,Ijuí
+43175090512,Uplans 12,431750905,Santo Ângelo,4317509,Santo Ângelo,43007,Santo Ângelo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430020,Santo Ângelo,4305,Ijuí
+43175090513,Uplans 13,431750905,Santo Ângelo,4317509,Santo Ângelo,43007,Santo Ângelo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430020,Santo Ângelo,4305,Ijuí
+43175090514,Uplans 14,431750905,Santo Ângelo,4317509,Santo Ângelo,43007,Santo Ângelo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430020,Santo Ângelo,4305,Ijuí
+43175090515,Uplans 15,431750905,Santo Ângelo,4317509,Santo Ângelo,43007,Santo Ângelo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430020,Santo Ângelo,4305,Ijuí
+43175090516,Uplans 16,431750905,Santo Ângelo,4317509,Santo Ângelo,43007,Santo Ângelo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430020,Santo Ângelo,4305,Ijuí
+43175090517,Uplans 17,431750905,Santo Ângelo,4317509,Santo Ângelo,43007,Santo Ângelo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430020,Santo Ângelo,4305,Ijuí
+43175090518,Uplans 18,431750905,Santo Ângelo,4317509,Santo Ângelo,43007,Santo Ângelo,4301,Noroeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430020,Santo Ângelo,4305,Ijuí
+43185070501,Núcleo Cidade Baixa,431850705,São José do Norte,4318507,São José do Norte,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43185070502,Núcleo São José do Norte-Sul,431850705,São José do Norte,4318507,São José do Norte,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43185070503,Núcleo São José do Norte-Norte,431850705,São José do Norte,4318507,São José do Norte,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43185070504,Núcleo Centro Histórico,431850705,São José do Norte,4318507,São José do Norte,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43185070505,Núcleo Barra-Molhe Leste,431850705,São José do Norte,4318507,São José do Norte,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43185070506,Núcleo Zona Rural,431850705,São José do Norte,4318507,São José do Norte,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43185071001,Núcleo do Segundo Distrito,431850710,Bojuru,4318507,São José do Norte,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+43185071501,Núcleo do Terceiro Distrito,431850715,Estreito,4318507,São José do Norte,43035,Litoral Lagunar,4307,Sudeste Rio-grandense,43,RS,Rio Grande do Sul,4,S,Sul,430009,Pelotas,4302,Pelotas
+33052080506,Região Sul,330520805,São Pedro da Aldeia,3305208,São Pedro da Aldeia,33010,Lagos,3304,Baixadas,33,RJ,Rio de Janeiro,3,SE,Sudeste,330013,Cabo Frio,3305,Macaé - Rio das Ostras - Cabo Frio
+33052080507,Região Norte,330520805,São Pedro da Aldeia,3305208,São Pedro da Aldeia,33010,Lagos,3304,Baixadas,33,RJ,Rio de Janeiro,3,SE,Sudeste,330013,Cabo Frio,3305,Macaé - Rio das Ostras - Cabo Frio
+33052080508,Região Oeste,330520805,São Pedro da Aldeia,3305208,São Pedro da Aldeia,33010,Lagos,3304,Baixadas,33,RJ,Rio de Janeiro,3,SE,Sudeste,330013,Cabo Frio,3305,Macaé - Rio das Ostras - Cabo Frio
+33052080509,Região Leste,330520805,São Pedro da Aldeia,3305208,São Pedro da Aldeia,33010,Lagos,3304,Baixadas,33,RJ,Rio de Janeiro,3,SE,Sudeste,330013,Cabo Frio,3305,Macaé - Rio das Ostras - Cabo Frio
+31672020501,I Região Administrativa,316720205,Sete Lagoas,3167202,Sete Lagoas,31027,Sete Lagoas,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310002,Sete Lagoas,3101,Belo Horizonte
+31672020502,II Região Administrativa,316720205,Sete Lagoas,3167202,Sete Lagoas,31027,Sete Lagoas,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310002,Sete Lagoas,3101,Belo Horizonte
+31672020503,III Região Administrativa,316720205,Sete Lagoas,3167202,Sete Lagoas,31027,Sete Lagoas,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310002,Sete Lagoas,3101,Belo Horizonte
+31672020504,IV Região Administrativa,316720205,Sete Lagoas,3167202,Sete Lagoas,31027,Sete Lagoas,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310002,Sete Lagoas,3101,Belo Horizonte
+31672020505,V Região Administrativa,316720205,Sete Lagoas,3167202,Sete Lagoas,31027,Sete Lagoas,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310002,Sete Lagoas,3101,Belo Horizonte
+31672020506,VI Região Administrativa,316720205,Sete Lagoas,3167202,Sete Lagoas,31027,Sete Lagoas,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310002,Sete Lagoas,3101,Belo Horizonte
+31672020507,VII Região Administrativa,316720205,Sete Lagoas,3167202,Sete Lagoas,31027,Sete Lagoas,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310002,Sete Lagoas,3101,Belo Horizonte
+31672020508,VIII Região Administrativa,316720205,Sete Lagoas,3167202,Sete Lagoas,31027,Sete Lagoas,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310002,Sete Lagoas,3101,Belo Horizonte
+31672020509,IX Região Administrativa,316720205,Sete Lagoas,3167202,Sete Lagoas,31027,Sete Lagoas,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310002,Sete Lagoas,3101,Belo Horizonte
+31672020510,X Região Administrativa,316720205,Sete Lagoas,3167202,Sete Lagoas,31027,Sete Lagoas,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310002,Sete Lagoas,3101,Belo Horizonte
+31672020511,XI Região Administrativa,316720205,Sete Lagoas,3167202,Sete Lagoas,31027,Sete Lagoas,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310002,Sete Lagoas,3101,Belo Horizonte
+31672020512,XII Região Administrativa,316720205,Sete Lagoas,3167202,Sete Lagoas,31027,Sete Lagoas,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310002,Sete Lagoas,3101,Belo Horizonte
+31672020513,XIII Região Administrativa,316720205,Sete Lagoas,3167202,Sete Lagoas,31027,Sete Lagoas,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310002,Sete Lagoas,3101,Belo Horizonte
+31672020514,XIV Região Administrativa,316720205,Sete Lagoas,3167202,Sete Lagoas,31027,Sete Lagoas,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310002,Sete Lagoas,3101,Belo Horizonte
+31672020515,XV Região Administrativa,316720205,Sete Lagoas,3167202,Sete Lagoas,31027,Sete Lagoas,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310002,Sete Lagoas,3101,Belo Horizonte
+31672020516,XVI Região Administrativa,316720205,Sete Lagoas,3167202,Sete Lagoas,31027,Sete Lagoas,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310002,Sete Lagoas,3101,Belo Horizonte
+31672020517,XVII Região Administrativa,316720205,Sete Lagoas,3167202,Sete Lagoas,31027,Sete Lagoas,3107,Metropolitana de Belo Horizonte,31,MG,Minas Gerais,3,SE,Sudeste,310002,Sete Lagoas,3101,Belo Horizonte
+22110010506,Centro,221100105,Teresina,2211001,Teresina,22003,Teresina,2202,Centro-Norte Piauiense,22,PI,Piauí,2,NE,Nordeste,220001,Teresina,2201,Teresina
+22110010507,Leste,221100105,Teresina,2211001,Teresina,22003,Teresina,2202,Centro-Norte Piauiense,22,PI,Piauí,2,NE,Nordeste,220001,Teresina,2201,Teresina
+22110010508,Norte,221100105,Teresina,2211001,Teresina,22003,Teresina,2202,Centro-Norte Piauiense,22,PI,Piauí,2,NE,Nordeste,220001,Teresina,2201,Teresina
+22110010509,Sudeste,221100105,Teresina,2211001,Teresina,22003,Teresina,2202,Centro-Norte Piauiense,22,PI,Piauí,2,NE,Nordeste,220001,Teresina,2201,Teresina
+22110010510,Sul,221100105,Teresina,2211001,Teresina,22003,Teresina,2202,Centro-Norte Piauiense,22,PI,Piauí,2,NE,Nordeste,220001,Teresina,2201,Teresina
+32052000506,Centro,320520005,Vila Velha,3205200,Vila Velha,32009,Vitória,3203,Central Espírito-santense,32,ES,Espírito Santo,3,SE,Sudeste,320001,Vitória,3201,Vitória
+32052000507,Grande Aribiri,320520005,Vila Velha,3205200,Vila Velha,32009,Vitória,3203,Central Espírito-santense,32,ES,Espírito Santo,3,SE,Sudeste,320001,Vitória,3201,Vitória
+32052000509,Grande Ibes,320520005,Vila Velha,3205200,Vila Velha,32009,Vitória,3203,Central Espírito-santense,32,ES,Espírito Santo,3,SE,Sudeste,320001,Vitória,3201,Vitória
+32052001007,Grande Aribiri,320520010,Argolas,3205200,Vila Velha,32009,Vitória,3203,Central Espírito-santense,32,ES,Espírito Santo,3,SE,Sudeste,320001,Vitória,3201,Vitória
+32052001008,Grande Cobilândia,320520010,Argolas,3205200,Vila Velha,32009,Vitória,3203,Central Espírito-santense,32,ES,Espírito Santo,3,SE,Sudeste,320001,Vitória,3201,Vitória
+32052001507,Grande Aribiri,320520015,Ibes,3205200,Vila Velha,32009,Vitória,3203,Central Espírito-santense,32,ES,Espírito Santo,3,SE,Sudeste,320001,Vitória,3201,Vitória
+32052001508,Grande Cobilândia,320520015,Ibes,3205200,Vila Velha,32009,Vitória,3203,Central Espírito-santense,32,ES,Espírito Santo,3,SE,Sudeste,320001,Vitória,3201,Vitória
+32052001509,Grande Ibes,320520015,Ibes,3205200,Vila Velha,32009,Vitória,3203,Central Espírito-santense,32,ES,Espírito Santo,3,SE,Sudeste,320001,Vitória,3201,Vitória
+32052002010,Grande Jucu,320520020,Jucu,3205200,Vila Velha,32009,Vitória,3203,Central Espírito-santense,32,ES,Espírito Santo,3,SE,Sudeste,320001,Vitória,3201,Vitória
+32052002507,Grande Aribiri,320520025,São Torquato,3205200,Vila Velha,32009,Vitória,3203,Central Espírito-santense,32,ES,Espírito Santo,3,SE,Sudeste,320001,Vitória,3201,Vitória
+32052002508,Grande Cobilândia,320520025,São Torquato,3205200,Vila Velha,32009,Vitória,3203,Central Espírito-santense,32,ES,Espírito Santo,3,SE,Sudeste,320001,Vitória,3201,Vitória
+32053090506,Região Administrativa I - Centro,320530905,Vitória,3205309,Vitória,32009,Vitória,3203,Central Espírito-santense,32,ES,Espírito Santo,3,SE,Sudeste,320001,Vitória,3201,Vitória
+32053090507,Região Administrativa II - Santo Antônio,320530905,Vitória,3205309,Vitória,32009,Vitória,3203,Central Espírito-santense,32,ES,Espírito Santo,3,SE,Sudeste,320001,Vitória,3201,Vitória
+32053090508,Região Administrativa III - Jucutuquara,320530905,Vitória,3205309,Vitória,32009,Vitória,3203,Central Espírito-santense,32,ES,Espírito Santo,3,SE,Sudeste,320001,Vitória,3201,Vitória
+32053090509,Região Administrativa IV - Maruípe,320530905,Vitória,3205309,Vitória,32009,Vitória,3203,Central Espírito-santense,32,ES,Espírito Santo,3,SE,Sudeste,320001,Vitória,3201,Vitória
+32053090510,Região Administrativa V - Praia do Canto,320530905,Vitória,3205309,Vitória,32009,Vitória,3203,Central Espírito-santense,32,ES,Espírito Santo,3,SE,Sudeste,320001,Vitória,3201,Vitória
+32053090512,Região Administrativa VII - São Pedro,320530905,Vitória,3205309,Vitória,32009,Vitória,3203,Central Espírito-santense,32,ES,Espírito Santo,3,SE,Sudeste,320001,Vitória,3201,Vitória
+32053091013,Região Administrativa VI - Goiabeiras,320530910,Goiabeiras,3205309,Vitória,32009,Vitória,3203,Central Espírito-santense,32,ES,Espírito Santo,3,SE,Sudeste,320001,Vitória,3201,Vitória
+32053091014,Região Administrativa VIII - Jardim Camburi,320530910,Goiabeiras,3205309,Vitória,32009,Vitória,3203,Central Espírito-santense,32,ES,Espírito Santo,3,SE,Sudeste,320001,Vitória,3201,Vitória
+32053091015,Região Administrativa IX - Jardim da Penha,320530910,Goiabeiras,3205309,Vitória,32009,Vitória,3203,Central Espírito-santense,32,ES,Espírito Santo,3,SE,Sudeste,320001,Vitória,3201,Vitória
