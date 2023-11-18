@@ -188,18 +188,11 @@ label define V0001 50 `" Mato Grosso do Sul"', add
 label define V0001 51 `" Mato Grosso"', add
 label define V0001 52 `" Goiás"', add
 label define V0001 53 `" Distrito Federal"', add
-label define V0002 nan `"nan"', add
-label define V0011 nan `"nan"', add
-label define V0300 nan `"nan"', add
-label define V0010 nan `"nan"', add
 label define V1001 1 `" Região norte (uf=11 a 17)"', add
 label define V1001 2 `" Região nordeste (uf=21 a 29)  "', add
 label define V1001 3 `" Região sudeste (uf=31 a 33 e 35)"', add
 label define V1001 4 `" Região sul (uf=41 a 43)"', add
 label define V1001 5 `" Região centro"', add
-label define V1002 A relação de códigos encontra `"se no arquivo:"', add
-label define V1003 A relação de códigos encontra `"se no arquivo:"', add
-label define V1004 A relação de códigos encontra `"se no arquivo:"', add
 label define V1006 1 `" Urbana"', add
 label define V1006 2 `" Rural"', add
 label define V4001 01 `" Domicílio particular permanente ocupado "', add
@@ -225,9 +218,7 @@ label define V0201 3 `" Alugado"', add
 label define V0201 4 `" Cedido por empregador"', add
 label define V0201 5 `" Cedido de outra forma"', add
 label define V0201 6 `" Outra condição"', add
-label define V0201   `"Branco"', add
-label define V2011 nan `"nan"', add
-label define V2012 nan `"nan"', add
+label define V0201 .a `"Branco"', add
 label define V0202 1 `" Alvenaria com revestimento"', add
 label define V0202 2 `" Alvenaria sem revestimento"', add
 label define V0202 3 `" Madeira apropriada para construção (aparelhada)"', add
@@ -237,11 +228,7 @@ label define V0202 6 `" Madeira aproveitada"', add
 label define V0202 7 `" Palha"', add
 label define V0202 8 `" Outro material"', add
 label define V0202 9 `" Sem parede"', add
-label define V0202   `"Branco"', add
-label define V0203  `" 1 a 30"', add
-label define V6203 nan `"nan"', add
-label define V0204  `" 1 a 15"', add
-label define V6204 nan `"nan"', add
+label define V0202 .a `"Branco"', add
 label define V0205 0 `" Zero banheiros"', add
 label define V0205 1 `" Um banheiro"', add
 label define V0205 2 `" Dois banheiros"', add
@@ -252,17 +239,17 @@ label define V0205 6 `" Seis banheiros"', add
 label define V0205 7 `" Sete banheiros"', add
 label define V0205 8 `" Oito banheiros"', add
 label define V0205 9 `" Nove ou mais banheiros"', add
-label define V0205   `"Branco"', add
+label define V0205 .a `"Branco"', add
 label define V0206 1 `" Sim"', add
 label define V0206 2 `" Não"', add
-label define V0206   `"Branco"', add
+label define V0206 .a `"Branco"', add
 label define V0207 1 `" Rede geral de esgoto ou pluvial"', add
 label define V0207 2 `" Fossa séptica"', add
 label define V0207 3 `" Fossa rudimentar"', add
 label define V0207 4 `" Vala"', add
 label define V0207 5 `" Rio, lago ou mar"', add
 label define V0207 6 `" Outro "', add
-label define V0207   `"Branco"', add
+label define V0207 .a `"Branco"', add
 label define V0208 01 `" Rede geral de distribuição"', add
 label define V0208 02 `" Poço ou nascente na propriedade"', add
 label define V0208 03 `" Poço ou nascente fora da propriedade"', add
@@ -273,11 +260,11 @@ label define V0208 07 `" Rios, açudes, lagos e igarapés"', add
 label define V0208 08 `" Outra "', add
 label define V0208 09 `" Poço ou nascente na aldeia"', add
 label define V0208 10 `" Poço ou nascente fora da aldeia"', add
-label define V0208   `"Branco"', add
+label define V0208 .a `"Branco"', add
 label define V0209 1 `" Sim, em pelo menos um cômodo"', add
 label define V0209 2 `" Sim, só na propriedade ou terreno"', add
 label define V0209 3 `" Não"', add
-label define V0209   `"Branco"', add
+label define V0209 .a `"Branco"', add
 label define V0210 1 `" Coletado diretamente por serviço de limpeza"', add
 label define V0210 2 `" Colocado em caçamba de serviço de limpeza"', add
 label define V0210 3 `" Queimado (na propriedade)"', add
@@ -285,69 +272,64 @@ label define V0210 4 `" Enterrado (na propriedade)"', add
 label define V0210 5 `" Jogado em terreno baldio ou logradouro"', add
 label define V0210 6 `" Jogado em rio, lago ou mar"', add
 label define V0210 7 `" Tem outro destino"', add
-label define V0210   `"Branco"', add
+label define V0210 .a `"Branco"', add
 label define V0211 1 `" Sim, de companhia distribuidora"', add
 label define V0211 2 `" Sim, de outras fontes"', add
 label define V0211 3 `" Não existe energia elétrica"', add
-label define V0211   `"Branco"', add
+label define V0211 .a `"Branco"', add
 label define V0212 1 `" Sim, de uso exclusivo"', add
 label define V0212 2 `" Sim, de uso comum "', add
 label define V0212 3 `" Não tem medidor ou relógio"', add
-label define V0212   `"Branco"', add
+label define V0212 .a `"Branco"', add
 label define V0213 1 `" Sim"', add
 label define V0213 2 `" Não"', add
-label define V0213   `"Branco"', add
+label define V0213 .a `"Branco"', add
 label define V0214 1 `" Sim"', add
 label define V0214 2 `" Não"', add
-label define V0214   `"Branco"', add
+label define V0214 .a `"Branco"', add
 label define V0215 1 `" Sim"', add
 label define V0215 2 `" Não"', add
-label define V0215   `"Branco"', add
+label define V0215 .a `"Branco"', add
 label define V0216 1 `" Sim"', add
 label define V0216 2 `" Não"', add
-label define V0216   `"Branco"', add
+label define V0216 .a `"Branco"', add
 label define V0217 1 `" Sim"', add
 label define V0217 2 `" Não"', add
-label define V0217   `"Branco"', add
+label define V0217 .a `"Branco"', add
 label define V0218 1 `" Sim"', add
 label define V0218 2 `" Não"', add
-label define V0218   `"Branco"', add
+label define V0218 .a `"Branco"', add
 label define V0219 1 `" Sim"', add
 label define V0219 2 `" Não"', add
-label define V0219   `"Branco"', add
+label define V0219 .a `"Branco"', add
 label define V0220 1 `" Sim"', add
 label define V0220 2 `" Não"', add
-label define V0220   `"Branco"', add
+label define V0220 .a `"Branco"', add
 label define V0221 1 `" Sim"', add
 label define V0221 2 `" Não"', add
-label define V0221   `"Branco"', add
+label define V0221 .a `"Branco"', add
 label define V0222 1 `" Sim"', add
 label define V0222 2 `" Não"', add
-label define V0222   `"Branco"', add
+label define V0222 .a `"Branco"', add
 label define V0301 1 `" Sim"', add
 label define V0301 2 `" Não"', add
-label define V0301   `"Branco"', add
-label define V0401 nan `"nan"', add
+label define V0301 .a `"Branco"', add
 label define V0402 1 `" Apenas um morador"', add
 label define V0402 2 `" Mais de um morador"', add
 label define V0402 9 `" Ignorado"', add
-label define V0402   `"Branco"', add
+label define V0402 .a `"Branco"', add
 label define V0701 1 `" Sim"', add
 label define V0701 2 `" Não"', add
-label define V0701   `"Branco"', add
-label define V6529 nan `"nan"', add
-label define V6530 nan `"nan"', add
-label define V6531 nan `"nan"', add
-label define V6532 nan `"nan"', add
+label define V0701 .a `"Branco"', add
 label define V6600 1 `" Unipessoal"', add
 label define V6600 2 `" Nuclear"', add
 label define V6600 3 `" Estendida"', add
 label define V6600 4 `" Composta"', add
-label define V6600   `"Branco (Domicílio Coletivo)"', add
+label define V6600 .a `"Branco (Domicílio Coletivo)"', add
 label define V6210 1 `"  Adequada"', add
 label define V6210 2 `"  Semi"', add
 label define V6210 3 `"  Inadequada"', add
-label define V6210   `"Branco"', add
+label define V6210 .a `"Branco"', add
 label define M0201 1 `" Sim"', add
 label define M0201 2 `" Não"', add
 label define M2011 1 `" Sim"', add
@@ -410,7 +392,7 @@ label define V1005 5  `" Aglomerado rural (povoado)"', add
 label define V1005 6  `" Aglomerado rural (núcleo)"', add
 label define V1005 7  `" Aglomerado rural (outros)"', add
 label define V1005 8  `" Área rural exclusive aglomerado rural"', add
-label define V1005   `"Branco"', add
+label define V1005 .a `"Branco"', add
 label define V0002 5200050 `"Abadia de Goiás"', add
 label define V0002 3100104 `"Abadia dos Dourados"', add
 label define V0002 5200100 `"Abadiânia"', add
