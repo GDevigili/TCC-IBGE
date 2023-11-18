@@ -84,6 +84,20 @@ quietly infix                ///
   byte		V1005		172-172		///
   using `"../data/microdados/amostra_domicilios_2010_SC.txt"', clear
 
+format V0300 %08.0f
+format V0010 %017.13f
+format V2011 %06.0f
+format V2012 %010.5f
+format V0203 %02.0f
+format V6203 %04.1f
+format V0204 %02.0f
+format V6204 %04.1f
+format V0401 %02.0f
+format V6529 %07.0f
+format V6530 %011.5f
+format V6531 %09.2f
+format V6532 %010.5f
+
 label var V0213		`"RÁDIO, EXISTÊNCIA"'
 label var V0214		`"TELEVISÃO, EXISTÊNCIA"'
 label var V1005		`"Situação do setor "'
