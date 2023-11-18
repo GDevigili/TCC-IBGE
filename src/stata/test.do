@@ -166,6 +166,7 @@ format V0002 %05.0f
 gen V0001_str = string(V0001)
 gen V0002_str = string(V0002, "%05.0f")
 gen V0002_new = V0001_str + V0002_str
+destring V0002_new, replace
 
 label define V0001_lbl 11 `" Rondônia"', add
 label define V0001_lbl 12 `" Acre"', add
