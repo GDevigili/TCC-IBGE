@@ -161,6 +161,12 @@ label var V0202		`"MATERIAL PREDOMINANTE, PAREDES EXTERNAS"'
 label var V0002		`"CÓDIGO DO MUNICÍPIO"'
 label var V0206		`"SANITÁRIO OU BURACO PARA DEJEÇÕES, EXISTÊNCIA"'
 
+format V0002 %05.0f
+
+gen V0001_str = string(V0001)
+gen V0002_str = string(V0002, "%05.0f")
+gen V0002_new = V0001_str + V0002_str
+
 label define V0001_lbl 11 `" Rondônia"', add
 label define V0001_lbl 12 `" Acre"', add
 label define V0001_lbl 13 `" Amazonas"', add
@@ -6724,8 +6730,6 @@ label define V1003_lbl 13008 `"Rio Preto da Eva"', add
 label define V1003_lbl 43030 `"Campanha Central"', add
 label define V1003_lbl 33008 `"Santa Maria Madalena"', add
 
-
-
-label values V0002 V0002_lbl
+label values V0002_new V0002_lbl
 label values V1002 V1002_lbl
 label values V1003 V1003_lbl
