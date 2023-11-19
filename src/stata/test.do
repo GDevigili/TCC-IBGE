@@ -8,7 +8,7 @@ clear
 quietly infix                ///
   int		V0001		1-2		///
   int		V0002		3-7		///
-  int		V0011		8-20		///
+  double		V0011		8-20		///
   double		V0300		21-28		///
   double		V0010		29-44		///
   byte		V1001		45-45		///
