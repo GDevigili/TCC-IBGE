@@ -86,6 +86,7 @@ quietly infix                ///
 
 format V0300 %08.0f
 format V0010 %017.13f
+format V0011 %013.0f
 format V2011 %06.0f
 format V2012 %010.5f
 format V0203 %02.0f
