@@ -82,10 +82,11 @@ quietly infix                ///
   byte		M0402		170-170		///
   byte		M0701		171-171		///
   byte		V1005		172-172		///
-  using `"../data/microdados/amostra_domicilios_2010_SC.txt"', clear
+  using `"../data/microdados/amostra_domicilios_2010_RJ.txt"', clear
 
 format V0300 %08.0f
 format V0010 %017.13f
+format V0011 %013.0f
 format V2011 %06.0f
 format V2012 %010.5f
 format V0203 %02.0f
