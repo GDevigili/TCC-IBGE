@@ -1,0 +1,23 @@
+\chapter{Introdução}
+
+    %No mundo altamente digitalizado em que vivemos hoje, a alta geração de informação tornou a análise de dados uma ferramenta importantíssima e quase que vital para a humanidade, sendo utilizada por indivíduos e organizações como base para diversas atividades, como responder perguntas e sustentar tomadas de decisão. Empresas utilizam dados para análises de mercado, criação de estratégias e , governos para a criação de novas políticas públicas e destinação de gastos
+
+
+   A análise de dados cada vez mais se torna uma ferramenta vital e importantíssima para indivíduos, pesquisadores e organizações, sendo capaz de gerar conhecimento, \textit{insights} e valor, servindo como base para responder perguntas e sustentar tomadas de decisão.
+
+    O mundo altamente digitalizado em que vivemos possui dados em abundância, e gera diariamente um grande volume de novas informações. Contudo, grande parte destes dados não está propriamente preparado para análise, seja por questões funcionais, como, por exemplo, dados de bancos transacionais ou então por estarem "sujos", contendo ruído, informações errôneas, formatações confusas e diversos outros problemas de qualidade, tornando longo o caminho entre a coleta de dados e a geração de conhecimento.
+
+    Tendo em vista isso, o presente projeto visa o desenvolvimento de um repositório unificado com dados provenientes de fontes públicas como, por exemplo, IBGE e PNADC, passando pelas etapas de Extract Transform Load (ETL) e/ou Extract Load Transform (ELT), higienização, estruturação e documentação, de modo a disponibilizar uma interface com dados preparados para análise, de forma a encurtar o caminho necessário para o usuário entre a informação e o conhecimento, facilitando assim o acesso e o estudo deles.
+
+\section{O formato dos dados do IBGE}
+
+    Os dados do Instituto Brasileiro de Geografia e Estatística (IBGE) são disponibilizados em dois formatos: os microdados e os agregados, que se diferenciam apenas quanto à sua granularidade.
+
+    Os conjuntos de dados nomeados pelo IBGE de agregados, como diz o nome, são os microdados das pesquisas do instituto agrupados de acordo com certos critérios. A \textit{Application Programming Interface} (API) de serviço de dados do IBGE \cite{API-IBGE} disponibiliza tais dados agregados por localidade, indo desde grande região (p. ex. Norte, Sul, \textit{etc.}) até o grão de município ou distrito municipal (quando existente), por período de tempo, cujo grão é dependente da periodicidade da pesquisa e também por variável disponível na pesquisa.
+    
+    Já os microdados ``consistem no menor nível de desagregação dos dados de uma pesquisa, retratando, sob a forma de códigos numéricos, o conteúdo dos questionários, preservado o sigilo estatístico com vistas à não individualização das informações.'' \cite{microdados}, ou seja, cada entrada representa o conjunto de respostas de um entrevistado em uma determinada pesquisa. 
+    
+    Em termos geográficos, enquanto os agregados chegam apenas até o grão de município, os microdados estão também separados por \textbf{setores censitários}, que são definidos por \textcite{Guia-Censo-2010} no Guia do Censo como ``unidades territoriais estabelecidas para fins de controle cadastral, situadas em um único quadro urbano ou rural, com dimensão e número de domicílios [...]''. 
+
+    % EDITAR. talvez mover o final deste parágrafo para outra parte.
+    Sendo assim, os microdados são capazes de ser muito mais específicos, contudo com a desvantagem de serem um volume de dados muito maior, o que dificulta seu processamento. Por exemplo, no Censo Demográfico de 2022 foram recenseados mais de 452 mil setores censitários inseridos em 5.568 municípios e os distritos federal e de Fernando de Noronha, e dentro destes setores foram coletadas informações referentes a 75 milhões de domicílios \cite{Guia-Censo-2022}.
