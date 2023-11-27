@@ -1,14 +1,26 @@
 \chapter{Metodologia}
 
-    Por conta das diferentes formas em que os dados se encontram disponibilizados pelo IBGE discutidas anteriormente, e também pelo caráter dos mesmos quanto à granularidade e quais dados são disponibilizados, foram tomadas duas diferentes abordagens: a de coletar os dados através da API de serviço de dados e a de baixar os arquivos de microdados dos Censos de 2000 e 2010 e "traduzi-los".
+    % Como discutido anteriormente, as diferentes formas nas quais os dados censitários, bem como o de outras pesquisas como a Pesquisa Nacional por Amostra de Domicílios (PNAD), se diferem basicamente por seu formato, JSON para a API e 
+    
+    % Por conta das diferentes formas em que os dados se encontram disponibilizados pelo IBGE discutidas anteriormente, e também pelo caráter dos mesmos quanto à granularidade e quais dados são disponibilizados, foram tomadas duas diferentes abordagens: a de coletar os dados através da API de serviço de dados e a de baixar os arquivos de microdados dos Censos de 2000 e 2010 e transformá-los em dados 
+
+    Como discutido anteriormente, as diferentes formas nas quais os dados censitários, bem como de outras pesquisas do IBGE, são disponibilizados, se diferem basicamente quanto ao seu grão e formato, sendo os agregados dis
+
+
+
+    
 
 \section{APIs do serviço de dados do IBGE}
 
-    O IBGE disponibiliza em seu serviço de dados\footnote{Disponível em <\url{https://servicodados.ibge.gov.br/api/docs/}>. Acessado em 30 de set. de 2023.} ao todo 17 APIs, incluindo a de Agregados, já discutida anteriormente, a de Localidades, que inclui os códigos dos vários níveis de localidade (p. ex. unidade federativa (UF), macrorregião, município), a de Metadados, incluindo informações como periodicidade e variáveis disponíveis em cada uma das pesquisas disponíveis na API, entre outras. Nestas APIs é possível, através de \textit{Uniform Resource Locators} (URLs) gerar requisições por meio de bibliotecas como a \textit{requests} do \textit{python} para obter os dados da API no formato \textit{JavaScript Object Notation} (JSON). Por exemplo, se fizermos uma requisição a API de localidades utilizando a URL \url{https://servicodados.ibge.gov.br/api/v1/localidades/distritos} irá gerar uma lista de valores no formato do exemplo \textit{Listing} \ref{lst:exemplo-api-localidades}:
+    O IBGE disponibiliza em seu serviço de dados ao todo 17 APIs, incluindo a de Agregados, já discutida anteriormente, a de Localidades, que inclui os códigos dos vários níveis de localidade (p. ex. unidade federativa (UF), macrorregião, município), a de Metadados, incluindo informações como periodicidade e variáveis disponíveis em cada uma das pesquisas disponíveis na API, entre outras. Nestas APIs é possível, através de \textit{Uniform Resource Locators} (URLs) gerar requisições por meio de bibliotecas como a \textit{requests} do \textit{python} para obter os dados da API no formato \textit{Javascript Object Notation} (JSON). Por exemplo, se fizermos uma requisição a API de localidades utilizando a URL \url{https://servicodados.ibge.gov.br/api/v1/localidades/distritos} obteremos uma lista de valores no formato do exemplo \textit{Listing} \ref{lst:exemplo-api-localidades}:
+
+    
+    % EDITAR: uso de primeira pessoa!!!!!!!!!!!!!!!!!!
+
 
     \bigskip
     
-\begin{lstlisting}[float = h, label={lst:exemplo-api-localidades},language=JavaScript, caption=Exemplo de resultado de uma requisição da API de localidades.]
+\begin{lstlisting}[float = h, label={lst:exemplo-api-localidades},language=Python, caption=Exemplo de resultado de uma requisição da API de localidades.]
 {"id":421400310, "nome":"Mirador",
   "municipio":{"id":4214003,"nome":"Presidente Getúlio",
     "microrregiao":{"id":42011,"nome":"Rio do Sul",
@@ -87,13 +99,13 @@ def unnest_json(json_dict: dict, col_name: str = '') -> dict:
     \label{fig:exploding-df}
 \end{figure}
 
-    Nota-se que os valores "explodidos" continuam aninhados, portanto nesse caso foi reaplicada a função \lstinline{unnest_json()} de modo a separar adequadamente os dados.
+    Nota-se que os valores ``explodido'' continuam aninhados, portanto nesse caso foi necessário reaplicar a função \lstinline{unnest_json()} de modo a separar adequadamente os dados.
 
     [Adicionar: como fiz a carga de localidades, como fiz a carga dos países, procedimento para criar a URL adequada para a carga dos agregados]
 
 
 
-\section{Microdados das pesquisas do IBGE}
+\section{Microdados do Censo Demográfico}
 
     Os dados fornecidos pela API de agregados consistem essencialmente na consolidação das respostas individuais de cada um dos entrevistados durante o processo de recenseamento de acordo com critérios locacionais, com seu menor grau de agregação sedo município. Tais informações são organizadas em um formato denominado pelo IBGE como microdados e são disponibilizados através do portal de produtos estatísticos da instituição\footnote{Para mais detalhes, consulte <\url{https://www.ibge.gov.br/estatisticas/todos-os-produtos-estatisticas.html}>. Acesso em 03 out. 2023}, estando disponibilizados em diversas pastas compactadas em formato \textit{.zip} que contém os arquivos de texto nos quais se encontram os dados. No entanto, os dados daqueles arquivos não estão imediatamente prontos para a utilização tal qual uma planilha ou um arquivo CSV, mas sim em um formato comprimido, onde os valores categóricos são codificados através de identificadores (IDs) numéricos, enquanto valores que originalmente possuíam casas decimais tem seus pontos flutuantes removidos. Dessa forma, os dados se apresentam conforme ilustrado pela figura \ref{fig:exemplo-microdado}:
 
@@ -120,7 +132,8 @@ def unnest_json(json_dict: dict, col_name: str = '') -> dict:
     De modo a preparar os microdados para que estes possam ser utilizados, foi utilizado o \textit{software} Stata (em sua versão 18.0) para associar os IDs e respectivos valores descritos no arquivo de \textit{layout} e então gerar um arquivo de dados que posteriormente poderá ser utilizado como \textit{dataset}. 
     Com comandos do Stata é possível definir a posição em que se encontram as informações de cada variável, sua tipagem, suas \textit{labels} e respectivos pares chave e valor, para então o arquivo de dados ser processado, que é exemplificado pelo \textit{Listing} \ref{lst:do-file-sample} a seguir:
 
-\begin{lstlisting}[float = h, label={lst:do-file-sample},language=Stata, caption=Exemplo de comandos Stata utilizados para "traduzir" os microdados.]
+\bigskip
+\begin{lstlisting}[float = h, label={lst:do-file-sample},language=Stata, caption=Exemplo de comandos Stata utilizados para``traduzir'' os microdados.]
 * Define as posições onde se encontram cada dado
 quietly infix                         ///
   byte		V1006		53-53		///
@@ -139,7 +152,10 @@ label define V1006_lbl 2 `" Rural"', add
 label values V1006 V1006_lbl
 \end{lstlisting}
 
-
+    O exemplo acima nada mais é que um pequeno recorte do arquivo completo da pesquisa de domicílios, que conta com 76 variáveis e mais de 6 mil \textit{labels}, já que as variáveis de caráter locacional pode se referir a qualquer um dos mais de 5 mil municípios do país e suas respectivas regiões. 
+    
+    Como facilitador para tal associação de pares chave-valor, foi desenvolvido um código \textit{python}\footnote{Código disponível em <\url{https://github.com/GDevigili/DW-IBGE/blob/main/src/notebooks/gera-script-stata.ipynb}>.} que gera um \textit{script} para ser utilizado pelo Stata para o processamento  ``tradução'' dos microdados. 
+    Primeiramente, através das colunas de posição inicial e final, mapeamos os caracteres que representam cada uma das colunas do conjunto de dados, então foi adicionada a formatação adequada para os dados numéricos com o comando \verb|format|. Posteriormente são definidos os nomes das colunas com o comando \verb|label define| e então associados os pares chave-valor, extraídos de um \verb|DataFrame| pré processado com os dados presentes no arquivo de \textit{layout}. Os valores correspondentes aos municípios, microrregiões, mesorregiões e regiões metropolitanas se encontram em arquivos auxiliares, porém foi optado por utilizar a própria API de localidades para obter os respectivos valores já que o trabalho para a extração de dados já havia sido realizado anteriormente.
 
 
 \chapter{Estudo de Caso}
