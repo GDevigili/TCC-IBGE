@@ -90,13 +90,13 @@
 \definecolor{purple}{rgb}{0.65, 0.12, 0.82}
 
 \lstdefinelanguage{Python}{
-  keywords={typeof, True, False, try, except, return, None, catch, var, if, in, while, do, else, case, break, elif, for, def, class},
+  keywords={typeof, True, False, try, except, return, None, catch, var, if, in, while, do, else, case, break, elif, for, def, class, import},
   keywordstyle=\color{blue}\bfseries,
   ndkeywords={class, export, bool, raise, import, self, def},
   ndkeywordstyle=\color{darkgray}\bfseries,
   identifierstyle=\color{black},
   sensitive=false,
-  comment=[l]{#},
+  comment=[l]{\#},
   morecomment=[s]{"""}{"""},
   commentstyle=\color{green}\ttfamily,
   stringstyle=\color{red}\ttfamily,
@@ -170,7 +170,7 @@
    numberbychapter=false
 }
 
-\lstloadlanguages{JavaScript, Python}
+\lstloadlanguages{Python, Stata}
 
 
 
@@ -193,7 +193,7 @@
 
 \preambulo{Trabalho de conclusão de curso apresentada para a Escola de
 Matemática Aplicada (FGV/EMAp) como requisito para o grau de bacharel em
-Matemática Aplicada. \\ \\ Área de estudo: area de estudo.}
+Ciência de Dados e Inteligência Artificial. \\ \\ Área de estudo: ciência de dados.}
 
 \orientador{Júlio César Chaves}
 
@@ -377,6 +377,7 @@ Matemática Aplicada. \\ \\ Área de estudo: area de estudo.}
 \input{files/apendices.tex}
 
 \end{apendicesenv}
+
 % ---
 
 % ----------------------------------------------------------
@@ -388,11 +389,11 @@ Matemática Aplicada. \\ \\ Área de estudo: area de estudo.}
 % \partanexos
 
 % \end{anexosenv}
-"
+
 %---------------------------------------------------------------------
 % ÍNDICE REMISSIVO
 %---------------------------------------------------------------------
-\phantompart
-\printindex
+% \phantompart
+% \printindex
 
 \end{document}
