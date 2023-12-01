@@ -4,7 +4,9 @@
     
     % Por conta das diferentes formas em que os dados se encontram disponibilizados pelo IBGE discutidas anteriormente, e também pelo caráter dos mesmos quanto à granularidade e quais dados são disponibilizados, foram tomadas duas diferentes abordagens: a de coletar os dados através da API de serviço de dados e a de baixar os arquivos de microdados dos Censos de 2000 e 2010 e transformá-los em dados 
 
-    Como discutido anteriormente, as diferentes formas nas quais os dados censitários são disponibilizados se diferem basicamente quanto ao seu grão e formato, sendo os agregados disponibilizados via API no formato JSON e os microdados em arquivos de texto em um formato compactado que será explicado em detalhes na seção \ref{sec-microdados}. Dessa forma, duas diferentes abordagens foram tomadas no decorrer do desenvolvimento do trabalho: a de coletar os dados através da API e a de baixar os arquivos de microdados do IBGE e processá-los para então criar os conjuntos de dados disponíveis no repositório.
+    Como discutido anteriormente, as diferentes formas nas quais os dados censitários são disponibilizados se diferem basicamente quanto ao seu grão e estrutura, sendo os agregados disponibilizados via API na notação \textit{Javascript Object Notation} (JSON) e os microdados em arquivos de texto em um formato compactado que será explicado em detalhes na seção \ref{sec-microdados}. 
+    
+    Desta forma, duas diferentes abordagens foram tomadas no decorrer do desenvolvimento do trabalho: a de coletar os dados através da API e a de baixar os arquivos de microdados do IBGE e processá-los para então criar os conjuntos de dados disponíveis no repositório.
     
 
 \section{APIs do serviço de dados do IBGE}
@@ -12,7 +14,7 @@
 
     O IBGE oferece ao todo 17 APIs em seu serviço de dados, incluindo a de Agregados, citada anteriormente, a de Localidades, que inclui os códigos dos vários níveis de localidade (p. ex. unidade federativa (UF), macrorregião, município), a de Metadados, incluindo informações como periodicidade e variáveis disponíveis em cada uma das pesquisas disponíveis na API, entre outras. 
     
-    Nestas APIs é possível, através de \textit{Uniform Resource Locators} (URLs) gerar requisições por meio de bibliotecas como a \textit{requests} do \textit{python} para obter os dados da API no formato \textit{Javascript Object Notation} (JSON). A construção dessas URLs pode ser auxiliada pela ferramenta de \textit{Querie Builder} integrada à plataforma. Por exemplo, ao fazer uma requisição à API de localidades utilizando o URL \url{servicodados.ibge.gov.br/api/v1/localidades/distritos} obteremos uma lista de valores no formato exemplificado em \textit{Listing} \ref{lst:exemplo-api-localidades}.
+    Nessas APIs é possível, através de \textit{Uniform Resource Locators} (URLs) gerar requisições por meio de bibliotecas como a \textit{requests} do \textit{python} para obter os dados da API no formato JSON. A construção dessas URLs pode ser auxiliada pela ferramenta de \textit{Querie Builder} integrada à plataforma. Por exemplo, ao fazer uma requisição à API de localidades utilizando o caminho \url{servicodados.ibge.gov.br/api/v1/localidades/distritos} obteremos uma lista de valores no formato exemplificado em \textit{Listing} \ref{lst:exemplo-api-localidades}:
 
 \begin{lstlisting}[float = h, label={lst:exemplo-api-localidades},language=Python, caption=Exemplo de resultado de uma requisição da API de localidades.]
 {"id":421400310, "nome":"Mirador",
@@ -37,9 +39,9 @@
 %         "UF":{"id":42, "sigla":"SC", "nome":"Santa Catarina",
 %           "regiao":{"id":4, "sigla":"S", "nome":"Sul"}}}}}}
     
-    Por mais que a formatação JSON tenha uma praticidade maior de um ponto de vista transacional ou orientado à objetos, ele não é ideal para o uso analítico por conta de uma certa complexidade intrínseca para a navegação pelos dados e necessitando de certo trabalho para a interpretação dos mesmos. 
+    Por mais que a formatação JSON tenha uma praticidade maior de um ponto de vista transacional ou orientado à objetos, ele não é ideal para o uso analítico por conta de uma certa complexidade intrínseca para a navegação pelos dados, necessitando de certo trabalho para a interpretação dos mesmos. 
     
-    Dado que normalização não é uma prioridade quando se trata de análise, mas sim a simplicidade de na hora de se criarem consultas, foi aplicado à \textit{string} de resultados da requisição um processo de \textit{unnesting} (em português desaninhamento), cujo algoritmo se encontra no \textit{listing} \ref{lst:unnesting} do apêndice \ref{apend-code}. Tal processo é o oposto do conceito conhecido por \textit{nesting} e consiste de, recursivamente, subir o nível de aninhamento (\textit{nesting-level}) de uma entrada, para o nível de seu nível imediatamente superior, até que todos os valores estejam alinhados.
+    Dado que normalização não é uma prioridade quando se trata de análise, sendo mais importante a simplicidade de na hora de se criarem consultas, foi aplicado à \textit{string} de resultados da requisição um processo de \textit{unnesting} (em português desaninhamento), cujo algoritmo se encontra no \textit{listing} \ref{lst:unnesting} do apêndice \ref{apend-code}. Tal processo é o oposto do conceito conhecido por \textit{nesting} e consiste de, recursivamente, subir o nível de aninhamento (\textit{nesting-level}) de uma entrada, para o nível imediatamente superior, até que todos os valores estejam alinhados.
 
     Por exemplo, aplicando o algoritmo de \textit{unnesting} juntamente com a função \verb|make_df()| (\textit{listing} \ref{apend-code}.\ref{lst:make-df}), gera um \textit{DataFrame} como a tabela \ref{tab:exemplo-api-localidades}, com todos os dados em um mesmo \textit{nesting-level}.
 
@@ -58,7 +60,7 @@
     \end{table}
 \end{center}
 
-    Um certo problema que pode ainda ocorrer é que, mesmo após o \textit{unnesting}, os dados em JSON podem conter também elementos em formato de lista, gerando assim uma coluna na tabela de resultado que possui em si uma lista de valores. Portanto se faz necessário um segundo tratamento para estes casos, que é facilmente resolvido armazenando o conjunto de dados dentro de um objeto do tipo \textit{DataFrame} da biblioteca \textit{pandas} da linguagem \textit{python} e utilizar o método \lstinline{pandas.DataFrame().explode()}\footnote{Documentação disponível em <\url{pandas.pydata.org/docs/reference/api/pandas.DataFrame.explode.html}>, código fonte disponível em <\url{github.com/pandas-dev/pandas/blob/v2.1.1/pandas/core/frame.py\#L9432-L9558}>. Acessado em 30 de set. 2023.}     de modo a converter elementos \textit{list-like} que possam existir dentro das colunas em linhas, copiando os demais valores, como é exemplificado pela figura \ref{fig:exploding-df}.
+    Um certo problema que pode ainda ocorrer é que, mesmo após o \textit{unnesting}, os dados em JSON podem conter também elementos em formato de lista, gerando assim uma coluna na tabela de resultado que possui em si uma lista de valores. Portanto se faz necessário um segundo tratamento para estes casos, que é facilmente resolvido armazenando o conjunto de dados dentro de um objeto do tipo \textit{DataFrame} da biblioteca \textit{pandas} da linguagem \textit{python} e utilizar o método \lstinline{explode()}\footnote{Documentação disponível em <\url{pandas.pydata.org/docs/reference/api/pandas.DataFrame.explode.html}>, código fonte disponível em <\url{github.com/pandas-dev/pandas/blob/v2.1.1/pandas/core/frame.py\#L9432-L9558}>. Acessado em 30 de set. 2023.}     de modo a converter elementos \textit{list-like} que possam existir dentro das colunas em linhas, copiando os demais valores, como é exemplificado pela figura \ref{fig:exploding-df}.
 
 \begin{figure}[ht]
     \centering
