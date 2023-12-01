@@ -1,2 +1,23 @@
 \chapter{Conclusão}
 
+Os dados do Instituto Brasileiro de Geografia e Estatística são de enorme valor para diversos setores do país, tanto no âmbito público quanto privado. Tais dados podem ser coletados em dois formatos distintos, um em JSON via API de serviço de dados do instituto e o outro em arquivos de texto codificados de acordo com identificadores presentes em um arquivo de \textit{layout}. Em ambos os formatos, após certo processamento e transformação, é possível
+
+Com base na análise das APIs fornecidas do IBGE, conclui-se que 
+
+% Com base na análise das APIs fornecidas pelo IBGE, conclui-se que essas ferramentas oferecem uma gama diversificada de dados que abrangem desde informações geográficas até indicadores socioeconômicos. Com um total de 17 APIs, destacam-se a de Agregados, que compreende uma extensa variedade de dados de pesquisas, e a de Localidades, que disponibiliza códigos e informações sobre diferentes níveis de localidade, como municípios e regiões.
+
+% A utilização dessas APIs é facilitada por meio de \textit{Uniform Resource Locators} (URLs), permitindo a geração de requisições com bibliotecas como \textit{requests} do \textit{Python}. A ferramenta de \textit{Querie Builder} integrada à plataforma contribui para a construção eficiente dessas URLs, simplificando o processo de obtenção de dados no formato \textit{Javascript Object Notation} (JSON).
+
+% No entanto, a complexidade intrínseca à estrutura JSON pode dificultar a análise direta dos dados. Visando a simplicidade na criação de consultas, foi aplicado um processo de \textit{unnesting} à \textit{string} de resultados das requisições, permitindo a normalização dos dados para análises mais eficazes.
+
+% O exemplo prático de \textit{unnesting} foi demonstrado com a API de localidades, onde a transformação dos dados JSON em um formato tabular facilitou a compreensão e análise. Além disso, a abordagem de lidar com elementos em formato de lista foi explorada, utilizando métodos como \lstinline{pandas.DataFrame().explode()}.
+
+% No processo de carga e análise de dados, foram exploradas três APIs específicas: Localidades, Países e Agregados. Cada uma delas apresentou desafios únicos, desde a manipulação de identificadores geográficos até a elaborada extração de indicadores socioeconômicos e agregados.
+
+% Ao finalizar as análises, conclui-se que as APIs do IBGE oferecem uma rica fonte de dados, abrindo oportunidades para estudos detalhados em diversas áreas, como geografia, economia e demografia. A abordagem adotada para lidar com a complexidade dos dados demonstrou ser eficaz, proporcionando uma base sólida para análises mais aprofundadas e insights valiosos.
+
+
+% \item Estudar diferentes estratégias de coleta de dados censitários do IBGE;
+%     \item Carregar os dados do IBGE via API e processá-los de forma a reestruturar eles em formato tabular;
+%     \item Codificar um \textit{script} capaz de ler e associar \textit{labels} aos respectivos microdados de modo a gerar um arquivo de dados do \textit{Stata};
+%     \item Demonstrar o uso de ambos conjuntos de dados através de um estudo de caso, demonstrando as diferenças de abrangência e utilização dos dois formatos estudados (API e microdados), gerando visualizações e estatísticas básicas.

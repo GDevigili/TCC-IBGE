@@ -4,13 +4,15 @@
     
     % Por conta das diferentes formas em que os dados se encontram disponibilizados pelo IBGE discutidas anteriormente, e também pelo caráter dos mesmos quanto à granularidade e quais dados são disponibilizados, foram tomadas duas diferentes abordagens: a de coletar os dados através da API de serviço de dados e a de baixar os arquivos de microdados dos Censos de 2000 e 2010 e transformá-los em dados 
 
-    Como discutido anteriormente, as diferentes formas nas quais os dados censitários, bem como de outras pesquisas do IBGE, são disponibilizados, se diferem basicamente quanto ao seu grão e formato, sendo os agregados disponibilizados via API no formato JSON, enquanto os microdados em arquivos de texto em um formato compactado que será explicado em detalhes na seção \ref{sec-microdados}. Dessa forma, duas diferentes abordagens foram tomadas no decorrer do desenvolvimento do trabalho: a de coletar os dados através da API e a de baixar os arquivos de microdados do IBGE e processá-los para então criar os conjuntos de dados disponíveis no repositório.
+    Como discutido anteriormente, as diferentes formas nas quais os dados censitários são disponibilizados se diferem basicamente quanto ao seu grão e formato, sendo os agregados disponibilizados via API no formato JSON e os microdados em arquivos de texto em um formato compactado que será explicado em detalhes na seção \ref{sec-microdados}. Dessa forma, duas diferentes abordagens foram tomadas no decorrer do desenvolvimento do trabalho: a de coletar os dados através da API e a de baixar os arquivos de microdados do IBGE e processá-los para então criar os conjuntos de dados disponíveis no repositório.
     
 
 \section{APIs do serviço de dados do IBGE}
 \label{metodoslogia-API}
 
-    O IBGE oferece ao todo 17 APIs em seu serviço de dados, incluindo a de Agregados, citada anteriormente, a de Localidades, que inclui os códigos dos vários níveis de localidade (p. ex. unidade federativa (UF), macrorregião, município), a de Metadados, incluindo informações como periodicidade e variáveis disponíveis em cada uma das pesquisas disponíveis na API, entre outras. Nestas APIs é possível, através de \textit{Uniform Resource Locators} (URLs) gerar requisições por meio de bibliotecas como a \textit{requests} do \textit{python} para obter os dados da API no formato \textit{Javascript Object Notation} (JSON). Por exemplo, ao fazer uma requisição à API de localidades utilizando o URL \url{servicodados.ibge.gov.br/api/v1/localidades/distritos} obteremos uma lista de valores no formato exemplificado em \textit{Listing} \ref{lst:exemplo-api-localidades}:
+    O IBGE oferece ao todo 17 APIs em seu serviço de dados, incluindo a de Agregados, citada anteriormente, a de Localidades, que inclui os códigos dos vários níveis de localidade (p. ex. unidade federativa (UF), macrorregião, município), a de Metadados, incluindo informações como periodicidade e variáveis disponíveis em cada uma das pesquisas disponíveis na API, entre outras. 
+    
+    Nestas APIs é possível, através de \textit{Uniform Resource Locators} (URLs) gerar requisições por meio de bibliotecas como a \textit{requests} do \textit{python} para obter os dados da API no formato \textit{Javascript Object Notation} (JSON). A construção dessas URLs pode ser auxiliada pela ferramenta de \textit{Querie Builder} integrada à plataforma. Por exemplo, ao fazer uma requisição à API de localidades utilizando o URL \url{servicodados.ibge.gov.br/api/v1/localidades/distritos} obteremos uma lista de valores no formato exemplificado em \textit{Listing} \ref{lst:exemplo-api-localidades}.
 
 \begin{lstlisting}[float = h, label={lst:exemplo-api-localidades},language=Python, caption=Exemplo de resultado de uma requisição da API de localidades.]
 {"id":421400310, "nome":"Mirador",
@@ -34,8 +36,8 @@
 %       "regiao-intermediaria":{"id":4207, "nome":"Blumenau",
 %         "UF":{"id":42, "sigla":"SC", "nome":"Santa Catarina",
 %           "regiao":{"id":4, "sigla":"S", "nome":"Sul"}}}}}}
-
-    Por mais que a formatação JSON tenha uma praticidade maior em um ponto de vista transacional ou orientado à objetos, ele não é ideal para o uso analítico por conta de uma certa complexidade intrínseca para a navegação pelos dados e necessitando de certo trabalho para a interpretação dos mesmos. 
+    
+    Por mais que a formatação JSON tenha uma praticidade maior de um ponto de vista transacional ou orientado à objetos, ele não é ideal para o uso analítico por conta de uma certa complexidade intrínseca para a navegação pelos dados e necessitando de certo trabalho para a interpretação dos mesmos. 
     
     Dado que normalização não é uma prioridade quando se trata de análise, mas sim a simplicidade de na hora de se criarem consultas, foi aplicado à \textit{string} de resultados da requisição um processo de \textit{unnesting} (em português desaninhamento), cujo algoritmo se encontra no \textit{listing} \ref{lst:unnesting} do apêndice \ref{apend-code}. Tal processo é o oposto do conceito conhecido por \textit{nesting} e consiste de, recursivamente, subir o nível de aninhamento (\textit{nesting-level}) de uma entrada, para o nível de seu nível imediatamente superior, até que todos os valores estejam alinhados.
 
@@ -66,9 +68,7 @@
 
     Nota-se que os valores ``explodidos'' continuam aninhados, portanto nesse caso foi necessário reaplicar a função \lstinline{unnest_json()} de modo a separar adequadamente os dados. O processo completo é uma sequência de aplicação dessas duas funções conforme o necessário até termos um \textit{DataFrame} completamente desaninhado.
 
-    Das 17 APIs disponíveis, foram carregados dados das APIs de localidades, países, agregados e metadados. 
-    
-    A API de localidades retorna as informações referentes aos identificadores geográficos do país definidos pelo IBGE, utilizados para identificar a área na qual foram coletados em praticamente todas as pesquisas do órgão. Esse serviço de dados possui ao todo quatro possíveis requisições nas quais os dados são separados por distritos, subdistritos, região metropolitana e região integrada de desenvolvimento. Os conjuntos de dados derivados podem ser juntados entre si através do identificador mais específico presentes nelas, sendo o ID do distrito nas duas primeiras e o id do município nas outras duas.
+    Das 17 APIs disponíveis, foram carregados dados das APIs de localidades, países, agregados e metadados. A API de localidades retorna as informações referentes aos identificadores geográficos do país definidos pelo IBGE, utilizados para identificar a área na qual foram coletados em praticamente todas as pesquisas do órgão. Esse serviço de dados possui ao todo quatro possíveis requisições nas quais os dados são separados por distritos, subdistritos, região metropolitana e região integrada de desenvolvimento. Os conjuntos de dados derivados podem ser juntados entre si através do identificador mais específico presentes nelas, sendo o ID do distrito nas duas primeiras e o id do município nas outras duas.
 
     Contendo 34 indicadores socioeconômicos dos 193 países membros da Organização das Nações Unidas (ONU) a API de países é a única que não utiliza apenas dados coletados pelo próprio IBGE e que também possui traduções em Espanhol e Inglês. Como uma requisição comum solicita a especificação dos países e/ou das variáveis desejadas, a estratégia adotada foi primeiramente obter todos os códigos distintos de países para posteriormente realizar uma requisição para cada país contendo todos os possíveis indicadores e concatenando todos os resultados em um único conjunto de dados. O código completo pode ser encontrado no \textit{listing} \ref{apend-code}.\ref{lst:api-paises}.
 
@@ -99,9 +99,10 @@
 \begin{figure}[ht]
     \centering
     \includegraphics[width=\textwidth]{files/img/exemplo_microdado.png}
-    \caption{Exemplo de microdados: primeiras 10 linhas da pesquisa de Domicílios do Censo de 2010 no estado de Santa Catarina. Fonte: Dados do Autor (2023).}
+    \caption{Exemplo de microdados: primeiras 10 linhas da pesquisa de Domicílios do Censo de 2010 no estado de Santa Catarina. Fonte: Dados do Autor (2023)\protect\footnotemark.}
     \label{fig:exemplo-microdado}
 \end{figure}
+\footnotetext{\textit{Printscreen} do arquivo de microdados da amostra de domicílios do Estado de Santa Catarina, Censo de 2010.}
 
     Juntamente com os microdados, é fornecido uma planilha no formato \textit{Open Document Spreadsheet} (ODS) ou Excel que descreve o que cada caractere do arquivo significa, relacionando as categorias e identificadores e a formatação referente às casas decimais das variáveis numéricas. 
     
@@ -111,9 +112,10 @@
 \begin{figure}[ht]
     \centering
     \includegraphics[width=\textwidth]{files/img/layout amostra domicilios 2010.png}
-    \caption{Recorte da planilha de \textit{layout} da pesquisa de domicílios do Censo Demográfico de 2010. Fonte: Dados do Autor (2023).}
+    \caption{Recorte da planilha de \textit{layout} da pesquisa de domicílios do Censo Demográfico de 2010. Fonte: Dados do Autor (2023)\protect\footnotemark.}
     \label{fig:layout-domi}
 \end{figure}
+\footnotetext{Com base na planilha de \textit{layout} da amostra de domicílios do Censo Demográfico de 2010.}
 
     Variáveis padrões contidas nas pesquisas são as referentes à localização geográfica como município, UF e área de ponderação, assim como o peso amostral, que por sua vez é uma medida de representatividade daquela resposta dentro do escopo da pesquisa.
 
@@ -153,13 +155,60 @@ label values V1006 V1006_lbl
 
     Para não ser necessário definir manualmente cada uma das variáveis, aproveitou-se parte do código que seria descartada na tentativa de realizar a ``tradução'' dos microdados via \textit{python} e se utilizou do processamento da tabela de \textit{layout} para gerar um \textit{DataFrame} contendo os pares chave-valor utilizados para mapear via comando \verb|label define| as possíveis \textit{labels} de cada uma das colunas utilizando um \textit{script} que itera sobre a tabela processada.
 
-    Além disso, como os códigos de município, micro e mesorregião ficam em planilhas auxiliares, foi optado por utilizar dos dados coletados via API para associar os respectivos códigos no \textit{Dofile} que seria executado no \textit{Stata} para gerar o conjunto de dados. A única transformação necessária foi o uso de uma coluna auxiliar que juntava o código da UF com os códigos de município e regiões, já que a API utiliza chaves concatenadas como identificadores.
+    Além disso, como os códigos de município, micro e mesorregião ficam em planilhas auxiliares, foi optado por utilizar dos identificadores de localidade coletados via API para associar os respectivos códigos no \textit{Dofile} que seria executado no \textit{Stata} para gerar o conjunto de dados. A única transformação necessária foi o uso de uma coluna auxiliar que juntava o código da UF com os códigos de município e regiões, já que a API utiliza chaves concatenadas como identificadores.
 
-    Após gerado o \textit{Dofile} através do \textit{script} \textit{python} descrito acima, só é necessário carregar o arquivo no \textit{Stata} e executá-lo, por fim salvando o novo arquivo de dados.
+    Após gerado o \textit{Dofile} através do \textit{script} \textit{python} descrito acima, só é necessário carregar o arquivo no \textit{Stata} e executá-lo, por fim salvando o novo arquivo de dados. Caso aberto através de um editor de texto, o arquivo \verb|.dta| se parece com o arquivo de microdados, porém carrega as configurações de \textit{label} e formatação que foram definidas anteriormente. Para a leitura do arquivo em um amiente diferente do \textit{software} estatístico, é necessário um leitor específico. Além disso é possível a conversão do \verb|.dta| para formatos mais comuns de armazenamento de dados, como \textit{Excel} ou arquivos de texto com delimitadores como \textit{Comma} ou \textit{Tab separated values} (CSV e TSV respectivamente). 
     
     % Como facilitador para tal associação de pares chave-valor, foi desenvolvido um código \textit{python}\footnote{Código disponível em <\url{https://github.com/GDevigili/DW-IBGE/blob/main/src/notebooks/gera-script-stata.ipynb}>.} que gera um \textit{script} para ser utilizado pelo Stata para o processamento  ``tradução'' dos microdados. 
    
     % Primeiramente, por meio das colunas de posição inicial e final, foram mapeados os caracteres que representam cada uma das variáveis do conjunto de dados, então foi adicionada a formatação adequada para os dados numéricos com o comando \verb|format|. Posteriormente são definidos os nomes das colunas com o comando \verb|label define| e então associados os pares chave-valor, extraídos de um \verb|DataFrame| pré processado com os dados presentes no arquivo de \textit{layout}. Os valores correspondentes aos municípios, microrregiões, mesorregiões e regiões metropolitanas se encontram em arquivos auxiliares, porém foi optado por utilizar a própria API de localidades para obter os respectivos valores já que o trabalho para a extração de dados já havia sido realizado anteriormente.
 
 
-\chapter{Estudo de Caso}
+\chapter{Estudo de Caso: Acesso à água encanada no Estado do Rio de Janeiro}
+
+    Exemplificando um possível caso de uso dos conjuntos de dados estudados, será realizada uma análise da distribuição de água encanada no Estado do Rio de Janeiro.
+
+    Para o carregamento do arquivo de dados do \textit{Stata} no \textit{python}, foi necessário abrir os arquivos na forma de um objeto do tipo \verb|StataReader| que permite o acesso às \textit{labels} definidas na execução do \textit{Dofile} para posterior aplicação no conjunto de dados. A carga completa se encontra no \textit{listing} \ref{lst:read-stata}. 
+    
+    A variável utilizada para o cálculo do valor foi a coluna ``V0209: Abastecimento de Água, Canalização'' da amostra de domicílios do Censo de 2010. Foram consideradas no cálculo do percentual as respostas ``Sim, em pelo menos um cômodo'' e ``Sim, só na propriedade ou terreno'' e a ponderação da representatividade da resposta foi dada através da coluna de peso amostral (V0010). Por se tratarem de dados com uma média de 98.74\% e mediana em 99.54\%, uma escala contínua deixaria o mapa gerado de difícil interpretação, então foi optado por subdividir os dados em 5 categorias: Menor que 80\%, entre 80\% e 90\%, entre 90\% e 95\%, entre 95\% e 98\% e entre 98\% e 100\%.
+
+    Analisando unicamente as 200 áreas de ponderação do município do Rio de Janeiro através da figura \ref{fig:box-rio}, fica claro que menos de 5\% das áreas da capital possuem menos de 95\% dos domicílios com água encanada.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.8\textwidth]{files/img/boxplot rio 2.png}
+    \caption{\textit{Boxplot} do percentual de domicílios com água canalizada no município do Rio de Janeiro. Fonte: Dados do Autor (2023)\protect\footnotemark.}
+    \label{fig:box-rio}
+\end{figure}
+\footnotetext{Com base nos microdados da amostra de domicílios de 2010 do Estado do Rio de Janeiro.}
+    
+    Para a criação de uma visualização (Figura \ref{fig:mapa-rj}) referente aos dados, foi utilizado um arquivo \textit{Shapefile}\footnote{Arquivos \textit{shapefile} referentes aos Estados brasileiros disponíveis em: \url{https://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_de_setores_censitarios__divisoes_intramunicipais/censo_2010/setores_censitarios_shp/}. O arquivo utilizado foi de extensão \protect\verb|.shp da pasta compactada \verb|rj\_setores\_censitarios.zip}}, que são arquivos vetoriais que armazenam forma e atributos de localizações geográficas \cite{arcgis}. Através a biblioteca \textit{GeoPandas} é possível manipular esse conjunto de dados geográficos, juntá-los com outros \textit{datasets} e também gerar gráficos. Acrescentando as porcentagens calculadas com os microdados ao \textit{dataframe}, foi utilizado o método \verb|plot()| com algumas configurações comuns da biblioteca \verb|matplotlib| para exibir as categorias acima citadas. 
+
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.9\textwidth]{files/img/mapa água micro.png}
+    \caption{Mapa do percentual de domicílios com água encanada no Estado do Rio de Janeiro com base nos microdados da amostra de domicílios. Fonte: Dados do Autor (2023)\protect\footnotemark}
+    \label{fig:mapa-rj}
+\end{figure}
+\footnotetext{Com base nos microdados da amostra de domicílios de 2010 do Estado do Rio de Janeiro.}
+
+    Como comparativo, foi também utilizada a base de agregados, mais especificamente a variável 1000096: ``Existência de água canalizada'' agregado no nível de localidade de município (N6). A variável em questão já está calculada em percentual do total e o valor utilizado foi, novamente, a soma das respostas afirmativas à questão. Comparando o gráfico com os dados da API lado à lado com o da figura \ref{fig:mapa-rj}, podemos observar pequenas variações de valor:
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\textwidth]{files/img/mapa rj agua.png}
+    \caption{Comparação entre os mapas de percentual de domicílios com água canalizada no RJ. Na esquerda o gráfico com base nos microdados e na direita com base nos dados agregados da API. Fonte: Dados do Autor (2023).}
+    \label{fig:mapa-rj-compara}
+\end{figure}
+
+    Pouco muda entre um gráfico e outro, já que eles representam em tese a mesma coisa, mas algumas poucas variações mostram como o nível de detalhe dos microdados revela informações que são perdidas no gráfico de agregados\footnote{Gráfico em tamanho maior na imagem \ref{fig:mapa-rj-agg} do apêndice \ref{sec-ap-img}}, como na região mais ao norte do Estado, que aparenta ter mais regiões com água encanada porém a agregação ``mascara'' certos pontos menores que entram na categoria ``entre 95\% e 98\%'' ao invés da categoria superior.
+    
+    Uma análise mais minuciosa pode ser feita visualizando apenas a capital do Estado, como na \ref{fig:mapa-mun-rio}. Com os microdados, se revela que mesmo em um município com mais de 99\% de água encanada, ainda existem áreas como os bairros como Guaratiba e Bangu com um acesso consideravelmente menor ao serviço que tiveram suas amostras ofuscadas pelo restante da cidade.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.9\textwidth]{files/img/mapa rio água.png}
+    \caption{Percentual de Domicílios com água encanada no município do Rio de Janeiro. Fonte: Dados do Autor (2023).}
+    \label{fig:mapa-mun-rio}
+\end{figure}

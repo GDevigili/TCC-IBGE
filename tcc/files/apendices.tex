@@ -139,7 +139,47 @@ for country in country_list:
     df_country_indicators = pd.concat([df_country_indicators, df_country], ignore_index=True)
 \end{lstlisting}
 
-\newpage
+\section{Leitura de arquivo \textit{Stata} no \textit{python}}
 
+    Para realizar a leitura de um arquivo de extenção \verb|.dta|, às vezes se faz necessário carregar ele como um objeto do tipo \textit{StataReader} da biblioteca \verb|pandas.io.stata|. 
+
+    No primeiro bloco de código, a variável \verb|data_micro| recebe os dados no formato de microdados lidos pelo \textit{reader}, \verb|col_labels| os nomes de coluna e \verb|value_lables| os valores identificados pelos IDs que estão nos microdados. Tendo isto em mãos, os valores são substituídos no laço de repetição para obter-se o \textit{DataFrame} final.
+
+\begin{lstlisting}[label={lst:read-stata},language=Python, caption=\textit{Script} de carga dos indicadores da API de países.]
+# Read the file and the labels
+with StataReader('../../dados/microdados-processados/amostra_domicilios_2010_RJ.dta') as reader:
+    data_micro = reader.read(convert_categoricals=False)
+    col_labels = reader.variable_labels()
+    value_labels = reader.value_labels()
+
+# Remove '_lbl' from the keys in value_labels
+value_labels = {k.replace('_lbl', ''): v for k, v in value_labels.items()}
+
+# Apply the labels to the data
+for col, labels in value_labels.items():
+    if col in data_micro:
+        data_micro[col] = data_micro[col].map(labels)
+
+# Apply the labels to the columns
+data_micro = data_micro.rename(columns=col_labels)
+\end{lstlisting}
+
+\chapter{Visualização dos dados}
+
+\section{Mapa do percentual de domicílios com acesso à água encanada no Estado do Rio de Janeiro - Dados Agregados}
+\label{sec-ap-img}
+
+    Mapa análogo ao da \ref{fig:mapa-rj} que tem como fonte de dados os agregados da API. O mapa também é utilizado para comparação na \ref{fig:mapa-rj-compara}.
+
+    Os dados coletados da API são os referentes à variável 100009: ``Existência de água canalizada'' em unidades percentuais. A variável foi filtrada para apenas conter valores referentes ao Estado do Rio de Janeiro agregados pelo nível de município (N6). A seguinte URL redireciona para o JSON contendo os dados: \url{https://servicodados.ibge.gov.br/api/v3/agregados/2065/periodos/-6/variaveis/96%7C1000096?localidades=N1[all]|N13[330101]|N6[N3[33]]&classificacao=471[0,12219]}.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\textwidth]{files/img/mapa água agreg.png}
+    % \caption{Comparação entre os mapas de percentual de domicílios com água canalizada no município do Rio de Janeiro. Na esquerda o gráfico com base nos microdados e na direita com base nos dados agregados da API. Fonte: Dados do Autor (2023).}
+    \caption{Mapa do percentual de domicílios com água encanada no Estado do Rio de Janeiro. Fonte: Dados do Autor (2023)\protect\footnotemark}
+    \label{fig:mapa-rj-agg}
+\end{figure}
+\footnotetext{Com base nos dados agregados do Censo Demográfico de 2010.}
 
 \end{apendicesenv}
