@@ -1,0 +1,186 @@
+\setlength{\absparsep}{18pt} 
+\begin{apendicesenv}
+
+\chapter{Códigos}
+\label{apend-code}
+
+Este apêndice contém os algoritmos, códigos, \textit{scripts} e funções utilizadas para o desenvolvimento do trabalho que são citadas o longo do decorrer da dissertação. O conjunto completo dos arquivos de código se encontra no diretório \verb|/src| do repositório do \textit{Github} <\url{github.com/GDevigili/TCC-IBGE}>.
+
+    \section{Algoritmo de \textit{Unnesting}}
+    \label{apend-unnesting}
+
+    O presente algoritmo realiza o processo de \textit{unnesting}, que visa o nivelamento de uma estrutura de dados em nível único, duplicando dados quando necessário. O processo de desaninhamento sobe os dados de um valor ``filho'' (de grau inferior) até o nível de seu valor ``pai'' (de grau imediatamente superior) de forma recursiva. 
+
+\begin{lstlisting}[label={lst:unnesting},language=Python, caption=Algoritmo de \textit{unnesting} em \textit{python}.]
+def unnest_json(json_dict: dict, col_name: str = '') -> dict:
+    output = {}
+    def flatten(column, col_name:str = ''):
+        # Se a coluna é do tipo dict, continua a recursão
+        if type(column) == dict:
+            for key in column:
+                # Determina o nome da coluna para cada chave (key)
+                if col_name == '':
+                    new_col_name = str(key)
+                else:
+                    # adiciona o pai da coluna ao seu nome
+                    parent_col = col_name.split('_')[-1]
+                    new_col_name = parent_col + '_' + str(key)
+                # Chama recursivamente a função flatten para a chave atual
+                flatten(column[key], new_col_name)
+        else:
+            # Se a coluna não é do tipo dict, salva o valor dela no output
+            output[col_name] = column
+    flatten(json_dict, col_name)
+    return output
+\end{lstlisting}
+
+
+\section{Algoritmo de conversão de \textit{string} JSON para um objeto do tipo \textit{pandas.DataFrame}}
+
+    O \textit{script} abaixo converte um objeto do tipo \textit{string} contendo um código JSON para um objeto do tipo \verb|DataFrame| da biblioteca \verb|pandas|, para tal, utilizando a função de \textit{unnesting}, presente em \textit{listing} \ref{lst:unnesting}. Um exemplo de uso é a conversão do exemplo em \textit{listing} \ref{lst:exemplo-api-localidades} da sessão \ref{metodoslogia-API} para a tabela \ref{tab:exemplo-api-localidades}.
+
+\begin{lstlisting}[label={lst:make-df},language=Python, caption=Algoritmo de transformação de \textit{string} JSON para um objeto do tipo \textit{pandas.DataFrame}.]
+import pandas as pd
+
+def make_df(json_dict: dict) -> pd.DataFrame:
+    """Return a DataFrame from a json dict.
+
+    Args:
+        json_dict (dict): A dict containing the json data.
+
+    Returns:
+        pd.DataFrame: A DataFrame with the data.
+    """
+    # Create a list to store the rows
+    rows = []
+    # Iterate over each item on the json dict
+    for item in json_dict:
+        # Unpack the json dict into a single row dict
+        row = unpack_json(item)
+        # Add the row to the list
+        rows.append(row)
+    # Create a DataFrame from the rows list
+    df = pd.DataFrame(rows)
+    return df
+\end{lstlisting}
+
+\section{Adaptador HTTP customizado}
+
+    Devido ao erro \verb|UNSAFE_LEGACY_RENEGOTIATION_DISABLED| encontrado ao tentar realizar requisições às APIs do IBGE utilizando sistemas operacionais baseados em \textit{Linux} (foi utilizado Ubuntu 20 nos testes), foi necessário criar um adaptador customizado do \textit{Hypertext Transfer Protocol} (HTTP) utilizando um contexto legado do protocolo \textit{Secure Sockets Layer} (SSL).
+
+\begin{lstlisting}[label={lst:http-adapt},language=Python, caption=Algoritmo de transformação de \textit{string} JSON para um objeto do tipo \textit{pandas.DataFrame}.]
+import requests
+import urllib3
+import ssl
+
+class CustomHttpAdapter (requests.adapters.HTTPAdapter):
+    """Transport adapter that allows us to use custom ssl_context."""
+    def __init__(self, ssl_context=None, **kwargs):
+        self.ssl_context = ssl_context
+        super().__init__(**kwargs)
+
+    def init_poolmanager(self, connections, maxsize, block=False):
+        self.poolmanager = urllib3.poolmanager.PoolManager(
+            num_pools=connections, maxsize=maxsize,
+            block=block, ssl_context=self.ssl_context)
+
+def get_request():
+    """Return a requests session with a custom SSL context."""
+    ctx = ssl.create_default_context(ssl.Purpose.SERVER_AUTH)
+    ctx.options |= 0x4  # OP_LEGACY_SERVER_CONNECT
+    session = requests.session()
+    session.mount('https://', CustomHttpAdapter(ctx))
+    return session
+
+def get_request_json(url: str)-> dict:
+    """Return a json from a request."""
+    response = get_request().get(url)
+    return response.json()
+\end{lstlisting}
+
+\section{\textit{Script} para a carga de indicadores da API de países}
+
+    O código a seguir realiza requisições para a API de países do serviço de dados do IBGE, retornando um conjunto de dados com 34 indicadores de 193 países. O módulo \verb|utils| importado no \textit{script} está no diretório \verb|src| do repositório do \textit{Github}. As funções utilizadas são \verb|make_df()| e \verb|get_request_json()| (\textit{listings} \ref{lst:make-df} e \ref{lst:http-adapt}, respectivamente).
+    
+\begin{lstlisting}[label={lst:api-paises},language=Python, caption=\textit{Script} de carga dos indicadores da API de países.]
+import pandas as pd
+from utils import *
+
+url_paises = "https://servicodados.ibge.gov.br/api/v1/paises/"
+df_paises = make_df(get_request_json(url_paises))
+df_paises = df_paises.rename(columns={
+    'id_M49': 'id-pais'
+    ,'id_ISO-3166-1-ALPHA-2': 'sigla-2'
+    ,'id_ISO-3166-1-ALPHA-3': 'sigla-3'
+})
+url_indicadores = "https://servicodados.ibge.gov.br/api/v1/paises/indicadores/"
+df_indicadores = make_df(get_request_json(url_indicadores))
+
+country_list = df_paises['sigla'].unique()
+indicator_list = df_indicadores['id'].unique()
+
+df_country_indicators = pd.DataFrame()
+for country in country_list:
+    # making the request
+    url_country = f"https://servicodados.ibge.gov.br/api/v1/paises/{country}/indicadores"
+    df_country = make_df(get_request_json(url_country))
+    # unpacking the lists
+    # take the series dict out of the list (there will be always one or zero values on the list)
+    df_country = df_country.explode('series')
+    # get the country code (e.g. BR) and country name from the series country and concat it into each of the df_country lines
+    df_country = pd.concat([df_country, pd.json_normalize(df_country['series'])], axis = 1)
+    # drop the column series as it won't be used anymore
+    df_country = df_country.drop('series', axis = 1)
+    # unpack the values for each date
+    df_country = df_country.explode('serie')
+    df_country['ano'] = df_country['serie'].apply(lambda x: list(x.keys())[0] if type(x) == dict else None)
+    df_country['valor_indicador'] = df_country['serie'].apply(lambda x: list(x.values())[0] if type(x) == dict else None)
+    df_country = df_country.drop('serie', axis = 1)
+    df_country_indicators = pd.concat([df_country_indicators, df_country], ignore_index=True)
+\end{lstlisting}
+
+\section{Leitura de arquivo \textit{Stata} no \textit{python}}
+
+    Para realizar a leitura de um arquivo de extenção \verb|.dta|, às vezes se faz necessário carregar ele como um objeto do tipo \textit{StataReader} da biblioteca \verb|pandas.io.stata|. 
+
+    No primeiro bloco de código, a variável \verb|data_micro| recebe os dados no formato de microdados lidos pelo \textit{reader}, \verb|col_labels| os nomes de coluna e \verb|value_lables| os valores identificados pelos IDs que estão nos microdados. Tendo isto em mãos, os valores são substituídos no laço de repetição para obter-se o \textit{DataFrame} final.
+
+\begin{lstlisting}[label={lst:read-stata},language=Python, caption=\textit{Script} de carga dos indicadores da API de países.]
+# Read the file and the labels
+with StataReader('../../dados/microdados-processados/amostra_domicilios_2010_RJ.dta') as reader:
+    data_micro = reader.read(convert_categoricals=False)
+    col_labels = reader.variable_labels()
+    value_labels = reader.value_labels()
+
+# Remove '_lbl' from the keys in value_labels
+value_labels = {k.replace('_lbl', ''): v for k, v in value_labels.items()}
+
+# Apply the labels to the data
+for col, labels in value_labels.items():
+    if col in data_micro:
+        data_micro[col] = data_micro[col].map(labels)
+
+# Apply the labels to the columns
+data_micro = data_micro.rename(columns=col_labels)
+\end{lstlisting}
+
+\chapter{Visualização dos dados}
+
+\section{Mapa do percentual de domicílios com acesso à água encanada no Estado do Rio de Janeiro - Dados Agregados}
+\label{sec-ap-img}
+
+    Mapa análogo ao da figura \ref{fig:mapa-rj} que tem como fonte de dados os agregados da API. O mapa também é utilizado para comparação na  figura \ref{fig:mapa-rj-compara}.
+
+    Os dados coletados da API são os referentes à variável 100009: ``Existência de água canalizada'' em unidades percentuais. A variável foi filtrada para apenas conter valores referentes ao Estado do Rio de Janeiro agregados pelo nível de município (N6). A seguinte URL redireciona para o JSON contendo os dados: \url{https://servicodados.ibge.gov.br/api/v3/agregados/2065/periodos/-6/variaveis/96%7C1000096?localidades=N1[all]|N13[330101]|N6[N3[33]]&classificacao=471[0,12219]}.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\textwidth]{files/img/mapa água agreg.png}
+    % \caption{Comparação entre os mapas de percentual de domicílios com água canalizada no município do Rio de Janeiro. Na esquerda o gráfico com base nos microdados e na direita com base nos dados agregados da API. Fonte: Dados do Autor (2023).}
+    \caption{Mapa do percentual de domicílios com água encanada no Estado do Rio de Janeiro. Fonte: Dados do Autor (2023)\protect\footnotemark}
+    \label{fig:mapa-rj-agg}
+\end{figure}
+\footnotetext{Com base nos dados agregados do Censo Demográfico de 2010.}
+
+
+\end{apendicesenv}
