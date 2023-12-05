@@ -1,0 +1,56 @@
+\chapter{Introdução}
+
+    No cenário altamente digitalizado no qual a humanidade se insere atualmente, um volume gigantesco de informação é gerado diariamente e a análise de dados é cada vez mais uma ferramenta crucial para inúmeras atividades dos mais diversos setores da sociedade. Por exemplo, empresas utilizam os dados para a tomada de decisões, análises de mercado e criação de estratégias de atuação; governos se baseiam neles para a aplicação de políticas públicas e direcionamento de verbas; pesquisadores para embasar suas pesquisas e programadores para treinar modelos de \textit{machine learning}. Em suma, a análise de dados auxilia indivíduos e organizações, gerando \textit{insights}, conhecimento e valor para eles, servindo como base para responder as mais diversas perguntas.
+
+    Contudo, a abundância de dados não implica em sua qualidade e acessibilidade; pelo contrário, frequentemente, o caminho entre a informação e a geração de conhecimento a partir dela é longo e complexo e, raramente, se encontra um conjunto de dados prontos para a análise e uso imediato. Além disso, documentação escassa ou até mesmo inexistente e a falta de metadados é uma realidade comum, que acaba por gerar diversas tentativas frustradas de se utilizarem \textit{datasets} com o intuito de responder uma pergunta e percebe-se, apenas após considerável esforço, que o conjunto de dados que se tem em mãos não será capaz de proporcionar valor.
+
+    % EDITAR
+    Outro problema comum é quanto à estrutura de armazenamento: Bancos de dados transacionais ou \textit{Not Only Structured Query Language} (NoSQL) tem um formato focado em funcionalidade, velocidade de transação e normalização, contudo estes formatos geralmente não atendem a necessidade de analistas e cientistas de dados, já que nesses casos é melhor o sacrifício da economia em espaço de armazenamento em prol da simplificação e eficiência de \textit{queries} devido ao seu volume maior. E ainda, às vezes a estrutura no qual os dados são armazenados é ainda mais inóspita que um \textit{dataset} ``sujo'' ou um modelo com dezenas de tabelas, fazendo com que o usuário deles seja obrigado à ter conhecimento técnico e realizar um trabalho que às vezes dura meses apenas para conseguir iniciar a sua pesquisa.
+
+    Tendo em vista as possíveis dificuldades ao se deparar com um problema de dados, bem como a importância dos dados públicos para os mais diversos tipos de usuário, o presente trabalho objetiva a exploração e tratamento de duas diferentes fontes de dados do Instituto Brasileiro de Geografia e Estatística (IBGE): A \textit{Application Programming Interface} (API) de serviço de dados \cite{API-IBGE} e os microdados, que representam os dados das respostas de cada um dos entrevistados, facilitando o estudo dessas bases e possibilitando um encurtamento do caminho entre a informação e a geração de conhecimento.
+
+
+   % A análise de dados cada vez mais se torna uma ferramenta vital e importantíssima para indivíduos, pesquisadores e organizações, sendo capaz de gerar conhecimento, \textit{insights} e valor, servindo como base para responder perguntas e sustentar tomadas de decisão.
+
+    % O mundo altamente digitalizado em que vivemos possui dados em abundância, e gera diariamente um grande volume de novas informações. Contudo, grande parte destes dados não está propriamente preparado para análise, seja por questões funcionais, como, por exemplo, dados de bancos transacionais ou então por estarem "sujos", contendo ruído, informações errôneas, formatações confusas e diversos outros problemas de qualidade, tornando longo o caminho entre a coleta de dados e a geração de conhecimento.
+
+    % Tendo em vista isso, o presente projeto visa o desenvolvimento de um repositório unificado com dados provenientes de fontes públicas como, por exemplo, IBGE e PNADC, passando pelas etapas de Extract Transform Load (ETL) e/ou Extract Load Transform (ELT), higienização, estruturação e documentação, de modo a disponibilizar uma interface com dados preparados para análise, de forma a encurtar o caminho necessário para o usuário entre a informação e o conhecimento, facilitando assim o acesso e o estudo deles.
+
+% \section{O Censo demográfico IBGE}
+
+
+\section{O formato dos dados do IBGE}
+
+    Os dados do Instituto Brasileiro de Geografia e Estatística são disponibilizados em dois formatos: os microdados e os agregados que, em suma, representam a mesma informação, diferindo apenas em termos de granularidade.
+
+    Os microdados ``consistem no menor nível de desagregação dos dados de uma pesquisa, retratando, sob a forma de códigos numéricos, o conteúdo dos questionários, preservado o sigilo estatístico com vistas à não individualização das informações.'' \cite{microdados}. Cada linha de um arquivo de microdados representa o conjunto de respostas de um único entrevistado dentro de uma determinada pesquisa, bem como informações calculadas à partir do que foi amostrado, como renda \textit{per capita} e valor do aluguel em salários mínimos, por exemplo.
+
+    Por sua vez, os agregados são agrupamentos desses microdados de acordo com determinados critérios. A \textit{Application Programming Interface} (API) do serviço de dados do IBGE\footnote{Disponível em <\url{https://servicodados.ibge.gov.br/api/docs/}>. Acessado em 30 de set. de 2023.} disponibiliza cada variável consolidada de acordo com a pesquisa realizada e respectiva periodicidade, além de agregações de caráter geográfico, indo desde grande região (p. ex. Norte, Sul, \textit{etc.}) até o grão de município ou distrito municipal, quando aplicável.
+
+    Em termos geográficos, os agregados alcançam apenas até o nível de município, enquanto os microdados chegam ao ao grão de setor censitário, sendo descritos por \textcite{Guia-Censo-2010} no Guia do Censo como ``unidades territoriais estabelecidas para fins de controle cadastral, situadas em um único quadro urbano ou rural, com dimensão e número de domicílios [...]''.
+
+    Nesse contexto, a principal distinção dos dois formatos é o seu nível de detalhe e sua principal vantagem e desvantagem residem no \textit{tradeoff} entre detalhamento e volume. Os microdados, por apresentarem uma granularidade menor, permitem análises mais específicas porém requisitando um maior poder computacional e ocupando um maior espaço de armazenamento. Enquanto isso, os dados agregados já se encontram pré-processados de acordo com seus respectivos pesos amostrais e são mais leves em termos de memória e armazenamento, contudo reduzindo as possibilidades de análise conforme a agregação aumenta.
+
+    % Os conjuntos de dados nomeados pelo IBGE de agregados, como diz o nome, são os microdados das pesquisas do instituto agrupados de acordo com certos critérios. A \textit{Application Programming Interface} (API) de serviço de dados do IBGE \cite{API-IBGE} disponibiliza tais dados agregados por localidade, indo desde grande região (p. ex. Norte, Sul, \textit{etc.}) até o grão de município ou distrito municipal (quando existente), por período de tempo, cujo grão é dependente da periodicidade da pesquisa e também por variável disponível na pesquisa.
+    
+    % Já os microdados ``consistem no menor nível de desagregação dos dados de uma pesquisa, retratando, sob a forma de códigos numéricos, o conteúdo dos questionários, preservado o sigilo estatístico com vistas à não individualização das informações.'' \cite{microdados}, ou seja, cada entrada representa o conjunto de respostas de um entrevistado em uma determinada pesquisa. 
+    
+    % Em termos geográficos, enquanto os agregados chegam apenas até o grão de município, os microdados estão também separados por \textbf{setores censitários}, que são definidos por \textcite{Guia-Censo-2010} no Guia do Censo como ``unidades territoriais estabelecidas para fins de controle cadastral, situadas em um único quadro urbano ou rural, com dimensão e número de domicílios [...]''. 
+
+    % EDITAR. talvez mover o final deste parágrafo para outra parte.
+    % Sendo assim, os microdados são capazes de ser muito mais específicos, contudo com a desvantagem de serem um volume de dados muito maior, o que dificulta seu processamento. Por exemplo, no Censo Demográfico de 2022 foram recenseados mais de 452 mil setores censitários inseridos em 5.568 municípios e os distritos federal e de Fernando de Noronha, e dentro destes setores foram coletadas informações referentes a 75 milhões de domicílios \cite{Guia-Censo-2022}.
+
+
+\chapter{Objetivo Geral}
+
+    Tendo em vista a importância dos dados públicos, em especial os do censo demográfico promovido pelo IBGE, o presente trabalho objetiva a criação de um repositório público de dados contendo os conjuntos de dados devidamente tratados e transformados em formato tabular. O repositório contendo os arquivos de código utilizados para o desenvolvimento do trabalho, bem como os dados, se encontra em: <\url{github.com/GDevigili/TCC-IBGE}>.
+
+
+\section{Objetivos Específicos}
+
+\begin{itemize}
+    \item Estudar diferentes estratégias de coleta de dados censitários do IBGE;
+    \item Carregar os dados do IBGE via API e processá-los de forma a reestruturar eles em formato tabular;
+    \item Codificar um \textit{script} capaz de ler e associar \textit{labels} aos respectivos microdados de modo a gerar um arquivo de dados do \textit{Stata};
+    \item Demonstrar o uso de ambos conjuntos de dados através de um estudo de caso, demonstrando as diferenças de abrangência e utilização dos dois formatos estudados (API e microdados), gerando visualizações e comparando os dois conjuntos.
+\end{itemize}
