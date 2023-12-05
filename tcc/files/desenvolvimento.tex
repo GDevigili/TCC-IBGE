@@ -96,7 +96,7 @@
 \section{Microdados do Censo Demográfico}
 \label{sec-microdados}
 
-    Os dados fornecidos pela API de agregados consistem essencialmente na consolidação das respostas individuais de cada um dos entrevistados durante o processo de recenseamento de acordo com critérios locacionais, com seu menor grau de agregação sedo município. Tais informações são organizadas em um formato denominado pelo IBGE como microdados e são disponibilizados através do portal de produtos estatísticos da instituição\footnote{Para mais detalhes, consulte <\url{www.ibge.gov.br/estatisticas/todos-os-produtos-estatisticas.html}>. Acesso em 03 out. 2023}, estando disponibilizados em diversas pastas compactadas em formato \textit{.zip} que contém os arquivos de texto nos quais se encontram os dados. No entanto, os dados daqueles arquivos não estão imediatamente prontos para a utilização tal qual uma planilha ou um arquivo CSV, mas sim em um formato comprimido, onde os valores categóricos são codificados através de identificadores (IDs) numéricos, enquanto valores que originalmente possuíam casas decimais tem seus pontos flutuantes removidos. Dessa forma, os dados se apresentam conforme ilustrado pela figura \ref{fig:exemplo-microdado}:
+    Os dados fornecidos pela API de agregados consistem essencialmente na consolidação das respostas individuais de cada um dos entrevistados durante o processo de recenseamento de acordo com critérios locacionais, com seu menor grau de agregação sedo município. As informações que são agrupadas são organizadas em um formato denominado pelo IBGE como microdados e são disponibilizados através do portal de produtos estatísticos da instituição\footnote{Para mais detalhes, consulte <\url{www.ibge.gov.br/estatisticas/todos-os-produtos-estatisticas.html}>. Acesso em 03 out. 2023}, estando disponibilizados em diversas pastas compactadas em formato \verb|.zip| que contém os arquivos de texto nos quais se encontram os dados. No entanto, os dados daqueles arquivos não estão imediatamente prontos para a utilização tal qual uma planilha ou um arquivo de valores separados por vírgulas (em inglês \textit{comma separated values} ou CSV), mas sim em um formato comprimido, onde os valores categóricos são codificados através de identificadores (IDs) numéricos, enquanto valores que originalmente possuíam casas decimais tem seus pontos flutuantes removidos. Dessa forma, os dados se apresentam conforme ilustrado pela figura \ref{fig:exemplo-microdado}.
 
 \begin{figure}[ht]
     \centering
@@ -106,7 +106,7 @@
 \end{figure}
 \footnotetext{\textit{Printscreen} do arquivo de microdados da amostra de domicílios do Estado de Santa Catarina, Censo de 2010.}
 
-    Juntamente com os microdados, é fornecido uma planilha no formato \textit{Open Document Spreadsheet} (ODS) ou Excel que descreve o que cada caractere do arquivo significa, relacionando as categorias e identificadores e a formatação referente às casas decimais das variáveis numéricas. 
+    Juntamente com os microdados, é fornecido uma planilha no formato \textit{Open Document Spreadsheet} (ODS) ou Excel que descreve o que cada caractere do arquivo significa, relacionando as categorias e identificadores, assim como definindo a formatação referente às casas decimais das variáveis numéricas. 
     
     Tomando como exemplo a amostra da pesquisa de domicílios do Censo Demográfico de 2010, o arquivo de \textit{layout}
     \footnote{Arquivo /Documentação/Layout/Layout\_microdados\_amostra.xls. Download em: <\url{ftp.ibge.gov.br/Censos/Censo_Demografico_2010/Resultados_Gerais_da_Amostra/Microdados/Documentacao.zip}>. Acesso em 03 out. 2023.} (exemplificado na figura \ref{fig:layout-domi}), temos que as duas primeiras posições do arquivo referem-se variável V0001 à UF, cujo valor 42 corresponde ao Estado de Santa Catarina. Outro exemplo significativo é a variável numérica V0010, Peso Amostral, engloba os dígitos da posição 29 até 44, sendo os 3 primeiros (coluna INT) os dígitos anteriores ao ponto decimal, e as 13 subsequentes sendo as casas de precisão após a vírgula (coluna DEC).
@@ -168,13 +168,13 @@ label values V1006 V1006_lbl
 
 \chapter{Estudo de Caso: Acesso à água encanada no Estado do Rio de Janeiro}
 
-    Exemplificando um possível caso de uso dos conjuntos de dados estudados, será realizada uma análise da distribuição de água encanada no Estado do Rio de Janeiro.
+    Exemplificando um possível caso de uso dos conjuntos de dados estudados, foi realizada uma análise da distribuição de água encanada no Estado do Rio de Janeiro.
 
     Para o carregamento do arquivo de dados do \textit{Stata} no \textit{python}, foi necessário abrir os arquivos na forma de um objeto do tipo \verb|StataReader| que permite o acesso às \textit{labels} definidas na execução do \textit{Dofile} para posterior aplicação no conjunto de dados. A carga completa se encontra no \textit{listing} \ref{lst:read-stata}. 
     
     A variável utilizada para o cálculo do valor foi a coluna ``V0209: Abastecimento de Água, Canalização'' da amostra de domicílios do Censo de 2010. Foram consideradas no cálculo do percentual as respostas ``Sim, em pelo menos um cômodo'' e ``Sim, só na propriedade ou terreno'' e a ponderação da representatividade da resposta foi dada através da coluna de peso amostral (V0010). Por se tratarem de dados com uma média de 98.74\% e mediana em 99.54\%, uma escala contínua deixaria o mapa gerado de difícil interpretação, então foi optado por subdividir os dados em 5 categorias: Menor que 80\%, entre 80\% e 90\%, entre 90\% e 95\%, entre 95\% e 98\% e entre 98\% e 100\%.
 
-    Analisando unicamente as 200 áreas de ponderação do município do Rio de Janeiro através da figura \ref{fig:box-rio}, fica claro que menos de 5\% das áreas da capital possuem menos de 95\% dos domicílios com água encanada.
+    Analisando as 200 áreas de ponderação do município do Rio de Janeiro através da figura \ref{fig:box-rio}, fica claro que menos de 5\% das áreas da capital possuem menos de 95\% dos domicílios com água encanada.
 
 \begin{figure}[ht]
     \centering
@@ -184,7 +184,7 @@ label values V1006 V1006_lbl
 \end{figure}
 \footnotetext{Com base nos microdados da amostra de domicílios de 2010 do Estado do Rio de Janeiro.}
     
-    Para a criação de uma visualização (Figura \ref{fig:mapa-rj}) referente aos dados, foi utilizado um arquivo \textit{Shapefile}\footnote{Arquivos \textit{shapefile} referentes aos Estados brasileiros disponíveis em: \url{https://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_de_setores_censitarios__divisoes_intramunicipais/censo_2010/setores_censitarios_shp/}. O arquivo utilizado foi de extensão \protect\verb|.shp da pasta compactada \verb|rj\_setores\_censitarios.zip}}, que são arquivos vetoriais que armazenam forma e atributos de localizações geográficas \cite{arcgis}. Através a biblioteca \textit{GeoPandas} é possível manipular esse conjunto de dados geográficos, juntá-los com outros \textit{datasets} e também gerar gráficos. Acrescentando as porcentagens calculadas com os microdados ao \textit{dataframe}, foi utilizado o método \verb|plot()| com algumas configurações comuns da biblioteca \verb|matplotlib| para exibir as categorias acima citadas. 
+    Para a criação de uma visualização em forma de mapa (Figura \ref{fig:mapa-rj}) referente aos dados, foi utilizado um arquivo \textit{Shapefile}\footnote{Arquivos \textit{shapefile} referentes aos Estados brasileiros disponíveis em: \url{https://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_de_setores_censitarios__divisoes_intramunicipais/censo_2010/setores_censitarios_shp/}. O arquivo utilizado foi de extensão \protect\verb|.shp da pasta compactada \verb|rj\_setores\_censitarios.zip}}, um arquivos vetorial que armazena forma e atributos de localizações geográficas \cite{arcgis}. Através a biblioteca \textit{GeoPandas} é possível manipular esse conjunto de dados geográficos, juntá-los com outros \textit{datasets} e também gerar gráficos. Acrescentando as porcentagens calculadas com os microdados ao \textit{dataframe}, foi utilizado o método \verb|plot()| com algumas configurações comuns da biblioteca \verb|matplotlib| para exibir as categorias acima citadas. 
 
 
 \begin{figure}[ht]
@@ -206,7 +206,7 @@ label values V1006 V1006_lbl
 
     Pouco muda entre um gráfico e outro, já que eles representam em tese a mesma coisa, mas algumas poucas variações mostram como o nível de detalhe dos microdados revela informações que são perdidas no gráfico de agregados\footnote{Gráfico em tamanho maior na imagem \ref{fig:mapa-rj-agg} do apêndice \ref{sec-ap-img}}, como na região mais ao norte do Estado, que aparenta ter mais regiões com água encanada porém a agregação ``mascara'' certos pontos menores que entram na categoria ``entre 95\% e 98\%'' ao invés da categoria superior.
     
-    Uma análise mais minuciosa pode ser feita visualizando apenas a capital do Estado, como na \ref{fig:mapa-mun-rio}. Com os microdados, se revela que mesmo em um município com mais de 99\% de água encanada, ainda existem áreas como os bairros como Guaratiba e Bangu com um acesso consideravelmente menor ao serviço que tiveram suas amostras ofuscadas pelo restante da cidade.
+    Uma análise mais minuciosa pode ser feita visualizando apenas a capital do Estado, como na figura \ref{fig:mapa-mun-rio}. Com os microdados, se revela que mesmo em um município com mais de 99\% de água encanada, ainda existem áreas como os bairros como Guaratiba e Bangu com um acesso consideravelmente menor ao serviço que tiveram suas amostras ofuscadas pelo restante da cidade com os dados agregados.
 
 \begin{figure}[ht]
     \centering
