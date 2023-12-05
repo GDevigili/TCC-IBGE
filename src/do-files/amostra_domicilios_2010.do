@@ -1,5 +1,6 @@
 * NOTE: You need to set the Stata working directory to the path
 * where the data file is located.
+* to change the State where you want to process the data, change the line 86
 
 set more off
 
@@ -82,7 +83,7 @@ quietly infix                ///
   byte		M0402		170-170		///
   byte		M0701		171-171		///
   byte		V1005		172-172		///
-  using `"../data/microdados/amostra_domicilios_2010_RJ.txt"', clear
+  using `"../data/microdados/amostra_domicilios_2010_TO.txt"', clear
 
 format V0300 %08.0f
 format V0010 %017.13f
