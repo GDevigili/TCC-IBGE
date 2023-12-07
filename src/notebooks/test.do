@@ -15,166 +15,41 @@ quietly infix                ///
   int		V1002		46-47		///
   int		V1003		48-50		///
   int		V1004		51-52		///
-  byte		V1006		53-53		///
-  byte		V4001		54-55		///
-  byte		V4002		56-57		///
-  byte		V0201		58-58		///
-  double		V2011		59-64		///
-  double		V2012		65-73		///
-  byte		V0202		74-74		///
-  double		V0203		75-76		///
-  double		V6203		77-79		///
-  double		V0204		80-81		///
-  double		V6204		82-84		///
-  byte		V0205		85-85		///
-  byte		V0206		86-86		///
-  byte		V0207		87-87		///
-  int		V0208		88-89		///
-  byte		V0209		90-90		///
-  byte		V0210		91-91		///
-  byte		V0211		92-92		///
-  byte		V0212		93-93		///
-  byte		V0213		94-94		///
-  byte		V0214		95-95		///
-  byte		V0215		96-96		///
-  byte		V0216		97-97		///
-  byte		V0217		98-98		///
-  byte		V0218		99-99		///
-  byte		V0219		100-100		///
-  byte		V0220		101-101		///
-  byte		V0221		102-102		///
-  byte		V0222		103-103		///
-  byte		V0301		104-104		///
-  double		V0401		105-106		///
-  byte		V0402		107-107		///
-  byte		V0701		108-108		///
-  double		V6529		109-115		///
-  double		V6530		116-125		///
-  double		V6531		126-133		///
-  double		V6532		134-142		///
-  byte		V6600		143-143		///
-  byte		V6210		144-144		///
-  byte		M0201		145-145		///
-  byte		M2011		146-146		///
-  byte		M0202		147-147		///
-  byte		M0203		148-148		///
-  byte		M0204		149-149		///
-  byte		M0205		150-150		///
-  byte		M0206		151-151		///
-  byte		M0207		152-152		///
-  byte		M0208		153-153		///
-  byte		M0209		154-154		///
-  byte		M0210		155-155		///
-  byte		M0211		156-156		///
-  byte		M0212		157-157		///
-  byte		M0213		158-158		///
-  byte		M0214		159-159		///
-  byte		M0215		160-160		///
-  byte		M0216		161-161		///
-  byte		M0217		162-162		///
-  byte		M0218		163-163		///
-  byte		M0219		164-164		///
-  byte		M0220		165-165		///
-  byte		M0221		166-166		///
-  byte		M0222		167-167		///
-  byte		M0301		168-168		///
-  byte		M0401		169-169		///
-  byte		M0402		170-170		///
-  byte		M0701		171-171		///
-  byte		V1005		172-172		///
-  using `"../data/microdados/amostra_domicilios_2010_RJ.txt"', clear
+  byte		V1006 		53-53		///
+  byte		V0303		54-54		///
+  int		V0304		55-58		///
+  int		V0305		59-62		///
+  int		V3061		63-69		///
+  byte		M0303		70-70		///
+  byte		M0304		71-71		///
+  byte		M0305		72-72		///
+  byte		M3061		73-73		///
+  byte		V1005		74-74		///
+  using `"../data/microdados/amostra_emigracao_2010_AL.txt"', clear
+format V0011 %013.0f
 
 format V0300 %08.0f
 format V0010 %017.13f
-format V0011 %013.0f
-format V2011 %06.0f
-format V2012 %010.5f
-format V0203 %02.0f
-format V6203 %04.1f
-format V0204 %02.0f
-format V6204 %04.1f
-format V0401 %02.0f
-format V6529 %07.0f
-format V6530 %011.5f
-format V6531 %09.2f
-format V6532 %010.5f
 
-label var V0213		`"RÁDIO, EXISTÊNCIA"'
-label var V0214		`"TELEVISÃO, EXISTÊNCIA"'
-label var V1005		`"Situação do setor "'
-label var V1002		`"CÓDIGO DA MESORREGIÃO"'
-label var M0215		`"MARCA DE IMPUTAÇÃO NA V0215 "'
-label var V0216		`"GELADEIRA, EXISTÊNCIA"'
-label var M2011		`"MARCA DE IMPUTAÇÃO NA V2011"'
-label var V6531		`"RENDIMENTO DOMICILIAR PER CAPITA EM JULHO DE 2010 "'
-label var V6210		`"ADEQUAÇÃO DA MORADIA"'
-label var M0401		`"MARCA DE IMPUTAÇÃO NA V0401  "'
-label var V4001		`"ESPÉCIE DE UNIDADE VISITADA"'
-label var V0217		`"TELEFONE CELULAR, EXISTÊNCIA"'
-label var V0401		`"QUANTAS PESSOAS MORAVAM NESTE DOMICÍLIO EM 31 DE JULHO DE 2010"'
+label var M0304		`"MARCA DE IMPUTAÇÃO NA V0304 "'
+label var V1006 		`"SITUAÇÃO DO DOMICÍLIO "'
+label var V1003		`" CÓDIGO DA MICRORREGIÃO "'
+label var V0303		`"SEXO DO EMIGRANTE"'
+label var V3061		`"PAÍS DE RESIDÊNCIA EM 31 DE JULHO DE 2010 – CÓDIGO"'
+label var M0303		`"MARCA DE IMPUTAÇÃO NA V0303  "'
+label var V1002		`" CÓDIGO DA MESORREGIÃO"'
 label var V0001		`"UNIDADE DA FEDERAÇÃO"'
-label var M0210		`"MARCA DE IMPUTAÇÃO NA V0210 "'
-label var M0205		`"MARCA DE IMPUTAÇÃO NA V0205 "'
-label var V0209		`"ABASTECIMENTO DE ÁGUA, CANALIZAÇÃO"'
-label var V1003		`"CÓDIGO DA MICRORREGIÃO"'
-label var V0010		`"PESO AMOSTRAL"'
-label var M0207		`"MARCA DE IMPUTAÇÃO NA V0207 "'
-label var V0219		`"MICROCOMPUTADOR, EXISTÊNCIA"'
-label var M0206		`"MARCA DE IMPUTAÇÃO NA V0206 "'
-label var V0203		`"CÔMODOS, NÚMERO"'
-label var M0222		`"MARCA DE IMPUTAÇÃO NA V0222  "'
-label var V0212		`"EXISTÊNCIA DE MEDIDOR OU RELÓGIO, ENERGIA ELÉTRICA, COMPANHIA DISTRIBUIDORA"'
-label var V0218		`"TELEFONE FIXO, EXISTÊNCIA"'
-label var M0402		`"MARCA DE IMPUTAÇÃO NA V0402  "'
-label var M0221		`"MARCA DE IMPUTAÇÃO NA V0221  "'
-label var M0220		`"MARCA DE IMPUTAÇÃO NA V0220  "'
-label var V0220		`"MICROCOMPUTADOR COM ACESSO À INTERNET, EXISTÊNCIA"'
-label var M0213		`"MARCA DE IMPUTAÇÃO NA V0213 "'
-label var V1006		`"SITUAÇÃO DO DOMICÍLIO"'
-label var M0219		`"MARCA DE IMPUTAÇÃO NA V0219  "'
-label var M0218		`"MARCA DE IMPUTAÇÃO NA V0218 "'
-label var M0216		`"MARCA DE IMPUTAÇÃO NA V0216  "'
-label var V0701		`"DE AGOSTO DE 2009 A JULHO DE 2010, FALECEU ALGUMA PESSOA QUE MORAVA COM VOCÊ(S) (INCLUSIVE CRIANÇAS RECÉM-NASCIDAS E IDOSOS)"'
-label var V0222		`"AUTOMÓVEL PARA USO PARTICULAR, EXISTÊNCIA"'
-label var V6600		`"Espécie da Unidade Doméstica"'
-label var V0201		`"DOMICÍLIO, CONDIÇÃO DE OCUPAÇÃO"'
-label var V6204		`"DENSIDADE DE MORADOR / DORMITÓRIO  "'
-label var V1004		`"CÓDIGO DA REGIÃO METROPOLITANA"'
-label var V0215		`"MÁQUINA DE LAVAR ROUPA, EXISTÊNCIA"'
-label var V6532		`"RENDIMENTO DOMICILIAR PER CAPITA, EM Nº DE SALÁRIOS MÍNIMOS, EM JULHO DE 2010 "'
-label var M0214		`"MARCA DE IMPUTAÇÃO NA V0214  "'
-label var V2012		`"ALUGUEL EM Nº DE SALÁRIOS MÍNIMOS "'
-label var V0210		`"LIXO, DESTINO"'
-label var V2011		`"VALOR DO ALUGUEL (EM REAIS)             "'
-label var V0221		`"MOTOCICLETA PARA USO PARTICULAR, EXISTÊNCIA"'
-label var M0301		`"MARCA DE IMPUTAÇÃO NA V0301  "'
-label var V6530		`"RENDIMENTO DOMICILIAR, SALÁRIOS MÍNIMOS, EM JULHO DE 2010 "'
-label var V0204		`"CÔMODOS COMO DORMITÓRIO, NÚMERO"'
-label var M0211		`"MARCA DE IMPUTAÇÃO NA V0211 "'
-label var V6529		`"RENDIMENTO MENSAL DOMICILIAR EM JULHO DE 2010 "'
-label var M0203		`"MARCA DE IMPUTAÇÃO NA V0203 "'
-label var M0202		`"MARCA DE IMPUTAÇÃO NA V0202 "'
-label var M0701		`"MARCA DE IMPUTAÇÃO NA V0701  "'
+label var M3061		`"MARCA DE IMPUTAÇÃO NA V3061  "'
+label var V1004		`" CÓDIGO DA  REGIÃO METROPOLITANA "'
+label var V0304		`"ANO DE NASCIMENTO DO EMIGRANTE"'
 label var V1001		`"REGIÃO GEOGRÁFICA"'
-label var M0204		`"MARCA DE IMPUTAÇÃO NA V0204 "'
-label var M0201		`"MARCA DE IMPUTAÇÃO NA V0201  "'
-label var V0402		`"A RESPONSABILIDADE PELO DOMICÍLIO É DE"'
-label var V0208		`"ABASTECIMENTO DE ÁGUA, FORMA"'
+label var V0305		`"ANO DA ÚLTIMA PARTIDA DO EMIGRANTE"'
+label var V1005		`"Situação do setor "'
 label var V0011		`"ÁREA DE PONDERAÇÃO"'
-label var V0205		`"BANHEIROS DE USO EXCLUSIVO, NÚMERO "'
-label var V0301		`"ALGUMA PESSOA QUE MORAVA COM VOCÊ(S) ESTAVA MORANDO EM OUTRO PAÍS EM 31 DE JULHO DE 2010"'
-label var M0217		`"MARCA DE IMPUTAÇÃO NA V0217  "'
-label var V0211		`"ENERGIA ELÉTRICA, EXISTÊNCIA"'
-label var V4002		`"TIPO DE ESPÉCIE"'
-label var M0208		`"MARCA DE IMPUTAÇÃO NA V0208 "'
-label var V0207		`"ESGOTAMENTO SANITÁRIO, TIPO"'
-label var M0209		`"MARCA DE IMPUTAÇÃO NA V0209 "'
-label var M0212		`"MARCA DE IMPUTAÇÃO NA V0212 "'
-label var V0300		`"CONTROLE"'
-label var V6203		`"DENSIDADE DE MORADOR/CÔMODO "'
-label var V0202		`"MATERIAL PREDOMINANTE, PAREDES EXTERNAS"'
 label var V0002		`"CÓDIGO DO MUNICÍPIO"'
-label var V0206		`"SANITÁRIO OU BURACO PARA DEJEÇÕES, EXISTÊNCIA"'
+label var V0300		`"CONTROLE"'
+label var V0010		`"PESO AMOSTRAL"'
+label var M0305		`"MARCA DE IMPUTAÇÃO NA V0305  "'
 
 label define V0001_lbl 11 `" Rondônia"', add
 label define V0001_lbl 12 `" Acre"', add
@@ -208,197 +83,26 @@ label define V1001_lbl 2 `" Região nordeste (uf=21 a 29)  "', add
 label define V1001_lbl 3 `" Região sudeste (uf=31 a 33 e 35)"', add
 label define V1001_lbl 4 `" Região sul (uf=41 a 43)"', add
 label define V1001_lbl 5 `" Região centro"', add
-label define V1006_lbl 1 `" Urbana"', add
-label define V1006_lbl 2 `" Rural"', add
-label define V4001_lbl 01 `" Domicílio particular permanente ocupado "', add
-label define V4001_lbl 02 `" Domicílio particular permanente ocupado sem entrevista realizada "', add
-label define V4001_lbl 05 `" Domicílio particular improvisado ocupado "', add
-label define V4001_lbl 06 `" Domicílio coletivo com morador"', add
-label define V4002_lbl 11 `" Casa"', add
-label define V4002_lbl 12 `" Casa de vila ou em condomínio"', add
-label define V4002_lbl 13 `" Apartamento"', add
-label define V4002_lbl 14 `" Habitação em: casa de cômodos, cortiço ou cabeça de porco"', add
-label define V4002_lbl 15 `" Oca ou maloca "', add
-label define V4002_lbl 51 `" Tenda ou barraca"', add
-label define V4002_lbl 52 `" Dentro de estabelecimento"', add
-label define V4002_lbl 53 `" Outro (vagão, trailer, gruta, etc)"', add
-label define V4002_lbl 61 `" Asilo, orfanato e similares  com morador"', add
-label define V4002_lbl 62 `" Hotel, pensão e similares com morador"', add
-label define V4002_lbl 63 `" Alojamento de trabalhadores com morador"', add
-label define V4002_lbl 64 `" Penitenciária, presídio ou casa de detenção com morador"', add
-label define V4002_lbl 65 `" Outro com morador"', add
-label define V0201_lbl 1 `" Próprio de algum morador "', add
-label define V0201_lbl 2 `" Próprio de algum morador "', add
-label define V0201_lbl 3 `" Alugado"', add
-label define V0201_lbl 4 `" Cedido por empregador"', add
-label define V0201_lbl 5 `" Cedido de outra forma"', add
-label define V0201_lbl 6 `" Outra condição"', add
-label define V0201_lbl .a `"Branco"', add
-label define V0202_lbl 1 `" Alvenaria com revestimento"', add
-label define V0202_lbl 2 `" Alvenaria sem revestimento"', add
-label define V0202_lbl 3 `" Madeira apropriada para construção (aparelhada)"', add
-label define V0202_lbl 4 `" Taipa revestida"', add
-label define V0202_lbl 5 `" Taipa não revestida"', add
-label define V0202_lbl 6 `" Madeira aproveitada"', add
-label define V0202_lbl 7 `" Palha"', add
-label define V0202_lbl 8 `" Outro material"', add
-label define V0202_lbl 9 `" Sem parede"', add
-label define V0202_lbl .a `"Branco"', add
-label define V0205_lbl 0 `" Zero banheiros"', add
-label define V0205_lbl 1 `" Um banheiro"', add
-label define V0205_lbl 2 `" Dois banheiros"', add
-label define V0205_lbl 3 `" Três banheiros"', add
-label define V0205_lbl 4 `" Quatro banheiros"', add
-label define V0205_lbl 5 `" Cinco banheiros"', add
-label define V0205_lbl 6 `" Seis banheiros"', add
-label define V0205_lbl 7 `" Sete banheiros"', add
-label define V0205_lbl 8 `" Oito banheiros"', add
-label define V0205_lbl 9 `" Nove ou mais banheiros"', add
-label define V0205_lbl .a `"Branco"', add
-label define V0206_lbl 1 `" Sim"', add
-label define V0206_lbl 2 `" Não"', add
-label define V0206_lbl .a `"Branco"', add
-label define V0207_lbl 1 `" Rede geral de esgoto ou pluvial"', add
-label define V0207_lbl 2 `" Fossa séptica"', add
-label define V0207_lbl 3 `" Fossa rudimentar"', add
-label define V0207_lbl 4 `" Vala"', add
-label define V0207_lbl 5 `" Rio, lago ou mar"', add
-label define V0207_lbl 6 `" Outro "', add
-label define V0207_lbl .a `"Branco"', add
-label define V0208_lbl 01 `" Rede geral de distribuição"', add
-label define V0208_lbl 02 `" Poço ou nascente na propriedade"', add
-label define V0208_lbl 03 `" Poço ou nascente fora da propriedade"', add
-label define V0208_lbl 04 `" Carro"', add
-label define V0208_lbl 05 `" Água da chuva armazenada em cisterna"', add
-label define V0208_lbl 06 `" Água da chuva armazenada de outra forma"', add
-label define V0208_lbl 07 `" Rios, açudes, lagos e igarapés"', add
-label define V0208_lbl 08 `" Outra "', add
-label define V0208_lbl 09 `" Poço ou nascente na aldeia"', add
-label define V0208_lbl 10 `" Poço ou nascente fora da aldeia"', add
-label define V0208_lbl .a `"Branco"', add
-label define V0209_lbl 1 `" Sim, em pelo menos um cômodo"', add
-label define V0209_lbl 2 `" Sim, só na propriedade ou terreno"', add
-label define V0209_lbl 3 `" Não"', add
-label define V0209_lbl .a `"Branco"', add
-label define V0210_lbl 1 `" Coletado diretamente por serviço de limpeza"', add
-label define V0210_lbl 2 `" Colocado em caçamba de serviço de limpeza"', add
-label define V0210_lbl 3 `" Queimado (na propriedade)"', add
-label define V0210_lbl 4 `" Enterrado (na propriedade)"', add
-label define V0210_lbl 5 `" Jogado em terreno baldio ou logradouro"', add
-label define V0210_lbl 6 `" Jogado em rio, lago ou mar"', add
-label define V0210_lbl 7 `" Tem outro destino"', add
-label define V0210_lbl .a `"Branco"', add
-label define V0211_lbl 1 `" Sim, de companhia distribuidora"', add
-label define V0211_lbl 2 `" Sim, de outras fontes"', add
-label define V0211_lbl 3 `" Não existe energia elétrica"', add
-label define V0211_lbl .a `"Branco"', add
-label define V0212_lbl 1 `" Sim, de uso exclusivo"', add
-label define V0212_lbl 2 `" Sim, de uso comum "', add
-label define V0212_lbl 3 `" Não tem medidor ou relógio"', add
-label define V0212_lbl .a `"Branco"', add
-label define V0213_lbl 1 `" Sim"', add
-label define V0213_lbl 2 `" Não"', add
-label define V0213_lbl .a `"Branco"', add
-label define V0214_lbl 1 `" Sim"', add
-label define V0214_lbl 2 `" Não"', add
-label define V0214_lbl .a `"Branco"', add
-label define V0215_lbl 1 `" Sim"', add
-label define V0215_lbl 2 `" Não"', add
-label define V0215_lbl .a `"Branco"', add
-label define V0216_lbl 1 `" Sim"', add
-label define V0216_lbl 2 `" Não"', add
-label define V0216_lbl .a `"Branco"', add
-label define V0217_lbl 1 `" Sim"', add
-label define V0217_lbl 2 `" Não"', add
-label define V0217_lbl .a `"Branco"', add
-label define V0218_lbl 1 `" Sim"', add
-label define V0218_lbl 2 `" Não"', add
-label define V0218_lbl .a `"Branco"', add
-label define V0219_lbl 1 `" Sim"', add
-label define V0219_lbl 2 `" Não"', add
-label define V0219_lbl .a `"Branco"', add
-label define V0220_lbl 1 `" Sim"', add
-label define V0220_lbl 2 `" Não"', add
-label define V0220_lbl .a `"Branco"', add
-label define V0221_lbl 1 `" Sim"', add
-label define V0221_lbl 2 `" Não"', add
-label define V0221_lbl .a `"Branco"', add
-label define V0222_lbl 1 `" Sim"', add
-label define V0222_lbl 2 `" Não"', add
-label define V0222_lbl .a `"Branco"', add
-label define V0301_lbl 1 `" Sim"', add
-label define V0301_lbl 2 `" Não"', add
-label define V0301_lbl .a `"Branco"', add
-label define V0402_lbl 1 `" Apenas um morador"', add
-label define V0402_lbl 2 `" Mais de um morador"', add
-label define V0402_lbl 9 `" Ignorado"', add
-label define V0402_lbl .a `"Branco"', add
-label define V0701_lbl 1 `" Sim"', add
-label define V0701_lbl 2 `" Não"', add
-label define V0701_lbl .a `"Branco"', add
-label define V6600_lbl 1 `" Unipessoal"', add
-label define V6600_lbl 2 `" Nuclear"', add
-label define V6600_lbl 3 `" Estendida"', add
-label define V6600_lbl 4 `" Composta"', add
-label define V6600_lbl .a `"Branco (Domicílio Coletivo)"', add
-label define V6210_lbl 1 `"  Adequada"', add
-label define V6210_lbl 2 `"  Semi"', add
-label define V6210_lbl 3 `"  Inadequada"', add
-label define V6210_lbl .a `"Branco"', add
-label define M0201_lbl 1 `" Sim"', add
-label define M0201_lbl 2 `" Não"', add
-label define M2011_lbl 1 `" Sim"', add
-label define M2011_lbl 2 `" Não"', add
-label define M0202_lbl 1 `" Sim"', add
-label define M0202_lbl 2 `" Não"', add
-label define M0203_lbl 1 `" Sim"', add
-label define M0203_lbl 2 `" Não"', add
-label define M0204_lbl 1 `" Sim"', add
-label define M0204_lbl 2 `" Não"', add
-label define M0205_lbl 1 `" Sim"', add
-label define M0205_lbl 2 `" Não"', add
-label define M0206_lbl 1 `" Sim"', add
-label define M0206_lbl 2 `" Não"', add
-label define M0207_lbl 1 `" Sim"', add
-label define M0207_lbl 2 `" Não"', add
-label define M0208_lbl 1 `" Sim"', add
-label define M0208_lbl 2 `" Não"', add
-label define M0209_lbl 1 `" Sim"', add
-label define M0209_lbl 2 `" Não"', add
-label define M0210_lbl 1 `" Sim"', add
-label define M0210_lbl 2 `" Não"', add
-label define M0211_lbl 1 `" Sim"', add
-label define M0211_lbl  2 `" Não  "', add
-label define M0212_lbl 1 `" Sim"', add
-label define M0212_lbl 2 `" Não"', add
-label define M0213_lbl 1 `" Sim"', add
-label define M0213_lbl 2 `" Não"', add
-label define M0214_lbl 1 `" Sim"', add
-label define M0214_lbl 2 `" Não"', add
-label define M0215_lbl 1 `" Sim"', add
-label define M0215_lbl 2 `" Não"', add
-label define M0216_lbl 1 `" Sim"', add
-label define M0216_lbl 2 `" Não"', add
-label define M0217_lbl 1 `" Sim"', add
-label define M0217_lbl 2 `" Não"', add
-label define M0218_lbl 1 `" Sim"', add
-label define M0218_lbl 2 `" Não"', add
-label define M0219_lbl 1 `" Sim"', add
-label define M0219_lbl 2 `" Não"', add
-label define M0220_lbl 1 `" Sim"', add
-label define M0220_lbl  2 `" Não  "', add
-label define M0221_lbl 1 `" Sim"', add
-label define M0221_lbl 2 `" Não"', add
-label define M0222_lbl 1 `" Sim"', add
-label define M0222_lbl 2 `" Não"', add
-label define M0301_lbl 1 `" Sim"', add
-label define M0301_lbl 2 `" Não"', add
-label define M0401_lbl 1 `" Sim"', add
-label define M0401_lbl 2 `" Não"', add
-label define M0402_lbl 1 `" Sim"', add
-label define M0402_lbl 2 `" Não"', add
-label define M0701_lbl 1 `" Sim"', add
-label define M0701_lbl 2 `" Não"', add
+label define V1002_lbl A relação de códigos encontra `"se no arquivo:"', add
+label define V1003_lbl A relação de códigos encontra `"se no arquivo:"', add
+label define V1004_lbl A relação de códigos encontra `"se no arquivo:"', add
+label define V1006 _lbl 1 `" Urbana"', add
+label define V1006 _lbl 2 `" Rural"', add
+label define V0303_lbl 1 `" Masculino"', add
+label define V0303_lbl 2 `" Feminino"', add
+label define V0303_lbl 9 `" Ignorado"', add
+label define V0303_lbl .a `"Branco"', add
+label define V0304_lbl  `" 9999 = ignorado"', add
+label define V0305_lbl  `" 9999 = ignorado"', add
+label define V3061_lbl  `" A relação de códigos encontra"', add
+label define M0303_lbl 1 `" Sim"', add
+label define M0303_lbl 2 `" Não"', add
+label define M0304_lbl 1 `" Sim"', add
+label define M0304_lbl 2 `" Não"', add
+label define M0305_lbl 1 `" Sim"', add
+label define M0305_lbl 2 `" Não "', add
+label define M3061_lbl 1 `" Sim"', add
+label define M3061_lbl 2 `" Não"', add
 label define V1005_lbl 1  `" Área urbanizada"', add
 label define V1005_lbl 2  `" Área não urbanizada"', add
 label define V1005_lbl 3  `" Área urbanizada isolada"', add
@@ -407,71 +111,25 @@ label define V1005_lbl 5  `" Aglomerado rural (povoado)"', add
 label define V1005_lbl 6  `" Aglomerado rural (núcleo)"', add
 label define V1005_lbl 7  `" Aglomerado rural (outros)"', add
 label define V1005_lbl 8  `" Área rural exclusive aglomerado rural"', add
-label define V1005_lbl .a `"Branco"', add
+label define V1005_lbl .a `""', add
+label define V1005_lbl 1 `" Masculino"', add
+label define V1005_lbl 2 `" Feminino"', add
 
-label values V1003 V1003_lbl
-label values M0206 M0206_lbl
-label values V0212 V0212_lbl
-label values V1001 V1001_lbl
-label values M0201 M0201_lbl
-label values V0209 V0209_lbl
+label values M0303 M0303_lbl
+label values M0304 M0304_lbl
+label values V1006  V1006 _lbl
+label values V0305 V0305_lbl
+label values M0305 M0305_lbl
+label values M3061 M3061_lbl
+label values V0303 V0303_lbl
 label values V1004 V1004_lbl
-label values V0202 V0202_lbl
-label values V0211 V0211_lbl
-label values V4001 V4001_lbl
-label values M0212 M0212_lbl
-label values V1005 V1005_lbl
-label values V0221 V0221_lbl
 label values V1002 V1002_lbl
-label values V0213 V0213_lbl
-label values M0215 M0215_lbl
-label values V6600 V6600_lbl
-label values M0204 M0204_lbl
-label values V6210 V6210_lbl
-label values V0216 V0216_lbl
-label values M0222 M0222_lbl
-label values V0215 V0215_lbl
-label values V0217 V0217_lbl
-label values M0208 M0208_lbl
-label values V0203 V0203_lbl
-label values M2011 M2011_lbl
-label values V0208 V0208_lbl
-label values V0206 V0206_lbl
-label values M0202 M0202_lbl
-label values V0204 V0204_lbl
-label values M0210 M0210_lbl
-label values M0219 M0219_lbl
-label values M0401 M0401_lbl
-label values V0205 V0205_lbl
-label values V0207 V0207_lbl
-label values M0211 M0211_lbl
-label values V0219 V0219_lbl
-label values M0301 M0301_lbl
-label values V4002 V4002_lbl
-label values V0214 V0214_lbl
-label values V0220 V0220_lbl
-label values V0301 V0301_lbl
-label values V0402 V0402_lbl
-label values M0213 M0213_lbl
-label values M0218 M0218_lbl
-label values M0221 M0221_lbl
-label values M0207 M0207_lbl
-label values M0209 M0209_lbl
-label values V0201 V0201_lbl
-label values M0203 M0203_lbl
-label values M0214 M0214_lbl
-label values M0205 M0205_lbl
-label values M0220 M0220_lbl
-label values V0222 V0222_lbl
-label values V0210 V0210_lbl
+label values V0304 V0304_lbl
+label values V1005 V1005_lbl
 label values V0001 V0001_lbl
-label values M0217 M0217_lbl
-label values V0218 V0218_lbl
-label values V0701 V0701_lbl
-label values M0402 M0402_lbl
-label values M0216 M0216_lbl
-label values M0701 M0701_lbl
-label values V1006 V1006_lbl
+label values V3061 V3061_lbl
+label values V1003 V1003_lbl
+label values V1001 V1001_lbl
 
 label define V0002_lbl 5200050 `"Abadia de Goiás"', add
 label define V0002_lbl 3100104 `"Abadia dos Dourados"', add
